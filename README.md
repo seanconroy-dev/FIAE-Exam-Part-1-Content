@@ -4,7 +4,7 @@ This repository contains the **source learning content** (Markdown cards + asset
 
 It is consumed by:
 - the **backend API** (which reads/parses these Markdown files and exposes JSON)
-- the **frontend** (`seanconroy-dev/FIAE-Exam-Part-1-Learning`) which fetches cards from the backend endpoint:
+- the **frontend** ([seanconroy-dev/FIAE-Exam-Part-1-Learning](https://github.com/seanconroy-dev/FIAE-Exam-Part-1-Learning)) which fetches cards from the backend endpoint:
   - `GET /api/cards/markdown`
 
 ---
@@ -18,8 +18,8 @@ Repository assets (used by README and/or cards) live in:
 
 Use stable links for embedding where needed (example, pinned to a commit):
 
-- `https://raw.githubusercontent.com/seanconroy-dev/FIAE-Exam-Part-1-Content/<commit-sha>/assets/Preview_final.gif`
-- `https://raw.githubusercontent.com/seanconroy-dev/FIAE-Exam-Part-1-Content/<commit-sha>/assets/FrontPage.png`
+- [`https://raw.githubusercontent.com/seanconroy-dev/FIAE-Exam-Part-1-Content/<commit-sha>/assets/Preview_final.gif`](https://raw.githubusercontent.com/seanconroy-dev/FIAE-Exam-Part-1-Content/<commit-sha>/assets/Preview_final.gif)
+- [`https://raw.githubusercontent.com/seanconroy-dev/FIAE-Exam-Part-1-Content/<commit-sha>/assets/FrontPage.png`](https://raw.githubusercontent.com/seanconroy-dev/FIAE-Exam-Part-1-Content/<commit-sha>/assets/FrontPage.png)
 
 ---
 
