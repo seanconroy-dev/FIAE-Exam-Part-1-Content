@@ -15,15 +15,16 @@ tags: ["prüfungsrelevant", "definition"]
 card:
   type: basic
   question: "Was ist der Vorteil der Dual-Channel-Technik bei Speichermodulen?"
-  answer: "Die Dual-Channel-Technik ermöglicht es dem Speichercontroller, Daten gleichzeitig über zwei Arbeitsspeichermodule zu übertragen. Dadurch können Daten parallel gelesen und geschrieben werden, wodurch sich die verfügbare Speicherbandbreite und damit die Datenrate erhöht."
+  answer: "Dual-Channel ermöglicht dem Speichercontroller, Daten über zwei Speicherkanäle gleichzeitig zu übertragen. Dadurch steigt die Speicherbandbreite und die Datenübertragung kann schneller erfolgen."
   examples:
-    - "2 identische RAM-Module ermöglichen Dual-Channel-Betrieb."
+    - "2 passende RAM-Module ermöglichen Dual-Channel-Betrieb."
     - "Die Speicherbandbreite kann sich im Idealfall nahezu verdoppeln."
+    - "Dual-Channel funktioniert meist am besten mit gleich großen und gleich schnellen RAM-Modulen."
 
 # Lifecycle
 status: published
 created: "2026-03-11"
-updated: "2026-03-11"
+updated: "2026-05-06"
 ---
 
 ## Dual-Channel-Technik bei RAM

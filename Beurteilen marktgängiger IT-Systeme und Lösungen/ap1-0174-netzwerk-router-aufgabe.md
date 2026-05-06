@@ -15,19 +15,18 @@ tags: ["definition","prüfungsrelevant"]
 card:
   type: definition
   question: "Wofür wird ein Netzwerk-Router verwendet?"
-  answer: "Ein Netzwerk-Router verbindet mehrere Netzwerke miteinander und leitet Datenpakete zwischen ihnen weiter."
+  answer: "Ein Router verbindet mehrere Netzwerke miteinander und leitet Datenpakete zwischen ihnen weiter. Er entscheidet anhand von IP-Adressen und Routing-Informationen, wohin die Daten gesendet werden."
   examples:
     - "Ein Router verbindet ein Heimnetzwerk (LAN) mit dem Internet (WAN)."
     - "Ein Unternehmensrouter verbindet mehrere Standortnetzwerke über VPN."
+    - "Router arbeiten hauptsächlich auf OSI-Schicht 3, der Vermittlungsschicht."
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
-<!-- Optional: extra explanation, diagrams, tables, links, etc.
-     Keep the "answer" concise; put longer context here if useful. -->
 
 ## Aufgabe eines Netzwerk-Routers
 

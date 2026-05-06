@@ -16,23 +16,19 @@ card:
   type: definition
   question: "Welchen Zweck hat eine USV im 24/7-Betrieb von IT-Infrastrukturen?"
   answer: |
-    Eine **unterbrechungsfreie Stromversorgung (USV)** stellt die Stromversorgung kritischer IT-Komponenten bei Störungen im Stromnetz kurzfristig sicher.
+    Eine USV, also unterbrechungsfreie Stromversorgung, sichert kritische IT-Komponenten bei Stromstörungen kurzfristig weiter ab.
 
-    Sie schützt – je nach Typ – zusätzlich vor:
-    - Stromausfall
-    - Unterspannung
-    - Überspannung
-    - Frequenzabweichungen
-    - Oberschwingungen
+    Sie ermöglicht zum Beispiel den Weiterbetrieb für kurze Zeit oder ein kontrolliertes Herunterfahren. Je nach USV-Typ schützt sie auch vor Stromausfall, Unterspannung, Überspannung, Frequenzabweichungen und Störungen im Stromnetz.
   examples:
     - "Ein Server bleibt bei Stromausfall noch kurz aktiv und kann kontrolliert herunterfahren."
     - "Switches und Firewalls bleiben bei kurzen Spannungseinbrüchen weiterhin in Betrieb."
+    - "USV schützt die Verfügbarkeit wichtiger IT-Systeme."
     - "Spannungsspitzen werden von der USV abgefangen."
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Aufgabe einer USV

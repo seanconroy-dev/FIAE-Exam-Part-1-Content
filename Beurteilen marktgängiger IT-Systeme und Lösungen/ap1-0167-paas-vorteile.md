@@ -16,19 +16,20 @@ card:
   type: multi
   question: "Welche Vorteile bietet das Servicemodell PaaS (Platform as a Service)?"
   answer: |
-    - Reduzierter Programmieraufwand durch vorhandene Entwicklungstools
-    - Zusätzliche Entwicklungsmöglichkeiten durch vorgefertigte Komponenten
-    - Einfachere Entwicklung für mehrere Plattformen
-    - Kostengünstige Nutzung der Entwicklungswerkzeuge
-    - Effiziente Verwaltung des Anwendungslebenszyklus
+    - Bereitstellung einer fertigen Entwicklungs- und Laufzeitumgebung
+    - Weniger Aufwand für Server, Betriebssysteme und Infrastrukturverwaltung
+    - Nutzung vorhandener Entwicklungstools, Frameworks und Datenbanken
+    - Schnellere Entwicklung und Bereitstellung von Anwendungen
+    - Skalierung und Wartung werden teilweise durch den Anbieter unterstützt
   examples:
     - "Cloud-Entwicklungsplattformen wie Google App Engine oder Heroku"
     - "Bereitstellung von Entwicklungsframeworks und Datenbanken durch den Cloud-Anbieter"
+    - "Entwickler konzentrieren sich stärker auf die Anwendung statt auf Serververwaltung"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Vorteile von Platform as a Service (PaaS)

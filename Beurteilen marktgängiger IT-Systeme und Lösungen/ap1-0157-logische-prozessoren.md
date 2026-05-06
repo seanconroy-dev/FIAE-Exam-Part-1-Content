@@ -15,15 +15,16 @@ tags: ["prüfungsrelevant", "definition"]
 card:
   type: definition
   question: "Was bezeichnet man in der CPU-Technologie als logische Prozessoren?"
-  answer: "Logische Prozessoren sind virtuelle Verarbeitungseinheiten einer CPU, die durch Technologien wie Hyper-Threading (HTT) oder Simultaneous Multithreading (SMT) entstehen. Sie ermöglichen es, mehrere Threads parallel auf einem physischen Prozessorkern auszuführen und dadurch die Auslastung und Leistung der CPU zu verbessern."
+  answer: "Logische Prozessoren sind vom Betriebssystem sichtbare Verarbeitungseinheiten einer CPU. Sie entstehen zum Beispiel durch Hyper-Threading oder Simultaneous Multithreading, wobei ein physischer Prozessorkern mehrere Threads verwalten kann. Dadurch kann die CPU besser ausgelastet werden."
   examples:
     - "Ein Prozessor mit 8 physischen Kernen und Hyper-Threading kann 16 logische Prozessoren bereitstellen."
-    - "Das Betriebssystem sieht logische Prozessoren als separate Verarbeitungseinheiten im Task-Manager."
+    - "Das Betriebssystem zeigt logische Prozessoren im Task-Manager als separate Verarbeitungseinheiten an."
+    - "Logische Prozessoren sind nicht dasselbe wie physische Kerne."
 
 # Lifecycle
 status: published
 created: "2026-03-11"
-updated: "2026-03-11"
+updated: "2026-05-06"
 ---
 
 ## Logische Prozessoren

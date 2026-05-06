@@ -15,7 +15,7 @@ tags: ["definition", "prüfungsrelevant"]
 card:
   type: definition
   question: "Wie definiert man den Begriff Network Attached Storage (NAS)?"
-  answer: "Ein Network Attached Storage (NAS) ist ein netzgebundener Dateiserver, der zentralen Speicher im Netzwerk bereitstellt."
+  answer: "Ein Network Attached Storage (NAS) ist ein netzgebundener Dateiserver, der zentralen, dateibasierten Speicher im Netzwerk bereitstellt. Mehrere Benutzer oder Systeme können über Netzwerkprotokolle wie SMB oder NFS darauf zugreifen."
   examples:
     - "Ein NAS dient als zentraler Speicher für Backups im Heimnetzwerk."
     - "Unternehmen nutzen NAS-Systeme für gemeinsame Dateiablagen."
@@ -24,11 +24,9 @@ card:
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-14"
+updated: "2026-05-06"
 ---
 
-<!-- Optional: extra explanation, diagrams, tables, links, etc.
-     Keep the "answer" concise; put longer context here if useful. -->
 
 ## Network Attached Storage (NAS)
 

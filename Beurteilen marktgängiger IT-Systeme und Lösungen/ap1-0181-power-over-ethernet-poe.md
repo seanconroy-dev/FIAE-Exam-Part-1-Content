@@ -15,17 +15,18 @@ tags: ["poe","ieee","infrastruktur"]
 card:
   type: definition
   question: "Was bezeichnet man in der Netzwerktechnologie als PoE?"
-  answer: "Power over Ethernet (PoE) bezeichnet ein Verfahren, bei dem Netzwerkgeräte über das Ethernet-Kabel gleichzeitig mit Daten und Strom versorgt werden."
+  answer: "Power over Ethernet (PoE) bezeichnet ein Verfahren, bei dem Netzwerkgeräte über ein Ethernet-Kabel gleichzeitig mit Daten und Strom versorgt werden. Dadurch wird oft kein separates Stromkabel benötigt."
   examples:
     - "IP-Telefone"
-    - "Wireless Access Points (WAP)"
+    - "Wireless Access Points"
     - "IP-Kameras"
     - "Zeiterfassungsterminals"
+    - "PoE-Switch versorgt ein Gerät direkt über das Netzwerkkabel"
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

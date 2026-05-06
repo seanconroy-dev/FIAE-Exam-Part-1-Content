@@ -14,20 +14,21 @@ tags: ["prüfungsrelevant", "definition"]
 # Flashcard payload
 card:
   type: multi
-  question: "Welche drei USV-Klassen gibt es nach IEC 62040-3 und wie funktionieren sie?"
+  question: "Welche drei USV-Klassen gibt es nach IEC 62040-3?"
   answer: |
-    - **VFI (Voltage and Frequency Independent)** – Die Ausgangsspannung ist vollständig unabhängig vom Stromnetz. Schützt vor Stromausfall, Unterspannung, Überspannung, Frequenzschwankungen und Oberschwingungen.
-    - **VI (Voltage Independent)** – Schützt vor Stromausfall, Unterspannung und Überspannung. Die Frequenz bleibt vom Stromnetz abhängig.
-    - **VFD (Voltage and Frequency Dependent)** – Grundlegender Schutz vor Stromausfall, jedoch mit einer Umschaltverzögerung (bis etwa 10 ms). Spannung und Frequenz sind vom Netz abhängig.
+    - **VFD (Voltage and Frequency Dependent)**: Spannung und Frequenz hängen vom Stromnetz ab. Bei Stromausfall wird auf Batterie umgeschaltet. Das ist die einfache Offline-USV.
+    - **VI (Voltage Independent)**: Die Ausgangsspannung wird stabilisiert, die Frequenz bleibt aber vom Stromnetz abhängig. Das entspricht meist einer Line-Interactive-USV.
+    - **VFI (Voltage and Frequency Independent)**: Ausgangsspannung und Frequenz sind unabhängig vom Stromnetz. Das ist die Online-USV mit dem höchsten Schutz.
   examples:
-    - "VFI: Online-USV in Rechenzentren"
-    - "VI: Line-Interactive-USV für Serverräume"
-    - "VFD: einfache Offline-USV für PCs"
+    - "VFD → einfache Offline-USV für einzelne PCs"
+    - "VI → Line-Interactive-USV für kleine Server oder Netzwerkschränke"
+    - "VFI → Online-USV für Serverräume oder Rechenzentren"
+    - "Merksatz: Je mehr Buchstaben unabhängig sind, desto höher der Schutz"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## USV-Klassen nach IEC 62040-3

@@ -15,16 +15,17 @@ tags: ["prüfungsrelevant", "definition", "cloud"]
 card:
   type: definition
   question: "Was versteht man unter dem Cloud-Computing-Begriff Software as a Service (SaaS)?"
-  answer: "Software as a Service (SaaS) ist ein Cloud-Servicemodell, bei dem Anwendungen nicht lokal installiert werden, sondern über das Internet als Dienst bereitgestellt und meist über einen Webbrowser genutzt werden."
+  answer: "Software as a Service (SaaS) ist ein Cloud-Servicemodell, bei dem Anwendungen über das Internet bereitgestellt und meist im Webbrowser genutzt werden. Die Software muss nicht lokal installiert werden, und der Anbieter übernimmt Betrieb, Wartung und Updates."
   examples:
     - "Microsoft 365"
     - "Google Workspace"
     - "Salesforce"
+    - "Webbasierte E-Mail-Dienste"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Software as a Service (SaaS)

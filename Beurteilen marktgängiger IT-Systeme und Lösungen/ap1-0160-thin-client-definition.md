@@ -15,15 +15,16 @@ tags: ["prüfungsrelevant", "definition"]
 card:
   type: definition
   question: "Wie definiert man den Begriff Thin Client?"
-  answer: "Ein Thin Client ist ein schlanker Computer, der hauptsächlich zur Darstellung von Anwendungen dient und seine Rechenleistung überwiegend von einem zentralen Server bezieht. Programme, Daten und Verarbeitung laufen auf dem Server, während der Thin Client hauptsächlich Ein- und Ausgaben übernimmt."
+  answer: "Ein Thin Client ist ein schlanker Arbeitsplatzrechner mit geringer eigener Rechenleistung. Anwendungen, Daten und Verarbeitung laufen überwiegend auf einem zentralen Server. Der Thin Client übernimmt vor allem Eingabe, Ausgabe und Darstellung."
   examples:
     - "Virtuelle Desktop-Infrastruktur (VDI) mit zentralen Servern"
-    - "Arbeitsplätze im Unternehmen, bei denen Anwendungen auf einem Terminalserver laufen"
+    - "Arbeitsplätze, bei denen Anwendungen auf einem Terminalserver laufen"
+    - "Der Benutzer arbeitet am Thin Client, die eigentliche Verarbeitung erfolgt auf dem Server"
 
 # Lifecycle
 status: published
 created: "2026-03-11"
-updated: "2026-03-11"
+updated: "2026-05-06"
 ---
 
 ## Thin Client

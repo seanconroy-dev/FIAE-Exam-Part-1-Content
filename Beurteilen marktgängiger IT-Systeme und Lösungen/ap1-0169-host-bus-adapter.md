@@ -15,15 +15,16 @@ tags: ["prüfungsrelevant", "definition"]
 card:
   type: definition
   question: "Wie definiert man den Begriff Host Bus Adapter (HBA)?"
-  answer: "Ein Host Bus Adapter (HBA) ist eine Netzwerkschnittstelle bzw. Erweiterungskarte in einem Server, die die Verbindung zwischen dem Host-System und externen Speichersystemen (Storage) ermöglicht."
+  answer: "Ein Host Bus Adapter (HBA) ist ein Adapter oder eine Erweiterungskarte in einem Server, die das Host-System mit externen Speichersystemen verbindet. Er wird häufig für Storage-Anbindungen wie Fibre Channel oder iSCSI in SAN-Umgebungen genutzt."
   examples:
     - "Fibre Channel HBA für SAN-Systeme"
     - "iSCSI-HBA für Storage-Netzwerke"
+    - "Verbindung zwischen Server und externem Storage"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Host Bus Adapter (HBA)

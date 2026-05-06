@@ -15,7 +15,7 @@ tags: ["definition","prüfungsrelevant"]
 card:
   type: definition
   question: "Erkläre den Begriff Broadcast-Domäne."
-  answer: "Eine Broadcast-Domäne ist ein Netzwerkbereich, in dem ein Broadcast-Paket von allen Geräten empfangen wird."
+  answer: "Eine Broadcast-Domäne ist ein Netzwerkbereich, in dem Broadcast-Pakete auf OSI-Schicht 2 von allen Geräten empfangen werden. Router trennen Broadcast-Domänen, VLANs können sie logisch voneinander abgrenzen."
   examples:
     - "In einem einfachen LAN ohne Router befinden sich alle Geräte in derselben Broadcast-Domäne."
     - "Ein Router trennt verschiedene Broadcast-Domänen."
@@ -24,7 +24,7 @@ card:
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-14"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.
@@ -97,7 +97,7 @@ B --> E[PC3]
 
 **Broadcast-Domäne**
 
-Eine Broadcast-Domäne ist ein Netzwerkbereich, in dem **alle Geräte Broadcast-Pakete empfangen**.
+Eine Broadcast-Domäne ist ein Netzwerkbereich, in dem **alle Geräte Broadcast-Pakete auf OSI-Schicht 2 empfangen**.
 
 **Geräte, die Broadcast-Domänen trennen**
 

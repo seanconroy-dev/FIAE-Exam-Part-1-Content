@@ -16,22 +16,24 @@ card:
   type: comparison
   question: "Welchen Schichten des OSI-Modells lassen sich typische Protokolle und Netzwerkkomponenten zuordnen?"
   answer: |
-    **Schicht 7 – Anwendung:** DNS, DHCP  
-    **Schicht 6 – Darstellung:** IMAPS, SMTPS, HTTPS  
-    **Schicht 5 – Sitzung:** Sitzungsverwaltung (keine konkreten Beispiele im Kartensatz)  
+    **Schicht 7 – Anwendung:** HTTP, HTTPS, DNS, DHCP, SMTP, IMAP, FTP  
+    **Schicht 6 – Darstellung:** Datenformatierung, Verschlüsselung, Kompression, z. B. TLS/SSL als häufig genannter Bezug  
+    **Schicht 5 – Sitzung:** Aufbau, Steuerung und Beenden von Sitzungen  
     **Schicht 4 – Transport:** TCP, UDP  
     **Schicht 3 – Vermittlung:** IP, ICMP – Router, Layer-3-Switch  
-    **Schicht 2 – Sicherung:** IEEE 802.3 – Switch  
-    **Schicht 1 – Bitübertragung:** 1000BASE-T – Netzwerkkabel, Hub
+    **Schicht 2 – Sicherung:** Ethernet / IEEE 802.3, MAC-Adressen – Switch, Netzwerkkarte  
+    **Schicht 1 – Bitübertragung:** elektrische/optische/Funksignale, z. B. 1000BASE-T – Netzwerkkabel, Hub
   examples:
     - "Router arbeiten typischerweise auf OSI-Schicht 3."
     - "Ein Switch arbeitet hauptsächlich auf Schicht 2."
-    - "HTTPS gehört zur Anwendungsebene des OSI-Modells."
+    - "Ein Hub arbeitet auf Schicht 1."
+    - "TCP und UDP gehören zur Schicht 4."
+    - "HTTP, HTTPS, DNS und DHCP werden meist der Anwendungsschicht zugeordnet."
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-14"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

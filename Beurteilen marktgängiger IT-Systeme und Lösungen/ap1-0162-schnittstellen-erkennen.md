@@ -10,20 +10,20 @@ tags: ["prüfungsrelevant"]
 
 card:
   type: basic
-  question: "Benenne die folgenden Schnitstellen"
+  question: "Benenne die folgenden Schnittstellen von links nach rechts."
   image: "assets/Computer-ports-in-a-row-on-white-question.png"
-  answer: "Von links nach rechts: USB Typ A, USB Typ B, VGA, DisplayPort, DVI (Dual-Link)"
+  answer: "Von links nach rechts: USB Typ A, USB Typ B, VGA, DisplayPort, DVI Dual-Link."
   answerImage: "assets/Row-of-computer-connector-ports-answer.png"
   examples:
+    - "USB Typ A → Standardanschluss für Peripheriegeräte"
+    - "USB Typ B → Verbindung zwischen Gerät, z. B. Drucker oder Monitor, und Computer"
+    - "VGA → analoge Videoschnittstelle, veraltet"
     - "DisplayPort → digitale Video- und Audioübertragung"
     - "DVI → digitale bzw. kombinierte digitale/analoge Bildübertragung"
-    - "VGA → analoge Videoschnittstelle (veraltet)"
-    - "USB Typ B → Verbindung zwischen Gerät (z. B. Drucker/Monitor) und Computer"
-    - "USB Typ A → Standardanschluss für Peripheriegeräte"
 
 status: published
 created: "2026-03-12"
-updated: "2026-04-03"
+updated: "2026-05-06"
 ---
 
 ## Schnittstellen erkennen (DisplayPort, DVI, VGA, USB)

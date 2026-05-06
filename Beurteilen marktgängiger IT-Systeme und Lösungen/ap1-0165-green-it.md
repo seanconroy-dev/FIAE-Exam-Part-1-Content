@@ -15,16 +15,18 @@ tags: ["prüfungsrelevant", "definition"]
 card:
   type: definition
   question: "Wie definiert man den Begriff Green-IT?"
-  answer: "Green-IT bezeichnet alle Maßnahmen, die Informations- und Kommunikationstechnik über ihren gesamten Lebenszyklus hinweg umweltfreundlicher und ressourcenschonender gestalten."
+  answer: "Green-IT bezeichnet Maßnahmen, die IT über ihren gesamten Lebenszyklus umweltfreundlicher, energieeffizienter und ressourcenschonender machen."
   examples:
-    - "Einsatz von Virtualisierung zur Reduzierung von Hardware"
-    - "Videokonferenzen statt Dienstreisen"
-    - "Nutzung von Stromsparmodi bei IT-Geräten"
+    - "Energieeffiziente Hardware beschaffen"
+    - "Virtualisierung zur Reduzierung von Hardware einsetzen"
+    - "Stromsparmodi bei IT-Geräten nutzen"
+    - "Videokonferenzen statt Dienstreisen verwenden"
+    - "Geräte länger nutzen, wiederverwenden oder fachgerecht entsorgen"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Green IT

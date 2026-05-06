@@ -14,17 +14,18 @@ tags: ["prüfungsrelevant", "vergleich"]
 # Flashcard payload
 card:
   type: basic
-  question: "Welche Video-Schnittstellen unterstützen 4K- und 8K-Auflösung?"
-  answer: "Für hohe Auflösungen sind HDMI 2.0, HDMI 2.1, DisplayPort 1.3 und DisplayPort 1.4 geeignet. HDMI 1.4 ist dagegen nur für Full-HD geeignet und für moderne 4K/8K-Anwendungen meist nicht ausreichend."
+  question: "Welche Video-Schnittstellen eignen sich für hohe Auflösungen wie 4K oder 8K?"
+  answer: "Für hohe Auflösungen eignen sich vor allem moderne HDMI- und DisplayPort-Versionen. HDMI 2.0 ist typischerweise für 4K geeignet, HDMI 2.1 auch für 8K. DisplayPort 1.3 und 1.4 unterstützen ebenfalls hohe Auflösungen bis 8K. HDMI 1.4 kann zwar 4K, ist aber meist nur bis 30 Hz geeignet und für moderne 4K-Anwendungen oft eingeschränkt."
   examples:
-    - "HDMI 2.0 → bis 4K"
-    - "HDMI 2.1 → bis 8K"
-    - "DisplayPort 1.3 / 1.4 → bis 8K"
+    - "HDMI 2.0 → 4K"
+    - "HDMI 2.1 → 8K"
+    - "DisplayPort 1.3 / 1.4 → hohe Auflösungen bis 8K"
+    - "HDMI 1.4 → 4K nur eingeschränkt, meist bis 30 Hz"
 
 # Lifecycle
 status: published
 created: "2026-03-11"
-updated: "2026-03-11"
+updated: "2026-05-06"
 ---
 
 ## Video-Schnittstellen für 4K und 8K

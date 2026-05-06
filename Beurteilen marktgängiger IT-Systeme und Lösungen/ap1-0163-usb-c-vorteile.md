@@ -15,16 +15,18 @@ tags: ["prüfungsrelevant", "grundlagen"]
 card:
   type: multi
   question: "Welche Vorteile bietet der USB-C-Anschluss gegenüber den USB-Typen A und B?"
-  answer: "USB-C bietet mehrere Vorteile gegenüber USB-A und USB-B: reversible Steckrichtung, höhere Leistungsfähigkeit (höhere Datenraten), kompaktere Bauform, schnellere Ladezeiten, bidirektionale Stromversorgung und bessere Zukunftssicherheit."
+  answer: "USB-C bietet gegenüber USB-A und USB-B eine reversible Steckrichtung, eine kompakte Bauform und vielseitige Nutzungsmöglichkeiten. Je nach unterstütztem Standard können höhere Datenraten, schnelles Laden über USB Power Delivery, bidirektionale Stromversorgung sowie Videoausgabe unterstützt werden."
   examples:
     - "Stecker kann beidseitig eingesteckt werden"
-    - "Unterstützt höhere Datenraten (z. B. USB 3.x / USB4)"
-    - "Power Delivery ermöglicht schnelles Laden von Geräten"
+    - "Kompakte Bauform für Notebooks, Tablets und Smartphones"
+    - "Unterstützt je nach Gerät und Kabel hohe Datenraten, z. B. USB 3.x oder USB4"
+    - "USB Power Delivery ermöglicht schnelles Laden"
+    - "Kann je nach Unterstützung auch Video übertragen, z. B. DisplayPort Alternate Mode"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Vorteile von USB-C

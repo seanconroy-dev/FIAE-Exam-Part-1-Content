@@ -17,16 +17,16 @@ card:
   question: "Ordne folgende IT-Komponenten als Ein- oder Ausgabegeräte ein: Drucker, Scanner, Maus, Display, Touchpad."
   answer: "Eingabegeräte: Scanner, Maus, Touchpad. Ausgabegeräte: Drucker, Display."
   examples:
-    - "Maus → Eingabegerät"
-    - "Scanner → Eingabegerät"
-    - "Touchpad → Eingabegerät"
-    - "Drucker → Ausgabegerät"
-    - "Display → Ausgabegerät"
+    - "Scanner → Eingabegerät, weil Daten/Bilder in den Computer eingelesen werden"
+    - "Maus → Eingabegerät, weil sie Steuerbefehle an den Computer sendet"
+    - "Touchpad → Eingabegerät, weil es Eingaben des Benutzers erfasst"
+    - "Drucker → Ausgabegerät, weil er Daten aus dem Computer ausgibt"
+    - "Display → Ausgabegerät, weil es Informationen sichtbar darstellt"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Ein- und Ausgabegeräte

@@ -14,17 +14,19 @@ tags: ["prüfungsrelevant", "definition"]
 # Flashcard payload
 card:
   type: multi
-  question: "Was sind die technischen Merkmale eines Notebooks?"
-  answer: "Ein Notebook besitzt typischerweise ein integriertes Display, Akku, externe Schnittstellen (z. B. USB, HDMI, DisplayPort), drahtlose Kommunikation (WLAN, Bluetooth, teilweise WWAN), Audio-Komponenten (Lautsprecher und Mikrofon), eine Webcam, eine interne Netzwerkkarte sowie optional Erweiterungsmöglichkeiten wie Dockingstation-Anschluss, Mini-PCI-Express-Slot oder Kartenleser."
+  question: "Welche typischen Hardware- und Verbindungsmerkmale hat ein Notebook?"
+  answer: "Ein Notebook besitzt typischerweise ein integriertes Display, Tastatur, Touchpad, Akku, Webcam, Lautsprecher, Mikrofon, interne Netzwerkkarte sowie Schnittstellen wie USB, HDMI oder DisplayPort. Für drahtlose Kommunikation werden meist WLAN und Bluetooth genutzt. Erweiterungen sind z. B. über Dockingstation, Kartenleser oder interne Steckplätze möglich."
   examples:
-    - "integriertes Display und Akku für mobilen Betrieb"
+    - "Integriertes Display, Tastatur, Touchpad und Akku"
+    - "Webcam, Lautsprecher und Mikrofon"
     - "Schnittstellen wie USB, HDMI oder DisplayPort"
     - "WLAN und Bluetooth für drahtlose Kommunikation"
+    - "Dockingstation oder Kartenleser als Erweiterungsmöglichkeit"
 
 # Lifecycle
 status: published
 created: "2026-03-11"
-updated: "2026-03-11"
+updated: "2026-05-06"
 ---
 
 ## Technische Merkmale eines Notebooks

@@ -14,18 +14,20 @@ tags: ["prüfungsrelevant", "grundlagen"]
 # Flashcard payload
 card:
   type: multi
-  question: "Welche Cloud-Formen werden durch Cloud Computing angeboten?"
-  answer: "Die wichtigsten Cloud-Formen sind: Public Cloud, Private Cloud, Hybrid Cloud und Community Cloud. Zusätzlich existieren Mischformen wie Virtual Private Cloud und Multi Cloud."
+  question: "Welche Cloud-Bereitstellungsmodelle gibt es im Cloud Computing?"
+  answer: "Die wichtigsten Cloud-Bereitstellungsmodelle sind Public Cloud, Private Cloud, Hybrid Cloud und Community Cloud. Zusätzlich gibt es Misch- oder Nutzungsformen wie Virtual Private Cloud und Multi Cloud."
   examples:
-    - "Public Cloud → öffentlich zugängliche Cloud-Infrastruktur"
-    - "Private Cloud → Cloud nur für eine Organisation"
-    - "Hybrid Cloud → Kombination aus Public und Private Cloud"
-    - "Community Cloud → Cloud für eine bestimmte Nutzergruppe"
+    - "Public Cloud → öffentlich zugängliche Cloud-Infrastruktur eines Anbieters"
+    - "Private Cloud → Cloud-Infrastruktur nur für eine Organisation"
+    - "Hybrid Cloud → Kombination aus Private Cloud und Public Cloud"
+    - "Community Cloud → Cloud für eine bestimmte Nutzergruppe oder Organisationengruppe"
+    - "Multi Cloud → Nutzung mehrerer Cloud-Anbieter"
+    - "Virtual Private Cloud → logisch abgegrenzter privater Bereich innerhalb einer Public Cloud"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Cloud-Formen im Cloud Computing

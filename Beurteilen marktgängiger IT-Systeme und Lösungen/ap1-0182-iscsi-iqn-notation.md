@@ -14,17 +14,18 @@ tags: ["iscsi","storage","san"]
 # Flashcard payload
 card:
   type: definition
-  question: "Auf welche Weise wird eine iSCSI-Verbindung notiert?"
-  answer: "Die Notation einer iSCSI-Verbindung erfolgt über einen iSCSI Qualified Name (IQN) im Format: iqn.yyyy-mm.naming-authority:unique-name."
+  question: "Wie ist ein iSCSI Qualified Name (IQN) aufgebaut?"
+  answer: "Ein iSCSI Qualified Name (IQN) kennzeichnet einen iSCSI-Initiator oder ein iSCSI-Target eindeutig. Das Format lautet: iqn.yyyy-mm.naming-authority:unique-name."
   examples:
     - "iqn.2005-01.com.microsoft:iscsi:name1"
     - "iqn.2019-01.com.vmware:storage:name1"
     - "iqn.2021-02.com.microsoft:kunden:name99"
+    - "Merksatz: iqn + Datum + Namensautorität + eindeutiger Name"
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

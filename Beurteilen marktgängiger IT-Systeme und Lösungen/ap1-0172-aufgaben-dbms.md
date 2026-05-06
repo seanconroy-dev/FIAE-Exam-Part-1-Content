@@ -15,15 +15,16 @@ tags: ["definition","prüfungsrelevant"]
 card:
   type: definition
   question: "Welchen Zweck hat ein Datenbankmanagementsystem (DBMS)?"
-  answer: "Ein Datenbankmanagementsystem (DBMS) verwaltet Datenbanken und ermöglicht das Speichern, Verändern, Löschen und Abfragen von Daten sowie den sicheren Mehrbenutzerzugriff."
+  answer: "Ein Datenbankmanagementsystem (DBMS) verwaltet Datenbanken. Es ermöglicht das Speichern, Ändern, Löschen und Abfragen von Daten sowie sicheren Mehrbenutzerzugriff."
   examples:
     - "Ein Unternehmen speichert Kundendaten in einer Datenbank und greift über SQL-Abfragen darauf zu."
     - "Mehrere Mitarbeiter greifen gleichzeitig auf eine Datenbank zu, ohne dass Daten verloren gehen."
+    - "Beispiele für DBMS: MySQL, PostgreSQL, MariaDB, Microsoft SQL Server."
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

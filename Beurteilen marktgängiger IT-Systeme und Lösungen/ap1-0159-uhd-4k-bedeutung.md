@@ -15,15 +15,16 @@ tags: ["prüfungsrelevant", "definition"]
 card:
   type: definition
   question: "Was bedeutet die Bezeichnung UHD 4K?"
-  answer: "UHD 4K (Ultra High Definition) bezeichnet ein digitales Videoformat mit sehr hoher Auflösung. Im Consumer-Bereich bedeutet UHD meist eine Auflösung von 3840 × 2160 Pixeln, während das Cinema-4K-Format 4096 × 2160 Pixel verwendet."
+  answer: "UHD 4K bedeutet Ultra High Definition und bezeichnet eine sehr hohe Bildschirmauflösung. Im Consumer-Bereich, z. B. bei Fernsehern und Monitoren, meint UHD meist 3840 × 2160 Pixel. Cinema 4K verwendet dagegen 4096 × 2160 Pixel."
   examples:
-    - "UHD (3840 × 2160 Pixel) – Standard bei Fernsehern"
-    - "Cinema 4K (4096 × 2160 Pixel) – Standard in der Filmproduktion"
+    - "UHD 4K: 3840 × 2160 Pixel, typisch bei Fernsehern und Monitoren"
+    - "Cinema 4K: 4096 × 2160 Pixel, typisch in der Filmproduktion"
+    - "Merksatz: UHD 4K im Alltag = 3840 × 2160"
 
 # Lifecycle
 status: published
 created: "2026-03-11"
-updated: "2026-03-11"
+updated: "2026-05-06"
 ---
 
 ## UHD 4K – Bedeutung

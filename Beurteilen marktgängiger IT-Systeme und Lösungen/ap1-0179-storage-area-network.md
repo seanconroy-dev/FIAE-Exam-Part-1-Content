@@ -15,16 +15,17 @@ tags: ["definition","prüfungsrelevant"]
 card:
   type: definition
   question: "Erkläre den Begriff Storage Area Network (SAN)."
-  answer: "Ein Storage Area Network (SAN) ist ein dediziertes Netzwerk für blockbasierten Speicher, über das Server direkt auf zentrale Speicherressourcen zugreifen."
+  answer: "Ein Storage Area Network (SAN) ist ein dediziertes Speichernetzwerk für blockbasierten Speicher. Server greifen darüber auf zentrale Speicherressourcen zu, als wären sie lokal angeschlossene Laufwerke."
   examples:
     - "Mehrere Server greifen in einem Rechenzentrum über Fibre Channel auf ein gemeinsames SAN zu."
     - "Ein Virtualisierungscluster nutzt ein SAN für gemeinsame Datenspeicher."
     - "iSCSI ermöglicht SAN-Zugriffe über ein IP-Netzwerk."
+    - "Merksatz: SAN = blockbasiert für Server, NAS = dateibasiert für Benutzer und Freigaben."
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-14"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

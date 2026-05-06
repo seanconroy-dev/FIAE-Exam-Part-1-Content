@@ -15,16 +15,17 @@ tags: ["unicast","netzwerkkommunikation","ip"]
 card:
   type: definition
   question: "Was versteht man unter dem Begriff Unicast in der Netzwerkkommunikation?"
-  answer: "Unicast bezeichnet eine Punkt-zu-Punkt-Kommunikation im Netzwerk, bei der ein Sender Daten gezielt an genau einen Empfänger über dessen IP-Adresse sendet."
+  answer: "Unicast bezeichnet eine Eins-zu-eins-Kommunikation im Netzwerk. Ein Sender sendet Daten gezielt an genau einen Empfänger, zum Beispiel über dessen IP-Adresse."
   examples:
     - "Webserver sendet eine Webseite an einen einzelnen Client"
     - "SSH-Verbindung zwischen Administrator-PC und Server"
     - "Dateiübertragung zwischen zwei Rechnern"
+    - "Merksatz: Unicast = einer zu einem"
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

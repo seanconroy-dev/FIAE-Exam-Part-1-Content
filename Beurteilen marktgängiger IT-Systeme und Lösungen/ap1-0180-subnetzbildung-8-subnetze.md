@@ -14,22 +14,25 @@ tags: ["prüfungsrelevant","berechnung"]
 # Flashcard payload
 card:
   type: steps
-  question: "Wie lautet die Subnetzmaske, wenn das Netzwerk 192.168.30.0/24 in 8 Subnetze aufgeteilt wird, und wie viele Host-IP-Adressen stehen insgesamt zur Verfügung?"
+  question: "Wie lautet die Subnetzmaske, wenn das Netzwerk 192.168.30.0/24 in 8 Subnetze aufgeteilt wird, und wie viele nutzbare Host-IP-Adressen stehen insgesamt zur Verfügung?"
   answer: |
     8 Subnetze = 2³ → 3 zusätzliche Netzbits
 
-    Neue Subnetzmaske: 255.255.255.224 (/27)
+    Neue Subnetzmaske: /27 = 255.255.255.224
 
-    Hosts pro Subnetz: 32 − 2 = 30  
+    Adressen pro Subnetz: 32
+    Nutzbare Hosts pro Subnetz: 32 − 2 = 30
+
     Nutzbare Hosts gesamt: 8 × 30 = 240
   examples:
-    - "Ein /24 Netz wird zu /27 erweitert, um 8 Subnetze zu erzeugen."
-    - "Jedes Subnetz enthält 30 nutzbare Hostadressen."
+    - "Ein /24-Netz wird zu /27 erweitert, um 8 Subnetze zu erzeugen."
+    - "Jedes Subnetz enthält 32 Adressen, davon 30 nutzbare Hostadressen."
+    - "Die 2 nicht nutzbaren Adressen pro Subnetz sind Netzadresse und Broadcastadresse."
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-14"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

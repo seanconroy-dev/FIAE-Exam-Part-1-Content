@@ -15,16 +15,16 @@ tags: ["prüfungsrelevant", "definition"]
 card:
   type: basic
   question: "Wofür wird eine Dockingstation für Notebooks verwendet?"
-  answer: "Eine Dockingstation erweitert ein Notebook um zusätzliche Schnittstellen und Anschlüsse (z. B. USB, Netzwerk, Videoausgänge) und ermöglicht den einfachen Anschluss von Peripheriegeräten wie Monitor, Tastatur, Maus oder Netzwerk über eine zentrale Verbindung."
+  answer: "Eine Dockingstation erweitert ein Notebook um zusätzliche Schnittstellen und ermöglicht den einfachen Anschluss von Peripheriegeräten wie Monitor, Tastatur, Maus, Netzwerk oder externen Laufwerken über eine zentrale Verbindung."
   examples:
     - "Anschluss mehrerer Monitore über HDMI oder DisplayPort"
-    - "Netzwerkanschluss (Ethernet), wenn das Notebook keinen LAN-Port besitzt"
+    - "Netzwerkanschluss über Ethernet, wenn das Notebook keinen LAN-Port besitzt"
     - "Zusätzliche USB-Ports für Maus, Tastatur oder externe Laufwerke"
 
 # Lifecycle
 status: published
 created: "2026-03-11"
-updated: "2026-03-11"
+updated: "2026-05-06"
 ---
 
 ## Dockingstation für Notebooks – Funktionen

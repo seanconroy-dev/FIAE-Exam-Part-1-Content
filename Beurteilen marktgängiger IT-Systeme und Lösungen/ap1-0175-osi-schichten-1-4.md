@@ -17,26 +17,26 @@ card:
   question: "Welche 4 transportorientierten Schichten hat das OSI-Modell und was sind ihre Aufgaben?"
   answer: |
     **Schicht 1 – Bitübertragungsschicht (Physical Layer)**  
-    Stellt die physische Verbindung her und überträgt Bits über das Übertragungsmedium.
+    Überträgt Bits als elektrische, optische oder Funksignale über das Übertragungsmedium.
 
     **Schicht 2 – Sicherungsschicht (Data Link Layer)**  
-    Sorgt für eine zuverlässige Datenübertragung und organisiert Frames sowie Fehlererkennung.
+    Organisiert die Übertragung im lokalen Netzwerk, arbeitet mit Frames und MAC-Adressen und erkennt Übertragungsfehler.
 
     **Schicht 3 – Vermittlungsschicht (Network Layer)**  
-    Verantwortlich für die logische Adressierung (IP) und das Routing von Datenpaketen zwischen Netzwerken.
+    Verantwortlich für logische Adressierung, zum Beispiel IP-Adressen, und Routing von Datenpaketen zwischen Netzwerken.
 
     **Schicht 4 – Transportschicht (Transport Layer)**  
-    Stellt eine zuverlässige Ende-zu-Ende-Datenübertragung sicher und segmentiert Daten.
+    Segmentiert Daten und sorgt für die Ende-zu-Ende-Kommunikation zwischen Anwendungen, zum Beispiel mit TCP oder UDP.
   examples:
     - "Schicht 1: Netzwerkkabel oder Glasfaser übertragen elektrische oder optische Signale."
-    - "Schicht 2: Switches organisieren Datenübertragung im lokalen Netzwerk."
+    - "Schicht 2: Switches arbeiten mit Frames und MAC-Adressen im lokalen Netzwerk."
     - "Schicht 3: Router leiten Datenpakete zwischen verschiedenen Netzwerken weiter."
-    - "Schicht 4: TCP sorgt für eine zuverlässige Datenübertragung zwischen Anwendungen."
+    - "Schicht 4: TCP sorgt für zuverlässige Übertragung, UDP für schnelle verbindungslose Übertragung."
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

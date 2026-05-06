@@ -15,16 +15,17 @@ tags: ["prüfungsrelevant", "definition"]
 card:
   type: definition
   question: "Was versteht man unter dem Servicemodell Infrastructure as a Service (IaaS)?"
-  answer: "Infrastructure as a Service (IaaS) ist ein Cloud-Servicemodell, bei dem grundlegende IT-Infrastruktur wie Server, Speicher und Netzwerke über das Internet bereitgestellt werden. Der Anbieter stellt die Infrastruktur bereit, während der Nutzer seine eigenen virtuellen Maschinen und Systeme selbst verwaltet."
+  answer: "Infrastructure as a Service (IaaS) ist ein Cloud-Servicemodell, bei dem grundlegende IT-Infrastruktur wie virtuelle Server, Speicher und Netzwerke über das Internet bereitgestellt wird. Der Anbieter verwaltet die physische Infrastruktur, während der Nutzer Betriebssysteme, Anwendungen und Daten selbst verwaltet."
   examples:
     - "Virtuelle Server in der Cloud"
     - "Cloud-Speicher und Netzwerkinfrastruktur"
-    - "Beispielanbieter: AWS EC2, Microsoft Azure VM"
+    - "AWS EC2"
+    - "Microsoft Azure Virtual Machines"
 
 # Lifecycle
 status: published
 created: "2026-03-12"
-updated: "2026-03-12"
+updated: "2026-05-06"
 ---
 
 ## Infrastructure as a Service (IaaS)
