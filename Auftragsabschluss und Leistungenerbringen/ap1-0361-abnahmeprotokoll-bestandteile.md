@@ -15,8 +15,16 @@ tags: ["abnahme", "dokumentation", "it-projekt"]
 card:
   type: basic
   question: "Was sind die wesentlichen Bestandteile eines Abnahmeprotokolls für ein IT-Projekt?"
-  answer: "Wesentliche Bestandteile sind: Gegenstand der Abnahme, beteiligte Personen/Firmen, Ort/Datum/Uhrzeit, Abnahmekriterien und Qualität, Nachweis der Anforderungen, Unterschriften sowie offene Punkte."
-  examples: []
+  answer: "Wesentliche Bestandteile sind: Gegenstand der Abnahme, beteiligte Personen oder Firmen, Ort, Datum und Uhrzeit, Abnahmekriterien, Nachweis der Anforderungen, offene Punkte, Ergebnis der Abnahme und Unterschriften."
+  examples: 
+    - "Was wurde abgenommen?"
+    - "Wer war beteiligt?"
+    - "Wann und wo?"
+    - "Nach welchen Kriterien?"
+    - "Mit welchem Ergebnis?"
+    - "Welche offenen Punkte?"
+    - "Wer hat unterschrieben?"
+  
 
 # Lifecycle
 status: published       # draft | published | deprecated

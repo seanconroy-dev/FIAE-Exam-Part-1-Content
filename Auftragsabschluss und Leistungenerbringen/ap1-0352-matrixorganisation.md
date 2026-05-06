@@ -15,7 +15,7 @@ tags: ["matrixorganisation", "mehrliniensystem", "projektorganisation"]
 card:
   type: basic
   question: "Wie wird die Matrixorganisation bei den Leitungssystemen definiert?"
-  answer: "Die Matrixorganisation ist eine Erweiterung des Mehrliniensystems, bei der jede Stelle zwei Weisungslinien (z. B. funktional und objektbezogen) unterliegt."
+  answer: "Die Matrixorganisation ist eine Organisationsform, bei der Mitarbeiter zwei Vorgesetzte haben können. Zum Beispiel einen fachlichen Vorgesetzten nach Abteilung und einen projektbezogenen Vorgesetzten."
   examples: []
 
 # Lifecycle

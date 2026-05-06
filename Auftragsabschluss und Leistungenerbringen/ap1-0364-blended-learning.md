@@ -15,13 +15,17 @@ tags: ["blended-learning", "e-learning", "weiterbildung"]
 card:
   type: basic
   question: "Was bezeichnet man als Blended Learning?"
-  answer: "Blended Learning ist eine Lernform, bei der Präsenzunterricht mit digitalen Lernmethoden kombiniert wird, um flexibles und effektives Lernen zu ermöglichen."
-  examples: []
+  answer: "Blended Learning ist eine Lernform, bei der Präsenzunterricht mit digitalen Lernmethoden kombiniert wird."
+  examples:
+    - "Unterricht vor Ort plus Online-Lernplattform"
+    - "Präsenzschulung plus Lernvideos"
+    - "Klassenzimmerunterricht plus digitale Übungen"
+    - "Persönliche Schulung plus E-Learning"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-06"
 ---
 
 ## Blended Learning (hybrides Lernen)

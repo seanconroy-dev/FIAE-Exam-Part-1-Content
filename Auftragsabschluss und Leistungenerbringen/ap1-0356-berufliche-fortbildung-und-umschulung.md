@@ -14,8 +14,8 @@ tags: ["fortbildung", "umschulung", "bbig"]
 # Flashcard payload
 card:
   type: basic
-  question: "Wie werden die Begriffe berufliche Fortbildung und berufliche Umschulung definiert?"
-  answer: "Berufliche Fortbildung dient dazu, berufliche Fähigkeiten zu erhalten, anzupassen oder zu erweitern. Berufliche Umschulung befähigt zu einer anderen beruflichen Tätigkeit."
+  question: "Was ist der Unterschied zwischen beruflicher Fortbildung und beruflicher Umschulung?"
+  answer: "Berufliche Fortbildung erhält, erweitert oder passt vorhandene berufliche Kenntnisse an. Berufliche Umschulung bereitet auf eine andere berufliche Tätigkeit oder einen neuen Beruf vor."
   examples: []
 
 # Lifecycle

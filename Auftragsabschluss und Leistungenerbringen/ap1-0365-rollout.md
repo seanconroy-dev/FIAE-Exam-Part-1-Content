@@ -15,8 +15,12 @@ tags: ["rollout", "deployment", "hardware", "software"]
 card:
   type: basic
   question: "Was bedeutet der Begriff Rollout?"
-  answer: "Ein Rollout bezeichnet die Einführung bzw. Verteilung neuer Hard- oder Software, z. B. durch Austausch alter Systeme oder Bereitstellung neuer Systeme an einem Standort oder im gesamten Unternehmen."
-  examples: []
+  answer: "Ein Rollout bezeichnet die Einführung oder Verteilung neuer Hard- oder Software in einem Unternehmen oder an einem Standort."
+  examples:
+    - "Neue Software auf allen Arbeitsplätzen installieren"
+    - "Alte Computer durch neue Geräte ersetzen"
+    - "Ein neues Betriebssystem im Unternehmen ausrollen"
+    - "Eine Anwendung für alle Benutzer bereitstellen"
 
 # Lifecycle
 status: published       # draft | published | deprecated

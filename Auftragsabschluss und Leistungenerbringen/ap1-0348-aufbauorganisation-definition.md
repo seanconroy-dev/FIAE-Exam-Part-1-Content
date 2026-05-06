@@ -15,7 +15,7 @@ tags: ["aufbauorganisation", "hierarchie", "organigramm"]
 card:
   type: basic
   question: "Wie wird der Begriff Aufbauorganisation definiert?"
-  answer: "Die Aufbauorganisation ist die hierarchische Struktur eines Unternehmens, die Aufgaben, Abteilungen, Leitungsebenen und Weisungsbeziehungen festlegt."
+  answer: "Aufbauorganisation = Aufbau eines Unternehmens. Sie zeigt Aufgaben, Abteilungen, Leitungsebenen und Weisungsbeziehungen."
   examples: []
 
 # Lifecycle

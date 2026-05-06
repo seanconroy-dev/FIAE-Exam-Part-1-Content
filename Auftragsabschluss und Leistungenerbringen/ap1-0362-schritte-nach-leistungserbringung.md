@@ -15,13 +15,19 @@ tags: ["abnahme", "leistungserbringung", "projekt"]
 card:
   type: basic
   question: "Was muss nach dem Abschluss der Leistungserbringung unternommen werden?"
-  answer: "Nach der Leistungserbringung erfolgt die (Teil- oder Voll-)Abnahme durch den Auftraggeber, die Prüfung der Leistungen, die Dokumentation im Abnahmeprotokoll, die Behandlung von Mängeln sowie die Unterschriften beider Parteien."
-  examples: []
+  answer: "Nach der Leistungserbringung erfolgt die Abnahme durch den Auftraggeber. Dabei werden die Leistungen geprüft, das Ergebnis im Abnahmeprotokoll dokumentiert, mögliche Mängel festgehalten und die Abnahme von beiden Parteien unterschrieben."
+  examples:
+    - "Leistung prüfen"
+    - "Teil- oder Vollabnahme durchführen"
+    - "Abnahmeprotokoll erstellen"
+    - "Mängel dokumentieren"
+    - "Offene Punkte festhalten"
+    - "Unterschriften einholen"
 
 # Lifecycle
 status: published       # draft | published | deprecated 
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-06"
 ---
 
 ## Schritte nach Abschluss der Leistungserbringung

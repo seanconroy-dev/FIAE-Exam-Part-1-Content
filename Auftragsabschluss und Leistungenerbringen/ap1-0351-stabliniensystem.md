@@ -15,7 +15,7 @@ tags: ["stabliniensystem", "stabsstelle", "einliniensystem"]
 card:
   type: basic
   question: "Beschreibe den Aufbau einer Stablinienorganisation."
-  answer: "Das Stabliniensystem ist ein Einliniensystem, das durch Stabsstellen ergänzt wird, welche die Leitung unterstützen, aber keine Weisungsbefugnis haben."
+  answer: "Eine Stablinienorganisation ist eine Linienorganisation mit zusätzlichen Stabsstellen. Die Stabsstellen beraten und unterstützen die Leitung, haben aber keine Weisungsbefugnis."
   examples: []
 
 # Lifecycle

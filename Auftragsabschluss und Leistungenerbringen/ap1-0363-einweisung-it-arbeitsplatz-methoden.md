@@ -15,13 +15,17 @@ tags: ["schulung", "dokumentation", "it-arbeitsplatz"]
 card:
   type: basic
   question: "Welche 3 Methoden gibt es, um einen Kunden oder eine Kundin am IT-Arbeitsplatz einzuweisen?"
-  answer: "Handbücher/Dokumentationen, persönliche Schulung durch IT-Fachpersonal sowie Online-Schulungen (Webportale), Videos oder Tutorials."
-  examples: []
+  answer: "Einweisung kann über Handbücher oder Dokumentationen, persönliche Schulung durch IT-Fachpersonal sowie Online-Schulungen, Videos oder Tutorials erfolgen."
+  examples:
+    - "Handbuch oder Kurzanleitung bereitstellen"
+    - "Persönliche Einweisung am Arbeitsplatz durchführen"
+    - "Online-Schulung oder Webportal nutzen"
+    - "Erklärvideo oder Tutorial anbieten"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-06"
 ---
 
 ## Einweisung in einen IT-Arbeitsplatz – Methoden

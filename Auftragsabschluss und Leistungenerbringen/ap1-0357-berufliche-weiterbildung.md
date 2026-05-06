@@ -14,8 +14,8 @@ tags: ["weiterbildung", "fortbildung", "qualifikation"]
 # Flashcard payload
 card:
   type: basic
-  question: "Wie definiert man den Begriff berufliche Weiterbildung?"
-  answer: "Die berufliche Weiterbildung dient der Vertiefung, Erweiterung oder Anpassung vorhandener beruflicher Kenntnisse und Fähigkeiten."
+  question: "Was bedeutet berufliche Weiterbildung?"
+  answer: "Weiterbildung = vorhandenes berufliches Wissen vertiefen, erweitern oder anpassen. Sie dient der Verbesserung im aktuellen Beruf, ohne das Berufsfeld zu wechseln."
   examples: []
 
 # Lifecycle
