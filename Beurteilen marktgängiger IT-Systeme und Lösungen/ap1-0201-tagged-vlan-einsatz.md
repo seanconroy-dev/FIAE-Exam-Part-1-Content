@@ -15,13 +15,18 @@ tags: ["vlan", "tagging", "trunk"]
 card:
   type: basic
   question: "In welchen Situationen wird ein tagged VLAN (Virtual Local Area Network) eingesetzt?"
-  answer: "Ein tagged VLAN wird eingesetzt, wenn mehrere VLANs über eine Verbindung (Trunk-Port) zwischen Switches übertragen werden. Dabei werden Ethernet-Frames mit VLAN-Tags versehen, um die Zugehörigkeit zu kennzeichnen."
-  examples: []
+  answer: "Ein tagged VLAN wird eingesetzt, wenn mehrere VLANs über eine gemeinsame Netzwerkverbindung übertragen werden sollen, zum Beispiel über einen Trunk-Port zwischen Switches. Dabei erhalten Ethernet-Frames ein VLAN-Tag, damit die Zugehörigkeit zum jeweiligen VLAN erkannt wird."
+  examples:
+    - "Trunk-Verbindung zwischen zwei Switches"
+    - "Verbindung zwischen Switch und Router bei Router-on-a-Stick"
+    - "Verbindung zwischen Switch und Virtualisierungsserver mit mehreren VLANs"
+    - "Ein Kabel transportiert mehrere VLANs gleichzeitig"
+    - "VLAN-Tag kennzeichnet, zu welchem VLAN ein Frame gehört"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Tagged VLAN – Einsatz

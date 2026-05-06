@@ -14,14 +14,18 @@ tags: ["ipv6", "adressbereiche", "loopback", "multicast", "link-local"]
 # Flashcard payload
 card:
   type: basic
-  question: "Welche IPv6-Adressbereiche (IPv6-Address-Types) gibt es?"
-  answer: "::1/128 → Loopback, fe80::/10 → Link-Local Addresses, 2000::/3 → Global Unicast, ff00::/8 → Multicast."
-  examples: []
+  question: "Welche wichtigen IPv6-Adressbereiche gibt es?"
+  answer: "::1/128 ist die Loopback-Adresse, fe80::/10 steht für Link-Local-Adressen, 2000::/3 für Global-Unicast-Adressen und ff00::/8 für Multicast-Adressen."
+  examples:
+    - "::1/128 → Loopback, ähnlich wie 127.0.0.1 bei IPv4"
+    - "fe80::/10 → Link-Local, nur im lokalen Netzwerksegment gültig"
+    - "2000::/3 → Global Unicast, weltweit eindeutig routbar"
+    - "ff00::/8 → Multicast, eine Adresse für eine Empfängergruppe"
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 ## IPv6-Adresstypen und ihre Bereiche

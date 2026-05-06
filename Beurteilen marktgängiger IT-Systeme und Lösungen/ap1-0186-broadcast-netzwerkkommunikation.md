@@ -15,16 +15,18 @@ tags: ["broadcast","netzwerkkommunikation","ip"]
 card:
   type: basic
   question: "Was versteht man in IPv4-Netzwerken unter dem Begriff Broadcast?"
-  answer: "Broadcast bezeichnet eine Netzwerkkommunikation, bei der ein Sender Daten gleichzeitig an alle Geräte eines Netzwerks oder Subnetzes sendet."
+  answer: "Broadcast bezeichnet eine Kommunikation, bei der ein Sender Daten an alle Geräte innerhalb eines Netzwerks, Subnetzes oder einer Broadcast-Domäne sendet. Broadcasts werden in IPv4 zum Beispiel für ARP oder DHCP verwendet."
   examples:
     - "ARP-Anfragen in IPv4-Netzwerken"
-    - "DHCP Discover Nachricht beim Beziehen einer IP-Adresse"
+    - "DHCP Discover beim Beziehen einer IP-Adresse"
     - "Netzwerkgeräte suchen andere Geräte im selben Subnetz"
+    - "Merksatz: Broadcast = einer an alle"
+    - "IPv6 verwendet statt Broadcast vor allem Multicast"
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

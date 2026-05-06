@@ -15,13 +15,18 @@ tags: ["client-server", "netzwerkmodelle"]
 card:
   type: basic
   question: "Was sind typische Merkmale des Client-Server-Modells?"
-  answer: "Server stellen Dienste bereit, Clients fordern diese an. Die Kommunikation erfolgt über Protokolle. Ein Server kann mehrere Clients bedienen, Funktionen sind nicht hardwaregebunden und Systeme können gleichzeitig Client und Server sein."
-  examples: []
+  answer: "Beim Client-Server-Modell stellen Server Dienste oder Ressourcen bereit, die von Clients angefordert und genutzt werden. Die Kommunikation erfolgt über Netzwerkprotokolle. Ein Server kann mehrere Clients bedienen, und ein System kann je nach Aufgabe gleichzeitig Client und Server sein."
+  examples:
+    - "Webserver stellt Webseiten bereit, Browser ist der Client"
+    - "Datenbankserver stellt Daten bereit, Anwendung fragt diese Daten ab"
+    - "Dateiserver stellt Dateien für mehrere Clients bereit"
+    - "Kommunikation erfolgt z. B. über HTTP, SMB oder SQL-Protokolle"
+    - "Ein Rechner kann gleichzeitig Client und Server sein"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Client-Server-Modell – typische Merkmale

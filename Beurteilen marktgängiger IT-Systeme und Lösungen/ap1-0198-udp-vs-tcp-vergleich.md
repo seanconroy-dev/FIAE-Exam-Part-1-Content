@@ -15,13 +15,18 @@ tags: ["tcp", "udp", "vergleich", "netzwerkgrundlagen"]
 card:
   type: basic
   question: "Worin unterscheiden sich die Protokolle UDP und TCP?"
-  answer: "UDP: kleiner Header (8 Byte), hohe Geschwindigkeit, keine Fehlerkontrolle oder Sicherung. TCP: größerer Header (20 Byte), langsamer, dafür zuverlässige Übertragung mit Fehlerkontrolle, Reihenfolge und Verbindungsüberwachung."
-  examples: []
+  answer: "UDP ist verbindungslos, schnell und hat einen kleinen Header von 8 Byte. Es bietet keine gesicherte Zustellung, keine Reihenfolgegarantie und keine erneute Übertragung verlorener Pakete. TCP ist verbindungsorientiert, hat einen größeren Header von mindestens 20 Byte und sorgt für zuverlässige Übertragung, Reihenfolge, Fehlerbehandlung und Verbindungssteuerung."
+  examples:
+    - "UDP → schnell, aber nicht zuverlässig garantiert"
+    - "TCP → zuverlässiger, aber mit mehr Verwaltungsaufwand"
+    - "UDP-Beispiele: DNS, VoIP, Streaming, Online-Gaming"
+    - "TCP-Beispiele: HTTP/HTTPS, SSH, E-Mail-Übertragung"
+    - "Merksatz: UDP = schnell und einfach, TCP = zuverlässig und kontrolliert"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## UDP vs. TCP – Vergleich der Protokolle

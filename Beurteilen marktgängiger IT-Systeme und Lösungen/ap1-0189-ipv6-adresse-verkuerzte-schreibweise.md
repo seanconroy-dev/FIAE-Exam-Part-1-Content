@@ -14,14 +14,18 @@ tags: ["ipv6", "adressformat", "netzwerkgrundlagen"]
 # Flashcard payload
 card:
   type: basic
-  question: "Wie lautet die verkürzte Schreibweise der IPv6-Adresse 2003:00dc:075a:dd00:00:e130:c353:3188:afb6 und wie definiert man den 64-bit Interface-Anteil vollständig?"
-  answer: "Verkürzte Schreibweise: 2003:dc:75a:dd00:e130:c353:3188:afb6. Der 64-Bit Interface-Anteil lautet: e130:c353:3188:afb6."
-  examples: []
+  question: "Wie lautet die verkürzte Schreibweise der IPv6-Adresse 2003:00dc:075a:dd00:e130:c353:3188:afb6 und wie lautet der 64-Bit-Interface-Anteil vollständig?"
+  answer: "Verkürzte Schreibweise: 2003:dc:75a:dd00:e130:c353:3188:afb6. Bei einer /64-Adresse lautet der 64-Bit-Interface-Anteil: e130:c353:3188:afb6."
+  examples:
+    - "IPv6-Adressen bestehen aus 8 Blöcken mit je 16 Bit."
+    - "Führende Nullen in einem Block dürfen entfernt werden: 00dc → dc, 075a → 75a."
+    - "Bei /64 gehören die ersten 4 Blöcke zum Netzwerkpräfix."
+    - "Bei /64 gehören die letzten 4 Blöcke zum Interface Identifier."
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 ## Verkürzte Schreibweise einer IPv6-Adresse

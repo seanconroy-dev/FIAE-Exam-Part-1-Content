@@ -14,14 +14,19 @@ tags: ["glasfaser", "singlemode", "multimode", "lichtwellenleiter"]
 # Flashcard payload
 card:
   type: basic
-  question: "Wie unterscheiden sich Single- und Multimodefasern als Lichtwellenleiter?"
-  answer: "Singlemodefasern besitzen einen deutlich kleineren Faserkern (ca. 9 µm) als Multimodefasern (50 µm oder 62,5 µm). Dadurch können Singlemodefasern größere Übertragungsstrecken erreichen (bis ca. 10 km), während Multimodefasern kürzere Distanzen (bis ca. 2 km) unterstützen."
-  examples: []
+  question: "Wie unterscheiden sich Singlemode- und Multimodefasern als Lichtwellenleiter?"
+  answer: "Singlemodefasern haben einen sehr kleinen Faserkern, typischerweise etwa 9 µm, und eignen sich für große Übertragungsstrecken. Multimodefasern haben einen größeren Faserkern, typischerweise 50 µm oder 62,5 µm, und werden eher für kürzere Strecken eingesetzt. Singlemode verwendet meist Laserlicht, Multimode häufig LED- oder VCSEL-Lichtquellen."
+  examples:
+    - "Singlemode → kleiner Kern, lange Strecken, häufig im WAN oder Providerbereich"
+    - "Multimode → größerer Kern, kürzere Strecken, häufig im LAN oder Rechenzentrum"
+    - "Singlemode: ca. 9 µm Kerndurchmesser"
+    - "Multimode: ca. 50 µm oder 62,5 µm Kerndurchmesser"
+    - "Merksatz: Singlemode = ein Lichtweg, Multimode = mehrere Lichtwege"
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 ## Unterschied zwischen Singlemode- und Multimode-Glasfaser

@@ -14,14 +14,20 @@ tags: ["cms", "erp", "crm"]
 # Flashcard payload
 card:
   type: basic
-  question: "Wie werden die Begriffe CMS, ERP und CRM-System definiert?"
-  answer: "CMS verwaltet und bearbeitet Inhalte (z. B. Webseiten), ERP unterstützt die Ressourcenplanung und Geschäftsprozesse eines Unternehmens, CRM dient der Planung, Steuerung und Durchführung der Kundenbeziehungen."
-  examples: ["CMS: WordPress", "ERP: SAP", "CRM: Salesforce"]
+  question: "Wie werden die Begriffe CMS, ERP und CRM-Systeme definiert?"
+  answer: "CMS steht für Content-Management-System und dient zur Verwaltung und Bearbeitung digitaler Inhalte, z. B. Webseiten. ERP steht für Enterprise-Resource-Planning und unterstützt die Planung und Steuerung von Unternehmensressourcen und Geschäftsprozessen. CRM steht für Customer-Relationship-Management und dient zur Verwaltung, Pflege und Steuerung von Kundenbeziehungen."
+  examples:
+    - "CMS: WordPress"
+    - "ERP: SAP"
+    - "CRM: Salesforce"
+    - "CMS → Inhalte verwalten"
+    - "ERP → Unternehmensressourcen und Prozesse planen"
+    - "CRM → Kundenbeziehungen verwalten"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## CMS, ERP und CRM – Grundlagen

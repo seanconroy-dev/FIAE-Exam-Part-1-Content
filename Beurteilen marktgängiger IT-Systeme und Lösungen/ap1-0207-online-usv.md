@@ -15,13 +15,19 @@ tags: ["usv", "stromausfall", "online-usv"]
 card:
   type: definition
   question: "Wie funktioniert eine Online-USV?"
-  answer: "Eine Online-USV versorgt Verbraucher dauerhaft über einen Wechselrichter und erzeugt ständig eine stabile Ausgangsspannung; bei Netzausfall erfolgt keine Umschaltzeit, da die Batterie bereits aktiv eingebunden ist."
-  examples: []
+  answer: "Eine Online-USV versorgt angeschlossene Geräte dauerhaft über einen Wechselrichter. Der Strom wird dabei ständig aufbereitet, sodass eine stabile Ausgangsspannung entsteht. Bei Netzausfall gibt es keine Umschaltzeit, weil die Batterie bereits in das System eingebunden ist."
+  examples:
+    - "Geeignet für Serverräume und kritische IT-Systeme"
+    - "Keine Umschaltzeit bei Stromausfall"
+    - "Bietet hohen Schutz gegen Stromausfall, Spannungsschwankungen und Netzstörungen"
+    - "Entspricht meist der USV-Klasse VFI"
+    - "Auch als Doppelwandler-USV oder Double-Conversion-USV bekannt"
+    - "Merksatz: Online-USV = maximale Sicherheit ohne Unterbrechung"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Online-USV – Bedeutung

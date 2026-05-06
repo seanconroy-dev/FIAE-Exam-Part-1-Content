@@ -15,13 +15,17 @@ tags: ["snmp", "monitoring", "netzwerkverwaltung"]
 card:
   type: basic
   question: "Wozu dient das Simple Network Management Protocol (SNMP)?"
-  answer: "SNMP ist ein Netzwerkprotokoll zur Überwachung und Verwaltung von Netzwerkgeräten. Es ermöglicht das zentrale Auslesen und Steuern von Geräten wie Routern, Switches oder Servern über eine Management-Konsole."
-  examples: []
+  answer: "SNMP ist ein Netzwerkprotokoll zur zentralen Überwachung und Verwaltung von Netzwerkgeräten. Damit können Informationen wie Status, Auslastung, Fehlerzustände oder Verfügbarkeit von Geräten wie Routern, Switches, Servern oder Druckern ausgelesen werden."
+  examples:
+    - "Überwachung der Auslastung eines Switches"
+    - "Abfrage, ob ein Router erreichbar ist"
+    - "Meldung eines Fehlers durch ein SNMP-Trap"
+    - "Zentrale Überwachung von Netzwerkgeräten über ein Monitoring-System"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## SNMP – Aufgabe und Funktion

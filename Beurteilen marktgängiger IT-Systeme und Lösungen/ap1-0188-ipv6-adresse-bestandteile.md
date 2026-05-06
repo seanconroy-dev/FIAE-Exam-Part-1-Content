@@ -14,14 +14,20 @@ tags: ["ipv6", "netzwerkgrundlagen", "adressstruktur"]
 # Flashcard payload
 card:
   type: basic
-  question: "Aus welchen Bestandteilen setzt sich eine IPv6-Adresse zusammen?"
-  answer: "Eine IPv6-Adresse ist 128 Bit lang und besteht aus zwei Teilen: dem Network Prefix (Netzwerkpräfix) und dem Interface Identifier (Netzwerkschnittstelle). Die Adresse wird hexadezimal dargestellt und durch Doppelpunkte getrennt."
-  examples: []
+  question: "Aus welchen Bestandteilen setzt sich eine IPv6-Adresse wie 2001:0db8:abcd:0012:1234:5678:9abc:def0/64 zusammen?"
+  answer: "Eine IPv6-Adresse ist 128 Bit lang und wird hexadezimal in acht Blöcken geschrieben, die durch Doppelpunkte getrennt sind. Sie besteht typischerweise aus einem Netzwerkpräfix und einem Interface Identifier. Bei 2001:0db8:abcd:0012:1234:5678:9abc:def0/64 bilden die ersten 64 Bit das Netzwerkpräfix: 2001:0db8:abcd:0012::/64. Die letzten 64 Bit bilden den Interface Identifier: 1234:5678:9abc:def0."
+  examples:
+    - "Adresse: 2001:0db8:abcd:0012:1234:5678:9abc:def0/64"
+    - "Netzwerkpräfix: 2001:0db8:abcd:0012::/64"
+    - "Interface Identifier: 1234:5678:9abc:def0"
+    - "Bei /64 gehören die ersten 4 Blöcke zum Netzwerkpräfix."
+    - "Bei /64 gehören die letzten 4 Blöcke zum Interface Identifier."
+    - "Merksatz: Präfix = Netzwerk, Interface Identifier = Gerät/Schnittstelle im Netzwerk."
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 ## Bestandteile einer IPv6-Adresse

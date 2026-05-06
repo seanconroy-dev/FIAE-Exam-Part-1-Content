@@ -15,13 +15,17 @@ tags: ["dns", "active-directory", "netzwerkdienste"]
 card:
   type: basic
   question: "Welchen Zweck erfüllt ein Domain Name System (DNS) in einer Windows-Domänenlandschaft bzw. Active Directory?"
-  answer: "DNS übernimmt die Namensauflösung (Name ↔ IP-Adresse) und ermöglicht zusätzlich Reverse Lookup (IP → Name), z. B. über PTR-Records in der Reverse Lookup Zone (Active Directory)."
-  examples: []
+  answer: "DNS übernimmt in einer Windows-Domänenlandschaft die Namensauflösung von Namen zu IP-Adressen und umgekehrt. In Active Directory ist DNS außerdem wichtig, damit Clients Domänencontroller und AD-Dienste finden können, z. B. über DNS-Einträge wie SRV-Records."
+  examples:
+    - "Client findet einen Domänencontroller über DNS."
+    - "Name zu IP-Adresse: server01.firma.local → 192.168.1.10"
+    - "IP-Adresse zu Name: Reverse Lookup über PTR-Record"
+    - "SRV-Records helfen beim Auffinden von Active-Directory-Diensten."
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## DNS – Aufgaben in Windows-Domänen / Active Directory

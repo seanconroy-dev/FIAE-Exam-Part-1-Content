@@ -15,13 +15,18 @@ tags: ["netzwerkgeraete", "osi", "routing", "switching"]
 card:
   type: comparison
   question: "Was ist der Unterschied zwischen einem Switch und einem Router?"
-  answer: "Switch: arbeitet auf OSI-Schicht 2, leitet Frames anhand von MAC-Adressen weiter. Router: arbeitet auf OSI-Schicht 3, verbindet Netzwerke und routet Pakete anhand von IP-Adressen."
-  examples: []
+  answer: "Ein Switch arbeitet hauptsächlich auf OSI-Schicht 2 und leitet Frames innerhalb eines lokalen Netzwerks anhand von MAC-Adressen weiter. Ein Router arbeitet auf OSI-Schicht 3, verbindet verschiedene Netzwerke und leitet Pakete anhand von IP-Adressen weiter."
+  examples:
+    - "Switch → verbindet Geräte innerhalb eines LANs"
+    - "Switch → nutzt MAC-Adressen zur Weiterleitung"
+    - "Router → verbindet verschiedene Netzwerke oder Subnetze"
+    - "Router → nutzt IP-Adressen und Routing-Tabellen"
+    - "Beispiel: Switch verbindet PCs im Büro, Router verbindet das Büro-LAN mit dem Internet"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Unterschied Switch vs. Router

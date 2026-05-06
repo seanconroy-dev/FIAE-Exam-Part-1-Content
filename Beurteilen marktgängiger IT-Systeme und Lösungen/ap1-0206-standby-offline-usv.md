@@ -15,13 +15,19 @@ tags: ["usv", "stromausfall", "hardware"]
 card:
   type: definition
   question: "Erkläre den Begriff Standby- oder Offline-USV."
-  answer: "Eine Standby-/Offline-USV versorgt Geräte im Normalbetrieb direkt aus dem Netz und schaltet bei Stromausfall mit kurzer Verzögerung (ca. 4–10 ms) auf Batterie um; sie schützt nur begrenzt vor Spannungsschwankungen."
-  examples: []
+  answer: "Eine Standby- oder Offline-USV versorgt angeschlossene Geräte im Normalbetrieb direkt aus dem Stromnetz. Erst bei Stromausfall schaltet sie mit kurzer Verzögerung auf Batteriebetrieb um. Sie bietet grundlegenden Schutz, aber nur begrenzten Schutz gegen Spannungsschwankungen."
+  examples:
+    - "Geeignet für einzelne PCs oder einfache Arbeitsplätze"
+    - "Umschaltzeit typischerweise wenige Millisekunden"
+    - "Günstigste und einfachste USV-Variante"
+    - "Entspricht meist der USV-Klasse VFD"
+    - "Nicht ideal für besonders kritische Server oder Rechenzentren"
+    - "Merksatz: Standby-USV = einfach, günstig – aber nur begrenzter Schutz"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Standby-/Offline-USV – Bedeutung

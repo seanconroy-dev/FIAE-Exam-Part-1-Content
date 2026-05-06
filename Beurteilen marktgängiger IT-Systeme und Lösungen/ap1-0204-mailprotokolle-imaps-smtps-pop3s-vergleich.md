@@ -15,13 +15,20 @@ tags: ["smtp", "imap", "pop3", "tls", "email"]
 card:
   type: comparison
   question: "Wie unterscheiden sich die Mailprotokolle IMAPS, SMTPS und POP3S in ihren Eigenschaften?"
-  answer: "SMTPS: Versand von E-Mails (Port 465, SSL/TLS). IMAPS: Zugriff und Synchronisation von Mails auf dem Server (Port 993, SSL/TLS). POP3S: Download von Mails vom Server (Port 995, SSL/TLS, meist lokale Speicherung)."
-  examples: []
+  answer: "SMTPS dient dem sicheren Versand von E-Mails, typischerweise über Port 465 mit SSL/TLS. IMAPS dient dem sicheren Zugriff auf E-Mails auf dem Mailserver und synchronisiert Postfächer, typischerweise über Port 993. POP3S dient dem sicheren Abruf bzw. Download von E-Mails vom Server, typischerweise über Port 995, oft mit lokaler Speicherung."
+  examples:
+    - "SMTPS → E-Mails sicher senden"
+    - "IMAPS → E-Mails auf dem Server lesen und synchronisieren"
+    - "POP3S → E-Mails sicher vom Server abrufen"
+    - "Port 465 → SMTPS"
+    - "Port 993 → IMAPS"
+    - "Port 995 → POP3S"
+    - "Hinweis: Für SMTP-Versand wird auch Port 587 mit STARTTLS verwendet"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Mailprotokolle – IMAPS, SMTPS und POP3S

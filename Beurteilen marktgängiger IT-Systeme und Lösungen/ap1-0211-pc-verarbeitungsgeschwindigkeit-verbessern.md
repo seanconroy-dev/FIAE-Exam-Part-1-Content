@@ -15,13 +15,17 @@ tags: ["ssd", "hdd", "netzwerk", "performance"]
 card:
   type: basic
   question: "Wie kann man die Verarbeitungsgeschwindigkeit eines Personal Computers verbessern?"
-  answer: "Einsatz schnellerer Datenträger (SSD/M.2 statt HDD), schnellere HDDs (höhere Drehzahl), Trennung von OS und Daten auf verschiedene Laufwerke sowie schnellere Netzwerkkarten (z. B. 1 Gbit/s statt 100 Mbit/s)."
-  examples: ["SSD statt HDD einbauen", "Gigabit-Netzwerkkarte nutzen"]
-
+  answer: "Die Verarbeitungsgeschwindigkeit eines PCs kann durch leistungsfähigere Hardware und schnellere Datenzugriffe verbessert werden, z. B. durch mehr oder schnelleren Arbeitsspeicher, eine schnellere CPU, den Einsatz einer SSD oder M.2-SSD statt HDD sowie durch das Reduzieren unnötiger Hintergrundprozesse."
+  examples:
+    - "SSD oder M.2-SSD statt HDD einbauen"
+    - "Arbeitsspeicher erweitern"
+    - "Schnellere CPU verwenden"
+    - "Autostart-Programme und Hintergrundprozesse reduzieren"
+    - "Für Netzwerkzugriffe kann eine schnellere Netzwerkkarte die Übertragungsgeschwindigkeit verbessern"
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Maßnahmen zur Verbesserung der Verarbeitungsgeschwindigkeit

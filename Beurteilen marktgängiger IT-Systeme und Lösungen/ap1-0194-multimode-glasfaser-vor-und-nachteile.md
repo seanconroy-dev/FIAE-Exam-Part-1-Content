@@ -15,13 +15,19 @@ tags: ["glasfaser", "multimode", "lichtwellenleiter"]
 card:
   type: basic
   question: "Was sind die Vor- und Nachteile von Multimodefasern?"
-  answer: "Vorteile: geringerer Herstellungsaufwand, einfachere Verbindungstechnik durch größeren Kerndurchmesser, verfügbar als Stufenindex- und Gradientenindexfaser. Nachteile: größere Signaldämpfung und Laufzeitverschiebung, geringere maximale Bandbreiten, nur für kürzere Distanzen geeignet, bei größeren Entfernungen Verstärker erforderlich."
-  examples: []
+  answer: "Vorteile von Multimodefasern sind geringere Kosten, einfachere Verbindungstechnik durch den größeren Kerndurchmesser und günstigere aktive Komponenten. Nachteile sind stärkere Signaldämpfung, Laufzeitunterschiede durch mehrere Lichtwege, geringere Reichweite und geringere maximale Bandbreite im Vergleich zu Singlemode."
+  examples:
+    - "Vorteil: geeignet für kürzere Strecken, z. B. im LAN oder Rechenzentrum"
+    - "Vorteil: oft günstiger als Singlemode-Technik"
+    - "Vorteil: größerer Kern erleichtert Kopplung und Verbindungstechnik"
+    - "Nachteil: nicht ideal für lange Strecken"
+    - "Nachteil: mehrere Lichtwege können zu Laufzeitunterschieden führen"
+    - "Merksatz: Multimode = günstig und einfach, aber eher für kurze Strecken"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Vor- und Nachteile von Multimode-Glasfasern

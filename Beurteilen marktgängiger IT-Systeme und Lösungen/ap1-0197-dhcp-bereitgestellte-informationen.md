@@ -15,13 +15,19 @@ tags: ["dhcp", "netzwerkkonfiguration", "ip-adressen"]
 card:
   type: basic
   question: "Welche Informationen werden durch den DHCP-Dienst (Dynamic Host Configuration Protocol) bereitgestellt?"
-  answer: "DHCP stellt automatisch Netzwerkinformationen bereit wie IP-Adresse, Subnetzmaske, Standard-Gateway, DNS-Server sowie weitere Optionen wie Lease-Time, NTP-Server, Domain-Name oder PXE-Boot-Informationen."
-  examples: []
+  answer: "DHCP stellt Geräten automatisch wichtige Netzwerkinformationen bereit. Dazu gehören vor allem IP-Adresse, Subnetzmaske, Standardgateway und DNS-Server. Zusätzlich können weitere Optionen wie Lease-Time, Domain-Name, NTP-Server oder PXE-Boot-Informationen übermittelt werden."
+  examples:
+    - "IP-Adresse → eindeutige Adresse des Geräts im Netzwerk"
+    - "Subnetzmaske → legt fest, welcher Teil der IP-Adresse zum Netzwerk gehört"
+    - "Standardgateway → Router für Verbindungen in andere Netzwerke"
+    - "DNS-Server → löst Namen wie example.com in IP-Adressen auf"
+    - "Lease-Time → legt fest, wie lange die IP-Adresse gültig ist"
+    - "PXE-Boot → ermöglicht das Starten oder Installieren über das Netzwerk"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## DHCP – bereitgestellte Informationen

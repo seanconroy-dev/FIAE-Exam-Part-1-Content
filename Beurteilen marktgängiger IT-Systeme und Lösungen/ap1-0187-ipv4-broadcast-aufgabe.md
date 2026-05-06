@@ -15,13 +15,17 @@ tags: ["broadcast", "ipv4", "netzwerkgrundlagen", "subnetz"]
 card:
   type: basic
   question: "Wofür dient eine Broadcast-Adresse in IPv4-Netzwerken?"
-  answer: "Eine Broadcast-Adresse ermöglicht das Senden eines Pakets an alle Geräte innerhalb eines lokalen Netzwerks. Sie ist die letzte IP-Adresse eines Subnetzes und wird nicht über Router weitergeleitet."
-  examples: []
+  answer: "Eine Broadcast-Adresse dient dazu, ein Paket an alle Geräte innerhalb eines IPv4-Subnetzes oder einer Broadcast-Domäne zu senden. Sie ist die letzte IP-Adresse eines Subnetzes und wird normalerweise nicht über Router weitergeleitet."
+  examples:
+    - "Bei 192.168.1.0/24 ist 192.168.1.255 die Broadcast-Adresse."
+    - "Broadcasts werden z. B. bei ARP-Anfragen oder DHCP Discover verwendet."
+    - "Die Broadcast-Adresse darf nicht als Host-Adresse vergeben werden."
+    - "Merksatz: Broadcast-Adresse = letzte Adresse im Subnetz, einer an alle."
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 ## Aufgabe einer IPv4 Broadcast-Adresse

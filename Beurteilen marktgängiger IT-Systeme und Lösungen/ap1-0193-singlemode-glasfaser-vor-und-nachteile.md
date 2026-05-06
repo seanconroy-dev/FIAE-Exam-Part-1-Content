@@ -15,13 +15,18 @@ tags: ["glasfaser", "singlemode", "lichtwellenleiter"]
 card:
   type: basic
   question: "Was sind die Vor- und Nachteile von Singlemode-Glasfasern?"
-  answer: "Vorteile: geringe Signaldämpfung, kaum Laufzeitverschiebungen, große Übertragungsdistanzen, hohe Bandbreiten. Nachteile: teurere Laser zur Lichteinspeisung, aufwendigere Herstellung der Glasfasern, hohe Präzision beim Verbinden (Stecker/Spleißen) erforderlich."
-  examples: []
+  answer: "Vorteile von Singlemode-Glasfasern sind geringe Signaldämpfung, große Übertragungsdistanzen, hohe Bandbreiten und kaum Laufzeitunterschiede durch verschiedene Lichtwege. Nachteile sind höhere Kosten für Laser und Sende-/Empfangstechnik sowie höhere Anforderungen an Stecker, Spleißen und Installation."
+  examples:
+    - "Vorteil: geeignet für lange Strecken, z. B. Provider- oder WAN-Verbindungen"
+    - "Vorteil: hohe Bandbreite über große Entfernungen"
+    - "Nachteil: teurere aktive Komponenten, z. B. Laser-Transceiver"
+    - "Nachteil: präzises Spleißen und saubere Steckverbindungen sind besonders wichtig"
+    - "Merksatz: Singlemode = lange Strecken und hohe Leistung, aber teurer und präziser"
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 ## Vor- und Nachteile von Singlemode-Glasfasern

@@ -15,13 +15,19 @@ tags: ["ssid", "wlan", "802.11"]
 card:
   type: definition
   question: "Erkläre den Begriff SSID (Service Set Identifier)."
-  answer: "Die SSID ist der frei wählbare Name eines WLANs (Funknetzwerks) gemäß IEEE 802.11, dient zur Identifikation des Netzwerks und kann bis zu 32 ASCII-Zeichen lang sein."
-  examples: ["MeinWLAN", "Firma-Gastnetz"]
+  answer: "Die SSID ist der frei wählbare Name eines WLANs nach IEEE 802.11. Sie dient zur Identifikation des Funknetzwerks, wird Benutzern bei der WLAN-Auswahl angezeigt und kann bis zu 32 Byte lang sein."
+  examples:
+    - "MeinWLAN"
+    - "Firma-Gastnetz"
+    - "Die SSID ist der sichtbare WLAN-Name in der Netzwerkliste."
+    - "Ein Access Point kann mehrere SSIDs bereitstellen, z. B. für Gäste und interne Nutzer."
+    - "SSID = Name des WLANs, max. 32 Byte, unterscheidet Groß- und Kleinschreibung"
+
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## SSID (Service Set Identifier)

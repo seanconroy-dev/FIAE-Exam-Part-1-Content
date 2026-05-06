@@ -15,13 +15,19 @@ tags: ["usv", "line-interactive", "stromausfall"]
 card:
   type: definition
   question: "Wie funktioniert eine netzinteraktive USV?"
-  answer: "Eine netzinteraktive USV arbeitet ähnlich wie eine Offline-USV, kann jedoch Spannungsschwankungen aktiv ausgleichen; bei Stromausfall erfolgt eine sehr kurze Umschaltung (ca. 2–4 ms) auf Batterie."
-  examples: []
+  answer: "Eine netzinteraktive USV, auch Line-Interactive-USV genannt, versorgt Geräte im Normalbetrieb aus dem Stromnetz, kann aber Spannungsschwankungen aktiv ausgleichen. Bei Stromausfall schaltet sie mit sehr kurzer Verzögerung auf Batteriebetrieb um."
+  examples:
+    - "Geeignet für kleine Server, Netzwerkschränke oder Arbeitsplätze"
+    - "Kann Unterspannung und Überspannung ausgleichen"
+    - "Sehr kurze Umschaltzeit bei Stromausfall"
+    - "Bietet mehr Schutz als eine Offline-USV"
+    - "Entspricht meist der USV-Klasse VI"
+    - "Merksatz: Netzinteraktiv = schneller als Offline, stabiler bei Spannung"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Netzinteraktive USV – Bedeutung

@@ -15,13 +15,17 @@ tags: ["dhcp", "ip-adressen", "netzwerkdienste"]
 card:
   type: basic
   question: "Welchen Zweck erfüllt ein DHCP-Server innerhalb der IT-Infrastruktur?"
-  answer: "Ein DHCP-Server weist Geräten automatisch IP-Adressen und Netzwerkkonfigurationen zu (z. B. Subnetzmaske, Gateway, DNS). Er verwaltet Adressbereiche und vergibt diese dynamisch über einen definierten Zeitraum (Lease)."
-  examples: []
+  answer: "Ein DHCP-Server weist Geräten automatisch IP-Adressen und weitere Netzwerkkonfigurationen zu, zum Beispiel Subnetzmaske, Standardgateway und DNS-Server. Er verwaltet einen Adressbereich und vergibt Adressen dynamisch für eine bestimmte Zeit, die sogenannte Lease."
+  examples:
+    - "Ein Notebook erhält beim Verbinden mit dem Netzwerk automatisch eine IP-Adresse."
+    - "Der DHCP-Server vergibt zusätzlich Subnetzmaske, Gateway und DNS-Server."
+    - "Eine Lease legt fest, wie lange eine IP-Adresse einem Gerät zugewiesen bleibt."
+    - "Ohne DHCP müssten IP-Adressen manuell konfiguriert werden."
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## DHCP – Aufgaben und Funktion

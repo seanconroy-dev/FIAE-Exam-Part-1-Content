@@ -15,15 +15,17 @@ tags: ["multicast","netzwerkkommunikation","ip"]
 card:
   type: basic
   question: "Was bezeichnet man in IPv6-Netzwerken als Multicast und wie wird er zur MAC-Adressauflösung genutzt?"
-  answer: "Multicast bezeichnet eine Netzwerkkommunikation, bei der ein Sender Daten gleichzeitig an eine definierte Gruppe von Empfängern überträgt."
+  answer: "Multicast bezeichnet eine Kommunikation, bei der ein Sender Daten an eine bestimmte Empfängergruppe sendet. In IPv6 wird Multicast bei der Neighbor Discovery genutzt, um die MAC-Adresse zu einer IPv6-Adresse zu ermitteln. Dafür sendet ein Gerät eine Neighbor Solicitation an eine passende Multicast-Adresse statt einen Broadcast wie bei IPv4/ARP."
   examples:
-    - "IPv6 Neighbor Discovery verwendet Multicast zur Adressauflösung."
-    - "Streaming-Dienste können Multicast verwenden, um Daten gleichzeitig an mehrere Empfänger zu senden."
+    - "IPv6 nutzt Neighbor Discovery Protocol (NDP) statt ARP."
+    - "Neighbor Solicitation wird an eine Multicast-Adresse gesendet."
+    - "Das Zielgerät antwortet mit einer Neighbor Advertisement."
+    - "Merksatz: IPv4 nutzt ARP/Broadcast, IPv6 nutzt NDP/Multicast."
 
 # Lifecycle
 status: published
 created: "2026-03-14"
-updated: "2026-03-16"
+updated: "2026-05-06"
 ---
 
 <!-- Optional: extra explanation, diagrams, tables, links, etc.

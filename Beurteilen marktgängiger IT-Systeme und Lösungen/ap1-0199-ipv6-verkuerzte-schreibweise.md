@@ -15,13 +15,20 @@ tags: ["ipv6", "netzwerkgrundlagen", "adressnotation"]
 card:
   type: basic
   question: "Welche Schreibweisen sind bei der Kürzung der IPv6-Adresse 2001:0db8:0f3c:00d7:7dab:03d0:0000:00ff zulässig?"
-  answer: "Erlaubt sind nur Kürzungen durch Weglassen führender Nullen und einmaliges Zusammenfassen von aufeinanderfolgenden 0-Blöcken (::). Korrekt: 2001:db8:f3c:d7:7dab:3d0:0:ff und 2001:db8:f3c:d7:7dab:3d0::ff."
-  examples: []
+  answer: "Bei IPv6-Adressen dürfen führende Nullen in jedem Block weggelassen werden. Außerdem darf eine zusammenhängende Folge von 0-Blöcken einmal durch :: ersetzt werden. Aus 2001:0db8:0f3c:00d7:7dab:03d0:0000:00ff wird durch Weglassen führender Nullen: 2001:db8:f3c:d7:7dab:3d0:0:ff. Auch 2001:db8:f3c:d7:7dab:3d0::ff ist technisch zulässig, weil :: den einzelnen 0-Block ersetzt."
+  examples:
+    - "0db8 → db8"
+    - "0f3c → f3c"
+    - "00d7 → d7"
+    - "03d0 → 3d0"
+    - "0000 → 0"
+    - ":: darf pro IPv6-Adresse nur einmal verwendet werden"
+    - "Empfohlene Kurzform hier: 2001:db8:f3c:d7:7dab:3d0:0:ff"
 
 # Lifecycle
 status:  published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## IPv6 – verkürzte Schreibweise

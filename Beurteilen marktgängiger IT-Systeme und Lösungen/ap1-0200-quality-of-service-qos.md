@@ -15,13 +15,17 @@ tags: ["qos", "netzwerkqualität", "priorisierung"]
 card:
   type: basic
   question: "Wie definiert man den Begriff Quality of Service im Netzwerkbereich?"
-  answer: "Quality of Service (QoS) beschreibt die Güte eines Netzwerkdienstes und umfasst Maßnahmen wie Priorisierung, Bandbreitenreservierung und Paketoptimierung zur Reduzierung von Latenz, Jitter und Paketverlust."
-  examples: []
+  answer: "Quality of Service (QoS) bezeichnet Maßnahmen zur Steuerung und Sicherung der Übertragungsqualität in Netzwerken. Dabei können wichtige Datenpakete priorisiert werden, um Latenz, Jitter und Paketverlust zu reduzieren."
+  examples:
+    - "VoIP-Telefonie wird priorisiert, damit Gespräche nicht ruckeln."
+    - "Videokonferenzen erhalten Vorrang vor weniger zeitkritischem Datenverkehr."
+    - "QoS kann Bandbreite reservieren oder Datenverkehr priorisieren."
+    - "Wichtige Werte: Latenz, Jitter, Paketverlust und Bandbreite."
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## Quality of Service (QoS)

@@ -15,13 +15,17 @@ tags: ["cache", "l1", "l2", "l3"]
 card:
   type: definition
   question: "Was versteht man unter dem Begriff CPU-Cache?"
-  answer: "Der CPU-Cache ist ein schneller Zwischenspeicher direkt im Prozessor, der häufig benötigte Daten speichert, um Zugriffszeiten zu verkürzen. Er besteht aus mehreren Ebenen (L1, L2, L3) mit unterschiedlicher Größe und Geschwindigkeit."
-  examples: []
-
+  answer: "Der CPU-Cache ist ein sehr schneller Zwischenspeicher direkt im oder nahe am Prozessor. Er speichert häufig benötigte Daten und Befehle, damit die CPU schneller darauf zugreifen kann als auf den Arbeitsspeicher. Typische Cache-Ebenen sind L1, L2 und L3."
+  examples:
+    - "L1-Cache → sehr klein, aber am schnellsten"
+    - "L2-Cache → größer als L1, aber etwas langsamer"
+    - "L3-Cache → meist größer, aber langsamer als L1 und L2"
+    - "Cache reduziert Zugriffszeiten auf häufig benötigte Daten"
+    - "Merksatz: Cache = schneller Zwischenspeicher für die CPU"
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## CPU-Cache – Grundlagen

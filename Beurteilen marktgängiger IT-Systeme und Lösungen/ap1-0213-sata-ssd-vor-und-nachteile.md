@@ -15,13 +15,18 @@ tags: ["ssd", "sata"]
 card:
   type: comparison
   question: "Was sind die Vor- und Nachteile einer SATA-SSD?"
-  answer: "Vorteile: kostengünstig, hohe Kompatibilität, zuverlässig. Nachteile: geringere Geschwindigkeit als NVMe/M.2, begrenzte Bandbreite durch SATA-Schnittstelle, ungeeignet für High-End-Anwendungen."
-  examples: []
+  answer: "Vorteile: SATA-SSDs sind kostengünstig, weit verbreitet, zuverlässig und mit vielen älteren PCs und Notebooks kompatibel. Nachteile: Sie sind durch die SATA-Schnittstelle in der Datenrate begrenzt und deutlich langsamer als NVMe-SSDs über PCIe."
+  examples:
+    - "Gute Wahl für ältere PCs oder Notebooks"
+    - "Deutlich schneller als eine HDD"
+    - "Langsamer als eine NVMe-M.2-SSD"
+    - "SATA begrenzt die maximale Übertragungsgeschwindigkeit"
+    - "Geeignet für Office, Schule, Alltag und viele Standardanwendungen"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## SATA-SSD – Vor- und Nachteile

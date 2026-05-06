@@ -15,13 +15,17 @@ tags: ["ssd", "m2", "nvme"]
 card:
   type: comparison
   question: "Welche Vor- und Nachteile hat eine M.2-SSD?"
-  answer: "Vorteile: sehr hohe Geschwindigkeit (bis ~7.450 MB/s), kompaktes Design, keine Verkabelung, direkte Mainboard-Anbindung (NVMe). Nachteile: teurer, nicht mit allen Mainboards kompatibel, höhere Wärmeentwicklung, oft geringere Kapazität als SATA-SSDs."
-  examples: ["NVMe M.2 SSD im Gaming-PC", "Ultrabook mit platzsparender M.2 SSD"]
+  answer: "Vorteile: M.2-SSDs sind kompakt, benötigen keine Daten- oder Stromkabel und werden direkt auf dem Mainboard eingebaut. NVMe-M.2-SSDs können über PCIe sehr hohe Datenraten erreichen. Nachteile: höhere Kosten, mögliche Wärmeentwicklung bei schnellen Modellen und benötigte Kompatibilität mit Mainboard, Steckplatz und Protokoll."
+  examples:
+    - "NVMe-M.2-SSD im PC für schnelle Lade- und Startzeiten"
+    - "M.2-SSD im Ultrabook wegen platzsparender Bauform"
+    - "M.2 beschreibt die Bauform, NVMe das schnelle Speicherprotokoll"
+    - "Nicht jede M.2-SSD ist automatisch eine NVMe-SSD"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-06"
 ---
 
 ## M.2-SSD – Vor- und Nachteile
