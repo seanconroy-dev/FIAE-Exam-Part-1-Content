@@ -15,13 +15,19 @@ tags: ["leasing", "it-hardware", "vorteile", "nachteile"]
 card:
   type: basic
   question: "Was sind die Vor- und Nachteile für ein Unternehmen beim Leasing von IT-Hardware?"
-  answer: "Vorteile: keine hohe Anfangsinvestition, planbare Raten, bilanzneutral, oft Wartung durch Anbieter, stets aktuelle Technik. Nachteile: kein Eigentum, feste Laufzeiten, meist nicht kündbar, insgesamt oft höhere Kosten."
-  examples: []
+  answer: "Vorteile: keine hohe Anfangsinvestition, planbare monatliche Raten, Schonung der Liquidität, oft Wartung durch den Anbieter und regelmäßiger Zugang zu aktueller Technik. Nachteile: kein Eigentum, feste Laufzeiten, meist eingeschränkte Kündigungsmöglichkeiten und insgesamt oft höhere Kosten."
+  examples:
+    - "Vorteil: Das Unternehmen muss die Hardware nicht sofort vollständig bezahlen."
+    - "Vorteil: Die monatlichen Kosten sind besser planbar."
+    - "Vorteil: Wartung oder Austausch kann im Vertrag enthalten sein."
+    - "Nachteil: Die Hardware gehört meist dem Leasinggeber."
+    - "Nachteil: Der Vertrag läuft über eine feste Zeit."
+    - "Nachteil: Über die gesamte Laufzeit kann Leasing teurer sein als Kauf."
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-06"
 ---
 
 ## Vor- und Nachteile von Leasing bei IT-Hardware

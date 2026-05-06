@@ -15,8 +15,13 @@ tags: ["software-rollout", "deployment", "verteilung"]
 card:
   type: basic
   question: "Was ist bei einem Software-Rollout zu beachten?"
-  answer: "Beim Software-Rollout müssen die Software veröffentlicht, auf Kompatibilität geprüft sowie für die automatische Verteilung (z. B. per Paketierung und Verteilungssoftware) vorbereitet werden."
-  examples: []
+  answer: "Beim Software-Rollout muss die Software veröffentlicht, auf Kompatibilität geprüft und für die automatische Verteilung vorbereitet werden, zum Beispiel durch Paketierung und Verteilungssoftware."
+  examples:
+    - "Softwareversion bereitstellen"
+    - "Kompatibilität mit Zielsystemen prüfen"
+    - "Installationspaket erstellen"
+    - "Automatische Verteilung vorbereiten"
+    - "Verteilungssoftware nutzen"
 
 # Lifecycle
 status: published       # draft | published | deprecated

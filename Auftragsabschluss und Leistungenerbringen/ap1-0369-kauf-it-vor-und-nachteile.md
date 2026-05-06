@@ -15,13 +15,16 @@ tags: ["kauf", "vorteile", "nachteile", "it-hardware"]
 card:
   type: basic
   question: "Was sind die Vor- und Nachteile beim Kauf von IT-Hardware für Unternehmen?"
-  answer: "Vorteile: sofortiges Eigentum, volle Verfügungsgewalt, keine Laufzeitbindung, Wiederverkauf möglich. Nachteile: hohe Kapitalbindung, geringere Liquidität und Risiko der schnellen Veralterung."
-  examples: []
-
+  answer: "Vorteile: sofortiges Eigentum, volle Verfügungsgewalt, keine Laufzeitbindung und Wiederverkauf möglich. Nachteile: hohe Anschaffungskosten, Kapitalbindung, geringere Liquidität und Risiko der schnellen Veralterung."
+  examples:
+    - "Vorteil: Das Unternehmen besitzt die Hardware direkt."
+    - "Vorteil: Geräte können frei genutzt, verändert oder verkauft werden."
+    - "Nachteil: Die Anschaffung belastet die Liquidität sofort."
+    - "Nachteil: Die Hardware kann technisch schnell veralten."
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-06"
 ---
 
 ## Vor- und Nachteile beim Kauf von IT-Hardware

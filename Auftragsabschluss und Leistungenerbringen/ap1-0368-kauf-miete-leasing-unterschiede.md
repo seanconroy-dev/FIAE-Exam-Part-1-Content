@@ -15,13 +15,16 @@ tags: ["kauf", "miete", "leasing", "wirtschaft"]
 card:
   type: comparison
   question: "Wie unterscheiden sich Kauf, Miete und Leasing voneinander?"
-  answer: "Kauf: Eigentum geht auf den Käufer über. Miete: Nutzung gegen Zahlung, Eigentum bleibt beim Vermieter. Leasing: ähnliche Nutzung wie Miete, aber mit erweiterten Rechten/Pflichten und oft wirtschaftlicher Eigentumsübertragung während der Laufzeit."
-  examples: []
+  answer: "Kauf: Eigentum geht auf den Käufer über. Miete: Nutzung gegen regelmäßige Zahlung, Eigentum bleibt beim Vermieter. Leasing: langfristige Nutzung gegen regelmäßige Zahlung, Eigentum bleibt meist beim Leasinggeber, mit vertraglich geregelten Rechten und Pflichten."
+  examples:
+    - "Kauf: Ein Unternehmen kauft einen Laptop und besitzt ihn dauerhaft."
+    - "Miete: Ein Unternehmen nutzt einen Drucker gegen monatliche Zahlung, ohne Eigentümer zu werden."
+    - "Leasing: Ein Unternehmen nutzt ein Firmenfahrzeug oder IT-Gerät über eine feste Laufzeit und gibt es danach zurück oder übernimmt es je nach Vertrag."
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-06"
 ---
 
 ## Kauf, Miete und Leasing: Unterschiede

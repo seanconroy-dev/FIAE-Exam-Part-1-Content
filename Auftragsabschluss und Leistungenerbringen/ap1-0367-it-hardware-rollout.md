@@ -15,13 +15,20 @@ tags: ["hardware-rollout", "migration", "deployment"]
 card:
   type: basic
   question: "Worauf muss bei einem IT-Hardware-Rollout geachtet werden?"
-  answer: "Beim IT-Hardware-Rollout müssen u. a. Rollout-Management, Datenmigration, Asset-Dokumentation, Kompatibilitätsprüfung, Backupkonzept, Terminüberwachung und Abstimmung mit dem Kunden berücksichtigt werden."
-  examples: []
+  answer: "Beim IT-Hardware-Rollout müssen Rollout-Management, Datenmigration, Asset-Dokumentation, Kompatibilitätsprüfung, Backupkonzept, Terminüberwachung und Abstimmung mit dem Kunden berücksichtigt werden."
+  examples:
+    - "Rollout planen und koordinieren"
+    - "Datenmigration vorbereiten"
+    - "Backup vor dem Austausch erstellen"
+    - "Kompatibilität der Hardware prüfen"
+    - "Geräte und Inventarnummern dokumentieren"
+    - "Termine mit dem Kunden abstimmen"
+    - "Alte Geräte zurücknehmen oder entsorgen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-06"
 ---
 
 ## IT-Hardware-Rollout
