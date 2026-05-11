@@ -13,15 +13,19 @@ tags: ["ap1", "anforderungen", "alm"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Was sind die verschiedenen Anforderungsarten und was bedeuten sie?"
-  answer: "Geschäftsanforderungen: Ziele aus Kundensicht. Benutzeranforderungen: Anforderungen der Nutzer. Funktionale Anforderungen: konkrete Funktionen der Software. Projektanforderungen: Rahmenbedingungen zur Umsetzung des Projekts."
-  examples: ["Geschäft: Umsatz steigern", "Benutzer: einfache Bedienung", "Funktional: Login-System", "Projekt: Zeit- und Budgetvorgaben"]
-
+  type: basic
+  question: "Was sind verschiedene Anforderungsarten in der Softwareentwicklung und was bedeuten sie?"
+  answer: "Geschäftsanforderungen beschreiben Ziele aus Unternehmens- oder Kundensicht. Benutzeranforderungen beschreiben, was Nutzer mit dem System erreichen wollen. Funktionale Anforderungen beschreiben konkrete Funktionen der Software. Nicht-funktionale Anforderungen beschreiben Qualitätsmerkmale wie Leistung, Sicherheit oder Benutzerfreundlichkeit. Projektanforderungen beschreiben Rahmenbedingungen wie Zeit, Budget oder Ressourcen."
+  examples:
+    - "Geschäftsanforderung: Umsatz steigern"
+    - "Benutzeranforderung: einfache Bedienung"
+    - "Funktionale Anforderung: Login-System"
+    - "Nicht-funktionale Anforderung: schnelle Ladezeit oder hohe Sicherheit"
+    - "Projektanforderung: Zeit- und Budgetvorgaben"
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Anforderungsarten: Geschäfts-, Benutzer-, funktionale und Projektanforderungen
@@ -31,6 +35,7 @@ In der Softwareentwicklung werden Anforderungen in verschiedene Kategorien unter
 - Geschäftsanforderungen  
 - Benutzeranforderungen  
 - Funktionale Anforderungen  
+- Nicht-funktionale Anforderungen  
 - Projektanforderungen  
 
 ## Kernerklärung
@@ -40,6 +45,7 @@ In der Softwareentwicklung werden Anforderungen in verschiedene Kategorien unter
 | **Geschäftsanforderungen** | Anforderungen aus Sicht des Unternehmens/Kunden (z. B. Ziele, Nutzen) |
 | **Benutzeranforderungen**  | Anforderungen der Endnutzer an das System (Usability, Funktionen aus Sicht der Nutzer) |
 | **Funktionale Anforderungen** | Konkrete Funktionen, die die Software erfüllen muss |
+| **Nicht-funktionale Anforderungen** | Qualitätsmerkmale wie Leistung, Sicherheit oder Benutzerfreundlichkeit |
 | **Projektanforderungen**   | Rahmenbedingungen (Zeit, Budget, Ressourcen, Organisation) |
 
 ### Details
@@ -56,6 +62,10 @@ In der Softwareentwicklung werden Anforderungen in verschiedene Kategorien unter
   - definieren das Verhalten der Software  
   - werden durch Entwickler/Testabteilungen umgesetzt  
 
+- **Nicht-funktionale Anforderungen**
+  - beschreiben Qualitätsmerkmale wie Leistung, Sicherheit oder Benutzerfreundlichkeit
+  - werden durch Entwickler/Testabteilungen umgesetzt  
+
 - **Projektanforderungen**
   - sichern den Projekterfolg  
   - werden im Rahmen von **Application Lifecycle Management (ALM)** verwaltet  
@@ -64,7 +74,8 @@ In der Softwareentwicklung werden Anforderungen in verschiedene Kategorien unter
 flowchart TD
 A[Geschäftsanforderungen] --> B[Benutzeranforderungen]
 B --> C[Funktionale Anforderungen]
-C --> D[Projektanforderungen]
+C --> D[Nicht-funktionale Anforderungen]
+D --> E[Projektanforderungen]
 ```
 
 ## Praktisches Beispiel
@@ -74,17 +85,18 @@ Ein Online-Shop:
 - **Geschäft:** Umsatz steigern  
 - **Benutzer:** einfache Produktsuche  
 - **Funktional:** Suchfunktion + Warenkorb  
+- **Nicht-funktional:** schnelle Ladezeit, hohe Sicherheit  
 - **Projekt:** Fertigstellung in 6 Monaten mit festem Budget  
 
 ## Prüfungsrelevanz (AP1)
 
 ### Typische Prüfungsfragen
-- Nenne die vier Anforderungsarten
+- Nenne die fünf Anforderungsarten
 - Was ist der Unterschied zwischen Benutzer- und funktionalen Anforderungen?
 - Wer definiert Geschäftsanforderungen?
 
 ### Antworten auf die typischen Prüfungsfragen
-- Geschäfts-, Benutzer-, funktionale und Projektanforderungen  
+- Geschäfts-, Benutzer-, funktionale, nicht-funktionale und Projektanforderungen  
 - Benutzer = Sicht des Nutzers, funktional = konkrete Umsetzung  
 - Management / Marketing  
 

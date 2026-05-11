@@ -13,15 +13,18 @@ tags: ["ap1", "server", "virtualisierung"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Erkläre den Begriff Serverkonsolidierung."
-  answer: "Serverkonsolidierung ist die Zusammenführung mehrerer physischer Server auf weniger leistungsfähige Systeme mittels Virtualisierung, um Ressourcen effizienter zu nutzen sowie Energie- und Platz zu sparen."
-  examples: ["10 physische Server werden auf einem leistungsstarken Server virtualisiert."]
+  answer: "Serverkonsolidierung bedeutet, mehrere physische Server auf weniger, aber leistungsfähigere Systeme zusammenzuführen. Dies geschieht häufig durch Virtualisierung, um Hardware besser auszulasten sowie Energie, Platz und Verwaltungskosten zu sparen."
+  examples:
+    - "10 physische Server werden als virtuelle Maschinen auf einem leistungsstarken Virtualisierungshost betrieben."
+    - "Weniger physische Server bedeuten weniger Stromverbrauch und weniger Platzbedarf."
+    - "Virtualisierung ermöglicht eine bessere Auslastung der vorhandenen Hardware."
 
 # Lifecycle
 status: published      # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Serverkonsolidierung – Definition und Zweck

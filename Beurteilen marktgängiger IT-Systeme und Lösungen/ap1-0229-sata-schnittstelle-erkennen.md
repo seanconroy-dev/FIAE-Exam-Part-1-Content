@@ -13,16 +13,20 @@ tags: ["ap1", "sata", "hardware"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Welche Schnittstelle ist auf dem Bild zu sehen?"
   image: "assets/sata_interface_question.png"
-  answer: "Es handelt sich um eine SATA-Schnittstelle (Serial ATA)."
-  examples: []
+  answer: "Es handelt sich um eine SATA-Schnittstelle, also Serial ATA. SATA wird vor allem zum Anschluss von Massenspeichern wie HDDs, SATA-SSDs oder optischen Laufwerken verwendet."
+  examples:
+    - "SATA → Anschluss für HDDs und SATA-SSDs"
+    - "Serial ATA → serielle Datenübertragung"
+    - "Typisch für interne Laufwerke in PCs"
+    - "SATA ist langsamer als NVMe über PCIe"
 
 # Lifecycle
 status: published  # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## SATA-Schnittstelle: Aufbau und Eigenschaften

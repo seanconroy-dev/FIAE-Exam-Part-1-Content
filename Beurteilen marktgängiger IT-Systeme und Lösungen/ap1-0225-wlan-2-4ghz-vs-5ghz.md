@@ -13,15 +13,20 @@ tags: ["ap1", "wlan", "vergleich"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Was sind die Vor- und Nachteile beim Einsatz eines 2,4-GHz- sowie eines 5-GHz-WLANs?"
-  answer: "2,4 GHz: große Reichweite und hohe Verbreitung, aber geringere Geschwindigkeit und störanfällig (Channel Overlapping). 5 GHz: höhere Datenraten und weniger Störungen, aber geringere Reichweite und stärkere Dämpfung durch Hindernisse."
-  examples: []
+  answer: "2,4 GHz bietet eine größere Reichweite und durchdringt Hindernisse besser, ist aber langsamer und störanfälliger, da viele Geräte diesen Frequenzbereich nutzen. 5 GHz bietet höhere Datenraten und meist weniger Störungen, hat aber eine geringere Reichweite und wird stärker durch Wände oder Hindernisse gedämpft."
+  examples:
+    - "2,4 GHz → größere Reichweite, besser durch Wände"
+    - "2,4 GHz → störanfälliger durch Bluetooth, Mikrowellen oder Nachbar-WLANs"
+    - "5 GHz → höhere Geschwindigkeit und weniger Überlappung"
+    - "5 GHz → kürzere Reichweite und stärkere Dämpfung"
+    - "2,4 GHz eher für Reichweite, 5 GHz eher für Geschwindigkeit"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## WLAN: Unterschiede zwischen 2,4 GHz und 5 GHz

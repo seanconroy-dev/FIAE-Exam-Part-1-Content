@@ -13,15 +13,32 @@ tags: ["ap1", "leasing", "cloud", "kosten"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Vergleiche Leasing, Kauf und Pay-per-use: Welche Option ist über 3 Jahre kostengünstiger?"
-  answer: "Pay-per-use ist am günstigsten (~84.621,60 €), danach Kauf (~130.000 €), am teuersten ist Leasing (~156.000 €)."
-  examples: ["Pay-per-use: 3,22 €/h", "Kauf: 100.000 € + Service", "Leasing: monatliche Raten"]
+  type: steps
+  question: "Vergleiche Leasing, Kauf und Pay-per-use über 3 Jahre: Leasing kostet 4.333,33 € pro Monat, Kauf kostet 100.000 € Anschaffung plus 30.000 € Service, Pay-per-use kostet 3,22 € pro Stunde bei 24/7-Betrieb. Welche Option ist am günstigsten?"
+  answer: |
+    Leasing:
+    4.333,33 € × 36 Monate = 155.999,88 € ≈ 156.000 €
+
+    Kauf:
+    100.000 € + 30.000 € Service = 130.000 €
+
+    Pay-per-use:
+    3 Jahre × 365 Tage × 24 h = 26.280 h
+    26.280 h × 3,22 €/h = 84.621,60 €
+
+    Ergebnis:
+    Pay-per-use ist mit 84.621,60 € am günstigsten, danach Kauf mit 130.000 €, am teuersten ist Leasing mit ca. 156.000 €.
+  examples:
+    - "Leasing: monatliche Rate × 36 Monate"
+    - "Kauf: Anschaffungskosten + Servicekosten"
+    - "Pay-per-use: Stunden × Preis pro Stunde"
+    - "24/7 über 3 Jahre: 3 × 365 × 24 = 26.280 Stunden"
+    - "Reihenfolge: Pay-per-use < Kauf < Leasing"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Kostenvergleich: Leasing vs. Kauf vs. Pay-per-use
@@ -38,7 +55,7 @@ Beim Vergleich von IT-Betriebsmodellen werden die Gesamtkosten über einen Zeitr
 
 | Modell        | Berechnung | Gesamtkosten |
 |--------------|-----------|-------------|
-| **Leasing**  | 36 × 3.500 € + 30.000 € Service | **156.000 €** |
+| **Leasing**  | 36 × 4.333,33 € | **155.999,88 €** ≈ 156.000 € |
 | **Kauf**     | 100.000 € + 30.000 € Service | **130.000 €** |
 | **Pay-per-use** | 3,22 €/h × 24 h × 365 d × 3 Jahre | **84.621,60 €** |
 

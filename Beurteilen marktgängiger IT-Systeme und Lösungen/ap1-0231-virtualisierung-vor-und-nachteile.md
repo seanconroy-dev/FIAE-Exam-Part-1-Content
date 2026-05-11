@@ -15,13 +15,19 @@ tags: ["Vorteile", "Nachteile", "Server", "Kosten", "Skalierung"]
 card:
   type: basic
   question: "Was sind die Vor- und Nachteile der Virtualisierung von Servern und Desktops, auch unter Berücksichtigung von Cloud-Angeboten?"
-  answer: "Vorteile: Stromersparnis, Skalierbarkeit, Redundanz, schnelle Provisionierung, kaum Kapazitätsgrenzen, Nutzung günstiger Angebote, keine Investitionskosten (Cloud), längere Software-Lebensdauer. Nachteile: Nicht immer kostengünstig im 24/7-Betrieb, höhere Latenzen, begrenzte Selbstadministration, Individualisierung eingeschränkt, nicht überall verfügbar."
-  examples: []
+  answer: "Vorteile: bessere Hardwareauslastung, Strom- und Platzersparnis, schnelle Bereitstellung neuer Systeme, einfachere Skalierbarkeit, bessere Möglichkeiten für Redundanz und zentrale Verwaltung sowie geringere Anfangsinvestitionen bei Cloud-Angeboten. Nachteile: Abhängigkeit von Infrastruktur oder Cloud-Anbieter, mögliche Latenzen, laufende Kosten im 24/7-Betrieb, eingeschränkte Individualisierung, höherer Administrationsaufwand und mögliche Verfügbarkeits- oder Datenschutzrisiken."
+  examples:
+    - "Servervirtualisierung: mehrere virtuelle Server laufen auf einem physischen Host"
+    - "Desktopvirtualisierung: Benutzer arbeiten auf virtuellen Desktops, z. B. per VDI"
+    - "Cloud-Vorteil: Ressourcen können schnell hinzugebucht werden"
+    - "Cloud-Nachteil: laufende Kosten können bei Dauerbetrieb hoch werden"
+    - "Risiko: Fällt der Virtualisierungshost aus, können mehrere virtuelle Systeme betroffen sein"
+    - "Merksatz: Virtualisierung spart Hardware und macht flexibler, erhöht aber Abhängigkeit und Verwaltungsaufwand"
 
 # Lifecycle
 status: published
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-11"
 ---
 
 ## Virtualisierung: Vor- und Nachteile (inkl. Cloud)

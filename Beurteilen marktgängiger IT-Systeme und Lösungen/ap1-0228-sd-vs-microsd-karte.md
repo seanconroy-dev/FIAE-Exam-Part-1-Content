@@ -13,16 +13,19 @@ tags: ["ap1", "hardware", "speicher"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Wie unterscheiden sich SD-Karte und microSD-Karte auf dem Bild?"
   image: "assets/sd_vs_microsd_question.png"
-  answer: "Die SD-Karte ist Rechts, die microSD-Karte ist Links. Die SD-Karte ist deutlich größer als die microSD-Karte."
-  examples: []
+  answer: "Links ist eine microSD-Karte, rechts ist eine SD-Karte. Die SD-Karte ist deutlich größer als die microSD-Karte."
+  examples:
+    - "SD-Karte → größere Speicherkarte, z. B. für Kameras"
+    - "microSD-Karte → kleinere Speicherkarte, z. B. für Smartphones, Tablets oder Raspberry Pi"
+    - "microSD-Karten können oft mit einem Adapter in SD-Kartenschächten genutzt werden"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## SD-Karte vs. microSD-Karte erkennen

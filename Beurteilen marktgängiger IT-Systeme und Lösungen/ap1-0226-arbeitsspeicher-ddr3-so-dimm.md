@@ -13,16 +13,21 @@ tags: ["ap1", "hardware", "ram"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+ card:
+  type: basic
   question: "Um welche Speichermodule handelt es sich auf dem Bild?"
   image: "assets/so-dimm_dimmDDR3.png"
-  answer: "Oben ein SO-DIMM (Notebook-RAM) und unten ein DDR3-SDRAM DIMM (Desktop-RAM) ."
-  examples: []
+  answer: "Oben ist ein SO-DIMM, also Notebook-RAM. Unten ist ein DDR3-SDRAM-DIMM, also Desktop-RAM."
+  examples:
+    - "SO-DIMM → kleineres RAM-Modul für Notebooks"
+    - "DIMM → größeres RAM-Modul für Desktop-PCs"
+    - "DDR3-SDRAM → ältere DDR-Speichergeneration"
+    - "Merksatz: SO-DIMM = klein/Notebook, DIMM = groß/Desktop"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Arbeitsspeicher: DDR3 DIMM vs. SO-DIMM

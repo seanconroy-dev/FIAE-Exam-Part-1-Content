@@ -13,16 +13,20 @@ tags: ["ap1", "ssd", "nvme"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Was für ein Modul ist auf diesem Bild dargestellt?"
   image: "assets/SSD-NvMe-M2-small.png"
-  answer: "Eine NVMe-SSD im M.2-Formfaktor, die über PCIe angebunden ist."
-  examples: []
+  answer: "Dargestellt ist eine M.2-SSD mit NVMe-Protokoll. Sie wird über PCIe angebunden und ermöglicht dadurch hohe Datenübertragungsraten."
+  examples:
+    - "M.2 → Formfaktor/Bauform"
+    - "NVMe → schnelles Speicherprotokoll"
+    - "PCIe → Anbindung an das System"
+    - "Typisch für schnelle SSDs in PCs und Notebooks"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## NVMe M.2 SSD: Aufbau und Eigenschaften

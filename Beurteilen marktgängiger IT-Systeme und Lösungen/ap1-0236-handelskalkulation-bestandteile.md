@@ -13,15 +13,20 @@ tags: ["ap1", "handelskalkulation", "zuschlagskalkulation"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: comparison
   question: "Wie ist eine Handelskalkulation aufgebaut und wie unterscheidet sie sich von der Zuschlagskalkulation?"
-  answer: "Handelskalkulation: Listeneinkaufspreis → Zieleinkaufspreis → Bareinkaufspreis → Bezugspreis → Selbstkosten → Barverkaufspreis → Zielverkaufspreis → Listenverkaufspreis. Unterschied: Zuschlagskalkulation berechnet Selbstkosten aus Herstellkosten (Material, Lohn, Gemeinkosten)."
-  examples: ["Rabatt und Skonto im Einkauf", "Gewinnaufschlag im Verkauf"]
+  answer: "Die Handelskalkulation wird vor allem im Warenhandel genutzt. Sie führt vom Listeneinkaufspreis über Rabatte, Skonto, Bezugskosten, Handlungskosten und Gewinn zum Listenverkaufspreis. Die Zuschlagskalkulation wird eher in der Fertigung genutzt und berechnet Selbstkosten aus Einzelkosten und Gemeinkosten, z. B. Materialkosten, Lohnkosten und Gemeinkostenzuschläge."
+  examples:
+    - "Handelskalkulation: Listeneinkaufspreis → Zieleinkaufspreis → Bareinkaufspreis → Bezugspreis → Selbstkosten → Barverkaufspreis → Zielverkaufspreis → Listenverkaufspreis"
+    - "Handelskalkulation: typisch für Einkauf und Verkauf von Waren"
+    - "Zuschlagskalkulation: typisch für Produktion oder Dienstleistungen"
+    - "Zuschlagskalkulation: Materialeinzelkosten + Materialgemeinkosten + Fertigungskosten + Verwaltung + Vertrieb"
+    - "Merksatz: Handel kalkuliert vom Einkauf zum Verkauf, Zuschlagskalkulation rechnet Kosten über Zuschläge zusammen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Handelskalkulation: Bestandteile und Abgrenzung zur Zuschlagskalkulation

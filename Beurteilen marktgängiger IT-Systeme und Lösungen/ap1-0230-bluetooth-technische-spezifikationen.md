@@ -14,14 +14,20 @@ tags: ["ap1", "netzwerke", "drahtlos", "ism-band"]
 # Flashcard payload
 card:
   type: basic
-  question: "Was sind die technischen Spezifikationen von Bluetooth hinsichtlich Reichweite, Datentransferrate und Frequenzbereich?"
-  answer: "Reichweite: Klasse 1 ≈ 200 m (100 mW), Klasse 2 ≈ 20 m (2,5 mW), Klasse 3 ≈ 10 m (1 mW). Datentransferrate: Basic Rate ≈ 1 MBit/s, Enhanced Data Rate ≈ 2–3 MBit/s. Frequenzbereich: 2,402–2,480 GHz (ISM-Band)."
-  examples: []
+  question: "Was sind typische technische Spezifikationen von Bluetooth hinsichtlich Reichweite, Datentransferrate und Frequenzbereich?"
+  answer: "Bluetooth arbeitet im 2,4-GHz-ISM-Band, ungefähr von 2,402 bis 2,480 GHz. Die Reichweite hängt von der Leistungsklasse ab: Klasse 1 ca. 100 m, Klasse 2 ca. 10 m und Klasse 3 ca. 1 m. Die Datenrate hängt vom Bluetooth-Standard ab, z. B. Basic Rate ca. 1 MBit/s und Enhanced Data Rate bis ca. 2 bis 3 MBit/s."
+  examples:
+    - "Klasse 1 → ca. 100 m, hohe Sendeleistung"
+    - "Klasse 2 → ca. 10 m, typisch für viele mobile Geräte"
+    - "Klasse 3 → ca. 1 m, sehr geringe Reichweite"
+    - "Frequenzbereich → 2,402 bis 2,480 GHz"
+    - "Basic Rate → ca. 1 MBit/s"
+    - "Enhanced Data Rate → bis ca. 2 bis 3 MBit/s"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-30"
+updated: "2026-05-11"
 ---
 
 ## Bluetooth: Reichweite, Datenrate und Frequenzbereich
@@ -33,9 +39,9 @@ Bluetooth ist ein drahtloser Kommunikationsstandard im **ISM-Band**, der sich du
 ### 1. Reichweite (abhängig von Sendeleistung)
 | Klasse | Sendeleistung | Reichweite (typisch) |
 |--------|--------------|----------------------|
-| Klasse 1 | 100 mW (20 dBm) | ca. 200 m |
-| Klasse 2 | 2,5 mW (4 dBm) | ca. 20 m |
-| Klasse 3 | 1 mW (0 dBm) | ca. 10 m |
+| Klasse 1 | 100 mW (20 dBm) | ca. 100 m |
+| Klasse 2 | 2,5 mW (4 dBm) | ca. 10 m |
+| Klasse 3 | 1 mW (0 dBm) | ca. 1 m |
 
 ➡️ Höhere Leistung = größere Reichweite, aber höherer Energieverbrauch.
 
@@ -69,7 +75,7 @@ Bluetooth ist ein drahtloser Kommunikationsstandard im **ISM-Band**, der sich du
   → Reichweite ca. 10–20 m, ausreichend für Wohnung
 
 - **Industrieanwendung (Klasse 1)**  
-  → größere Reichweite bis 200 m erforderlich
+  → größere Reichweite bis 100 m erforderlich
 
 ---
 
@@ -82,7 +88,7 @@ Bluetooth ist ein drahtloser Kommunikationsstandard im **ISM-Band**, der sich du
 - Warum nutzt Bluetooth das ISM-Band?
 
 ### Antworten auf die typischen Prüfungsfragen
-- 3 Klassen: 1 (200 m), 2 (20 m), 3 (10 m)
+- 3 Klassen: 1 (100 m), 2 (10 m), 3 (1 m)
 - BR: 1 MBit/s, EDR: 2–3 MBit/s
 - 2,402–2,480 GHz
 - Lizenzfrei, weltweit nutzbar

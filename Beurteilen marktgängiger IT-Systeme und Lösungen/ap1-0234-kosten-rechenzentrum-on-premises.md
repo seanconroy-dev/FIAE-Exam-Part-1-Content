@@ -13,15 +13,20 @@ tags: ["ap1", "kosten", "server"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Mit welchen Kosten muss für ein On-Premises-Rechenzentrum mit einer Server-Client-Struktur gerechnet werden?"
-  answer: "Kosten für Gebäude/Raum, Anschaffung (Hardware/Software), Leasing/Miete, Lizenzen, Energiekosten, Wartung, Sicherheitstechnik, Brandschutz und Versicherungen."
-  examples: ["Serverhardware kaufen", "Stromkosten für Kühlung", "Softwarelizenzen"]
+  answer: "Bei einem On-Premises-Rechenzentrum entstehen Kosten für Räume oder Gebäude, Server- und Client-Hardware, Netzwerk- und Sicherheitstechnik, Softwarelizenzen, Energie, Kühlung, Wartung, Administration, Brandschutz, Versicherungen sowie ggf. Leasing oder Miete."
+  examples:
+    - "Anschaffungskosten: Server, Clients, Switches, Firewall und Storage"
+    - "Betriebskosten: Strom, Kühlung, Wartung und Administration"
+    - "Lizenzkosten: Betriebssysteme, Serverdienste und Fachanwendungen"
+    - "Sicherheitskosten: Zutrittskontrolle, Brandschutz und Backup-Systeme"
+    - "Raumkosten: Serverraum, Rack, Klimatisierung und Versicherung"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Kosten eines Rechenzentrums (On-Premises)
