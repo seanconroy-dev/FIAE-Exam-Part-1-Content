@@ -13,7 +13,6 @@ tags: ["ap1", "hardware", "ram"]
 
 # Flashcard payload
 card:
- card:
   type: basic
   question: "Um welche Speichermodule handelt es sich auf dem Bild?"
   image: "assets/so-dimm_dimmDDR3.png"
