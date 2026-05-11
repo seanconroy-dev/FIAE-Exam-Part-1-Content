@@ -13,15 +13,22 @@ tags: ["ap1", "sicherheit", "grundlagen", "risiken"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was versteht man unter Datensicherheit und welche Schutzziele gehören dazu?"
-  answer: "Datensicherheit umfasst Maßnahmen zum Schutz von Daten vor Gefahren und zielt auf die Schutzziele Vertraulichkeit, Integrität und Verfügbarkeit ab."
-  examples: []
+  type: definition
+  question: "Was bedeutet Datensicherheit und welche Schutzziele gehören dazu?"
+  answer: "Datensicherheit umfasst Maßnahmen zum Schutz von Daten vor Verlust, Manipulation und unbefugtem Zugriff. Die wichtigsten Schutzziele sind Vertraulichkeit, Integrität und Verfügbarkeit."
+  examples:
+    - "Vertraulichkeit: Nur berechtigte Personen dürfen Daten sehen"
+    - "Integrität: Daten dürfen nicht unbemerkt verändert werden"
+    - "Verfügbarkeit: Daten und Systeme müssen bei Bedarf nutzbar sein"
+    - "Beispiel Vertraulichkeit: Zugriffsschutz durch Passwort oder Rechteverwaltung"
+    - "Beispiel Integrität: Prüfsummen oder Protokollierung von Änderungen"
+    - "Beispiel Verfügbarkeit: Backup, RAID oder unterbrechungsfreie Stromversorgung"
+    - "Merksatz: Datensicherheit = Daten vertraulich, korrekt und verfügbar halten"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Datensicherheit und Schutzziele

@@ -13,15 +13,22 @@ tags: ["ap1", "sicherheit", "recht", "cia"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: comparison
   question: "Was ist der Unterschied zwischen Datensicherheit und Datenschutz?"
-  answer: "Datensicherheit schützt alle Daten technisch und organisatorisch (Vertraulichkeit, Integrität, Verfügbarkeit), während Datenschutz speziell personenbezogene Daten und die Rechte der betroffenen Personen schützt."
-  examples: []
+  answer: "Datensicherheit schützt Daten allgemein vor Verlust, Manipulation und unbefugtem Zugriff. Datenschutz schützt speziell personenbezogene Daten und die Rechte der betroffenen Personen."
+  examples:
+    - "Datensicherheit: Backup gegen Datenverlust"
+    - "Datensicherheit: Passwortschutz und Rechteverwaltung"
+    - "Datensicherheit: Schutz von Kundendaten, Projektdaten oder Systemdaten"
+    - "Datenschutz: Schutz personenbezogener Daten wie Name, Adresse oder Geburtsdatum"
+    - "Datenschutz: Einhaltung der DSGVO"
+    - "Datenschutz: Betroffene Personen haben Rechte, z. B. Auskunft oder Löschung"
+    - "Merksatz: Datensicherheit schützt Daten, Datenschutz schützt Menschen hinter den Daten"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Unterschied zwischen Datensicherheit und Datenschutz
@@ -33,7 +40,7 @@ Datensicherheit und Datenschutz werden oft verwechselt, verfolgen aber unterschi
 ## Kernerklärung
 
 ### Datensicherheit
-- Ziel: Schutz von Daten vor Verlust, Manipulation und Zugriff
+- Ziel: Schutz von Daten vor Verlust, Manipulation und unbefugtem Zugriff
 - Gilt für **alle Daten**
 - Fokus auf technische und organisatorische Maßnahmen
 - Schutzziele:

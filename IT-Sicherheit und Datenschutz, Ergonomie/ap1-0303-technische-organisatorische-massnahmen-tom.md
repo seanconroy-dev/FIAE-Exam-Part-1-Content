@@ -13,15 +13,23 @@ tags: ["ap1", "recht", "sicherheit", "organisation"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie definiert man im Datenschutz technisch-organisatorische Maßnahmen (TOM)?"
-  answer: "Technisch-organisatorische Maßnahmen (TOM) sind Maßnahmen nach DSGVO, die sicherstellen, dass personenbezogene Daten nur zweckgebunden, minimal, sicher und nur für Berechtigte verarbeitet werden."
-  examples: []
+  type: definition
+  question: "Was sind technisch-organisatorische Maßnahmen (TOM)?"
+  answer: "TOM sind technische und organisatorische Maßnahmen zum Schutz personenbezogener Daten. Sie sollen sicherstellen, dass Daten nur berechtigt, sicher und zweckgebunden verarbeitet werden."
+  examples:
+    - "Technisch: Passwortschutz und Zugriffskontrolle"
+    - "Technisch: Verschlüsselung personenbezogener Daten"
+    - "Technisch: Backups und Wiederherstellung"
+    - "Technisch: Protokollierung von Zugriffen"
+    - "Organisatorisch: Berechtigungskonzept und Rollenverteilung"
+    - "Organisatorisch: Schulungen zum Datenschutz"
+    - "Organisatorisch: klare Prozesse für Löschung und Auskunft"
+    - "Merksatz: TOM = technische und organisatorische Schutzmaßnahmen für personenbezogene Daten"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Technisch-organisatorische Maßnahmen (TOM)

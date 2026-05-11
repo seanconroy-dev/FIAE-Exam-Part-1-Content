@@ -13,15 +13,23 @@ tags: ["ap1", "ds-gvo", "sicherheit", "maßnahmen"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie können technisch-organisatorische Maßnahmen (TOM) DSGVO-konform in der Praxis umgesetzt werden?"
-  answer: "Durch Zutritts-, Zugangs-, Zugriffs-, Weitergabe-, Eingabe-, Auftrags-, Verfügbarkeits- und Trennungskontrollen."
-  examples: []
-
+  type: multi
+  question: "Wie können TOM nach DSGVO praktisch umgesetzt werden?"
+  answer: "TOM können durch verschiedene Kontrollen umgesetzt werden, z. B. Zutrittskontrolle, Zugangskontrolle, Zugriffskontrolle, Weitergabekontrolle, Eingabekontrolle, Auftragskontrolle, Verfügbarkeitskontrolle und Trennungskontrolle."
+  examples:
+    - "Zutrittskontrolle: Räume mit Servern nur für berechtigte Personen zugänglich machen"
+    - "Zugangskontrolle: Anmeldung mit Passwort, MFA oder Chipkarte"
+    - "Zugriffskontrolle: Benutzer dürfen nur auf benötigte Daten zugreifen"
+    - "Weitergabekontrolle: Datenübertragung verschlüsseln"
+    - "Eingabekontrolle: nachvollziehen, wer Daten eingegeben oder geändert hat"
+    - "Auftragskontrolle: Dienstleister nur nach klaren Datenschutzregeln einsetzen"
+    - "Verfügbarkeitskontrolle: Backups, USV und Wiederherstellungskonzepte nutzen"
+    - "Trennungskontrolle: Daten verschiedener Zwecke oder Kunden getrennt verarbeiten"
+    - "Merksatz: TOM = kontrollieren, wer was mit welchen Daten machen darf"
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Konkrete Maßnahmen der TOM (DSGVO)

@@ -13,15 +13,21 @@ tags: ["ap1", "din-66399", "sicherheit", "entsorgung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Worauf muss beim Verschrotten von Datenträgern unbedingt geachtet werden?"
-  answer: "Alle Daten müssen vor der Entsorgung sicher gelöscht oder zerstört werden, z. B. durch mechanische, magnetische oder thermische Verfahren nach DIN 66399."
-  examples: []
-
+  type: multi
+  question: "Worauf muss beim Verschrotten von Datenträgern geachtet werden?"
+  answer: "Beim Verschrotten von Datenträgern muss sichergestellt werden, dass keine Daten wiederhergestellt werden können. Normales Löschen reicht nicht aus. Daten müssen sicher gelöscht oder der Datenträger muss fachgerecht zerstört werden, z. B. durch Überschreiben, Entmagnetisieren oder mechanische Zerstörung nach DIN 66399."
+  examples:
+    - "HDD: Daten sicher überschreiben oder Festplatte mechanisch zerstören"
+    - "SSD: Secure Erase oder physische Zerstörung verwenden"
+    - "Mechanisch: schreddern, bohren oder zerstören"
+    - "Magnetisch: Entmagnetisierung bei geeigneten magnetischen Datenträgern"
+    - "Organisatorisch: Entsorgung dokumentieren"
+    - "DIN 66399: Standard für sichere Vernichtung von Datenträgern"
+    - "Merksatz: Vor dem Verschrotten müssen Daten unwiederbringlich weg sein"
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Vernichtung von Datenträgern

@@ -13,15 +13,21 @@ tags: ["ap1", "grundlagen", "datenschutz", "prinzipien"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was sind die Ziele der Datenminimierung?"
-  answer: "Nur so viele personenbezogene Daten wie nötig erheben und speichern, um Betroffene vor übermäßiger Datenspeicherung und Missbrauch zu schützen."
-  examples: []
+  type: definition
+  question: "Was bedeutet Datenminimierung?"
+  answer: "Datenminimierung bedeutet, dass nur die personenbezogenen Daten erhoben, verarbeitet und gespeichert werden dürfen, die für einen bestimmten Zweck wirklich notwendig sind."
+  examples:
+    - "Nur Name und E-Mail-Adresse abfragen, wenn keine Telefonnummer nötig ist"
+    - "Keine Geburtsdaten speichern, wenn sie für den Zweck nicht gebraucht werden"
+    - "Formulare nur mit notwendigen Pflichtfeldern gestalten"
+    - "Daten löschen, wenn sie nicht mehr benötigt werden"
+    - "Ziel: weniger unnötige Datenspeicherung und geringeres Missbrauchsrisiko"
+    - "Merksatz: Datenminimierung = so wenig personenbezogene Daten wie möglich, so viel wie nötig"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Ziele der Datenminimierung

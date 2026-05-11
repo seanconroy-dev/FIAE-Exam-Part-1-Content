@@ -13,15 +13,22 @@ tags: ["ap1", "sicherheit", "management", "risiken"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: multi
   question: "Welche Vorteile bringt eine ISO/IEC 27001 Zertifizierung für Unternehmen?"
-  answer: "Minimierung von IT-Risiken, Abschätzung von Schäden, Wettbewerbsvorteil, Vertrauenssteigerung, Sicherstellung von Compliance und Aufdeckung von Schwachstellen."
-  examples: []
+  answer: "Eine ISO/IEC 27001 Zertifizierung zeigt, dass ein Unternehmen Informationssicherheit systematisch über ein ISMS organisiert. Vorteile sind geringere IT-Risiken, bessere Erkennung von Schwachstellen, höhere Rechtssicherheit, mehr Vertrauen bei Kunden und Partnern sowie ein möglicher Wettbewerbsvorteil."
+  examples:
+    - "Risikominimierung: IT-Risiken werden systematisch bewertet und reduziert"
+    - "Schwachstellen: Sicherheitslücken können früher erkannt werden"
+    - "Vertrauen: Kunden sehen, dass Informationssicherheit ernst genommen wird"
+    - "Compliance: gesetzliche und vertragliche Anforderungen werden besser erfüllt"
+    - "Wettbewerbsvorteil: Zertifizierung kann bei Ausschreibungen hilfreich sein"
+    - "Organisation: klare Prozesse, Verantwortlichkeiten und Sicherheitsmaßnahmen"
+    - "Merksatz: ISO/IEC 27001 = nachweisbar organisiertes Informationssicherheitsmanagement"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Vorteile der ISO/IEC 27001 Zertifizierung
