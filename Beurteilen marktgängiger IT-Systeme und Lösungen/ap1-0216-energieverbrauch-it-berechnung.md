@@ -14,14 +14,33 @@ tags: ["leistung", "kwh", "verbrauch"]
 # Flashcard payload
 card:
   type: basic
-  question: "Wie berechnet man die Gesamtleistungsaufnahme einer IT-Landschaft für ein Jahr im 24/7-Betrieb?"
-  answer: "10 Server à 800 W = 8 kW, 25 PCs à 350 W = 8,75 kW, 2 Switches à 200 W = 0,4 kW → Gesamt: 17,15 kW; Jahresverbrauch: 17,15 kW × 8.760 h = 150.234 kWh."
-  examples: []
+  question: "Berechne den Jahresstromverbrauch einer IT-Landschaft im 24/7-Betrieb: 10 Server mit je 800 W, 25 PCs mit je 350 W und 2 Switches mit je 200 W."
+  answer: |
+    1. Gesamtleistung berechnen:
+    10 Server × 800 W = 8.000 W = 8 kW
+    25 PCs × 350 W = 8.750 W = 8,75 kW
+    2 Switches × 200 W = 400 W = 0,4 kW
+
+    Gesamtleistung:
+    8 kW + 8,75 kW + 0,4 kW = 17,15 kW
+
+    2. Jahresstunden bei 24/7-Betrieb:
+    24 h × 365 Tage = 8.760 h
+
+    3. Jahresverbrauch berechnen:
+    17,15 kW × 8.760 h = 150.234 kWh
+
+    Ergebnis: Die IT-Landschaft verbraucht pro Jahr 150.234 kWh.
+  examples:
+    - "Watt zuerst in Kilowatt umrechnen: 1.000 W = 1 kW"
+    - "24/7-Betrieb pro Jahr: 24 × 365 = 8.760 Stunden"
+    - "Formel: Energieverbrauch = Leistung in kW × Zeit in Stunden"
+    - "Merksatz: kW × h = kWh"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-11"
 ---
 
 ## Energieverbrauch einer IT-Landschaft berechnen

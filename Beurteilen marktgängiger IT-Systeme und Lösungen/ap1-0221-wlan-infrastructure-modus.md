@@ -13,15 +13,20 @@ tags: ["ap1", "wlan", "grundlagen"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Wie funktioniert ein WLAN Access Point im Infrastructure-Modus?"
-  answer: "Clients verbinden sich über den Access Point mit einem Netzwerk und authentifizieren sich (z. B. per WPA2/WPA3, RADIUS oder WPS), um Zugriff auf z. B. das Unternehmensnetzwerk zu erhalten."
-  examples: []
+  answer: "Im Infrastructure-Modus verbinden sich WLAN-Clients nicht direkt miteinander, sondern über einen Access Point. Der Access Point stellt die Verbindung zum kabelgebundenen Netzwerk her und ermöglicht den Zugriff auf Dienste wie Internet, Server oder Unternehmensnetzwerk. Die Authentifizierung erfolgt z. B. über WPA2, WPA3 oder RADIUS."
+  examples:
+    - "Notebook verbindet sich per WLAN mit dem Access Point"
+    - "Access Point verbindet WLAN-Clients mit dem LAN"
+    - "Clients kommunizieren über den Access Point, nicht direkt miteinander"
+    - "In Unternehmen kann die Anmeldung über WPA2/WPA3-Enterprise mit RADIUS erfolgen"
+    - "Infrastructure-Modus = WLAN mit zentralem Access Point"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## WLAN Infrastructure Mode: Bedeutung und Funktionsweise

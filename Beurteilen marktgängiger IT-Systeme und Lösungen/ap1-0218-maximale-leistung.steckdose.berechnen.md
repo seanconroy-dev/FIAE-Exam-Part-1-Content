@@ -14,14 +14,33 @@ tags: ["leistung", "spannung", "strom", "berechnung"]
 # Flashcard payload
 card:
   type: basic
-  question: "Wodurch ergibt sich die maximale Leistung einer Steckdose (z. B. 230 V, 16 A)?"
-  answer: "Mit P = U · I → 230 V × 16 A = 3.680 W (≈ 3,68 kW)."
-  examples: ["230 V × 16 A = 3.680 W"]
+  question: "Wie berechnet man die maximale Leistung einer Steckdose mit 230 V Spannung und 16 A Absicherung?"
+  answer: |
+    Die maximale Leistung wird mit folgender Formel berechnet:
+
+    P = U × I
+
+    P = Leistung in Watt (W)
+    U = Spannung in Volt (V)
+    I = Stromstärke in Ampere (A)
+
+    Beispiel:
+    230 V × 16 A = 3.680 W
+
+    Umrechnung in Kilowatt:
+    3.680 W ÷ 1.000 = 3,68 kW
+
+    Ergebnis: Eine Steckdose mit 230 V und 16 A kann maximal etwa 3.680 W bzw. 3,68 kW liefern.
+  examples:
+    - "Formel: P = U × I"
+    - "230 V × 16 A = 3.680 W"
+    - "3.680 W = 3,68 kW"
+    - "Merksatz: Volt mal Ampere ergibt Watt"
 
 # Lifecycle
 status: published
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Maximale Leistung einer Steckdose berechnen

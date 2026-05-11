@@ -13,15 +13,21 @@ tags: ["ap1", "wlan", "optimierung"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Welche Maßnahmen verbessern die WLAN-Empfangsqualität?"
-  answer: "Repeater einsetzen, Sendeleistung erhöhen (z. B. bessere Antennen), Access Point anders positionieren, anderen WLAN-Standard wählen, zusätzliche Access Points installieren, Antennencharakteristik anpassen."
-  examples: []
+  answer: "Die WLAN-Empfangsqualität kann durch eine bessere Positionierung des Access Points, zusätzliche Access Points oder Repeater, passende Antennen, Wahl eines weniger belegten Funkkanals, Reduzierung von Störquellen und Nutzung eines geeigneten WLAN-Standards verbessert werden."
+  examples:
+    - "Access Point zentraler und höher positionieren"
+    - "Störquellen wie Mikrowellen, dicke Wände oder Metallflächen vermeiden"
+    - "Weniger belegten WLAN-Kanal wählen"
+    - "Zusätzlichen Access Point oder Repeater einsetzen"
+    - "Passenden WLAN-Standard nutzen, z. B. Wi-Fi 5 oder Wi-Fi 6"
+    - "Antennenposition oder Antennencharakteristik anpassen"
 
 # Lifecycle
 status: published      # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## WLAN: Maßnahmen zur Verbesserung der Empfangsqualität

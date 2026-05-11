@@ -15,13 +15,18 @@ tags: ["waermeleitpaste", "cpu", "kuehler"]
 card:
   type: definition
   question: "Welchen Zweck hat die Wärmeleitpaste zwischen der CPU und dem Kühler?"
-  answer: "Wärmeleitpaste verbessert die Wärmeübertragung zwischen CPU und Kühler, indem sie Unebenheiten ausgleicht und so eine effiziente Kühlung ermöglicht."
-  examples: []
+  answer: "Wärmeleitpaste verbessert die Wärmeübertragung zwischen CPU und Kühler. Sie gleicht kleine Unebenheiten und Luftspalte zwischen den Kontaktflächen aus, damit Wärme effizienter an den Kühler abgegeben werden kann."
+  examples:
+    - "Füllt mikroskopisch kleine Unebenheiten zwischen CPU und Kühler"
+    - "Verbessert den Kontakt zwischen Heatspreader und Kühlerboden"
+    - "Hilft, die CPU-Temperatur zu senken"
+    - "Zu viel Wärmeleitpaste kann die Wärmeübertragung verschlechtern"
+    - "Merksatz: Wärmeleitpaste ersetzt Luftspalte, nicht den Kühler"
 
 # Lifecycle
 status: published
 created: "2026-03-17"
-updated: "2026-03-17"
+updated: "2026-05-11"
 ---
 
 ## Wärmeleitpaste – Funktion und Aufgabe
