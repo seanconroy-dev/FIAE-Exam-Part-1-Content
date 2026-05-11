@@ -13,15 +13,22 @@ tags: ["ap1", "lastenheft", "anforderungen"]
 
 # Flashcard payload
 card:
-  type: definition       # basic | multi | steps | definition | comparison
+  type: definition
   question: "Welche Inhalte enthält ein Lastenheft?"
-  answer: "Das Lastenheft beschreibt die Gesamtheit der Anforderungen (funktional und nicht-funktional) des Auftraggebers an das zu entwickelnde Produkt."
-  examples: ["Funktionale Anforderungen eines Systems", "Lieferumfang und Lieferzeiten eines Projekts"]
+  answer: "Ein Lastenheft enthält die Anforderungen des Auftraggebers an ein Produkt oder Projekt. Dazu gehören Ausgangssituation, Zielsetzung, funktionale und nicht-funktionale Anforderungen, Rahmenbedingungen, Lieferumfang, Termine und Abnahmekriterien."
+  examples:
+    - "Ausgangssituation und Problemstellung"
+    - "Ziele des Projekts"
+    - "Funktionale Anforderungen an das System"
+    - "Nicht-funktionale Anforderungen, z. B. Leistung, Sicherheit oder Benutzerfreundlichkeit"
+    - "Lieferumfang und Liefertermine"
+    - "Abnahmekriterien"
+    - "Merksatz: Lastenheft = Was und wofür aus Sicht des Auftraggebers"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Lastenheft

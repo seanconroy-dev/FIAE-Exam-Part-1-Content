@@ -13,15 +13,20 @@ tags: ["ap1", "partition", "formatierung", "dateisystem"]
 
 # Flashcard payload
 card:
-  type: comparison       # basic | multi | steps | definition | comparison
+  type: comparison
   question: "Was ist der Unterschied zwischen Partitionierung und Formatierung eines Datenträgers?"
-  answer: "Partitionierung teilt den Datenträger in logische Bereiche (Volumes). Formatierung richtet innerhalb einer Partition ein Dateisystem (z. B. NTFS) ein."
-  examples: ["Festplatte in C: und D: aufteilen (Partitionierung)", "NTFS auf C: einrichten (Formatierung)"]
+  answer: "Partitionierung teilt einen Datenträger in logische Bereiche, sogenannte Partitionen oder Volumes. Formatierung richtet innerhalb einer Partition ein Dateisystem ein, z. B. NTFS, FAT32 oder exFAT, damit Daten gespeichert und verwaltet werden können."
+  examples:
+    - "Partitionierung → Festplatte in C: und D: aufteilen"
+    - "Formatierung → NTFS auf C: einrichten"
+    - "Erst partitionieren, dann formatieren"
+    - "Partition = Bereich auf dem Datenträger"
+    - "Dateisystem = Struktur zur Speicherung von Dateien"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Partitionierung vs. Formatierung

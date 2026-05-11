@@ -13,15 +13,21 @@ tags: ["ap1", "download", "bandbreite", "rechnung"]
 
 # Flashcard payload
 card:
-  type: steps       # basic | multi | steps | definition | comparison
-  question: "Wie lange dauert der Download einer 2 GiB großen Datei über eine 50 Mbit/s ADSL-Verbindung?"
-  answer: "≈ 5 Minuten und 44 Sekunden"
-  examples: ["Downloadzeit bei gegebenen Datenmengen berechnen"]
-
+  type: steps
+  question: "Wie berechnet man die Downloadzeit für eine 2 GiB große Datei bei einer Übertragungsgeschwindigkeit von 50 Mbit/s?"
+  answer: "Die Datei zuerst von GiB in Bit umrechnen und dann durch die Übertragungsgeschwindigkeit teilen. 2 GiB = 2 × 1024³ Byte × 8 = 17.179.869.184 Bit. 17.179.869.184 Bit ÷ 50.000.000 Bit/s ≈ 344 Sekunden. Das sind etwa 5 Minuten und 44 Sekunden."
+  examples:
+    - "Formel: Zeit = Datenmenge ÷ Übertragungsgeschwindigkeit"
+    - "1 Byte = 8 Bit"
+    - "2 GiB = 17.179.869.184 Bit"
+    - "50 Mbit/s = 50.000.000 Bit/s"
+    - "17.179.869.184 ÷ 50.000.000 ≈ 344 Sekunden"
+    - "344 Sekunden ≈ 5 Minuten und 44 Sekunden"
+    - "Typischer Fehler: Mbit/s nicht mit MB/s verwechseln"
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Downloadzeit berechnen – Beispiel

@@ -13,16 +13,20 @@ tags: ["ap1", "displayport", "anschlüsse"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Um welchen digitalen Anschluss handelt es sich auf dem Bild?"
   image: "assets/displayport_port_question.png"
-  answer: "DisplayPort (inkl. Mini-DisplayPort) – digitale Schnittstelle für Bild- und Tonübertragung."
-  examples: ["Anschluss eines Monitors an den PC", "Verbindung Laptop zu externem Display"]
+  answer: "Es handelt sich um einen DisplayPort-Anschluss. DisplayPort ist eine digitale Schnittstelle zur Übertragung von Bild- und Tonsignalen. Mini-DisplayPort gehört ebenfalls zur DisplayPort-Familie, hat aber eine kleinere Bauform."
+  examples:
+    - "DisplayPort → Anschluss eines Monitors an einen PC"
+    - "Mini-DisplayPort → kleinere Variante, z. B. bei manchen Notebooks"
+    - "Überträgt digitale Bild- und Tonsignale"
+    - "Wird häufig für externe Monitore verwendet"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## DisplayPort – Digitale Schnittstelle

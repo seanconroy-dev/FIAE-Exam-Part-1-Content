@@ -13,15 +13,21 @@ tags: ["ap1", "bios", "uefi"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: comparison
   question: "Worin unterscheiden sich BIOS und UEFI?"
-  answer: "UEFI: moderner, grafische Oberfläche, Mausbedienung, unterstützt große Laufwerke (>2 TB), GPT und 64-Bit. BIOS: älter, keine Maus, nur MBR, max. 2 TB, eingeschränkte Funktionalität."
-  examples: ["Neuer PC nutzt UEFI", "Alte Systeme nutzen BIOS"]
+  answer: "BIOS ist die ältere Firmware-Schnittstelle zum Starten eines Computers und arbeitet meist mit MBR-Partitionierung. UEFI ist der moderne Nachfolger, unterstützt grafische Oberflächen, Mausbedienung, GPT-Partitionierung, Secure Boot und das Booten von großen Laufwerken über 2 TB. BIOS ist einfacher und stärker eingeschränkt, UEFI bietet mehr Funktionen und bessere Unterstützung moderner Hardware."
+  examples:
+    - "BIOS → älteres Startsystem, häufig mit MBR"
+    - "UEFI → moderner Nachfolger von BIOS"
+    - "UEFI unterstützt GPT und große Laufwerke über 2 TB"
+    - "UEFI kann Secure Boot unterstützen"
+    - "Neue PCs nutzen meist UEFI"
+    - "Merksatz: BIOS = alt/MBR, UEFI = modern/GPT/Secure Boot"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## BIOS vs. UEFI – Vergleich

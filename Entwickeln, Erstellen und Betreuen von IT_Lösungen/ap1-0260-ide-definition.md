@@ -13,15 +13,21 @@ tags: ["ap1", "ide", "entwicklung"]
 
 # Flashcard payload
 card:
-  type: definition       # basic | multi | steps | definition | comparison
-  question: "Wie definiert man in der Anwendungsentwicklung den Begriff IDE?"
-  answer: "Eine IDE ist eine integrierte Entwicklungsumgebung, die verschiedene Werkzeuge zur Softwareentwicklung unter einer einheitlichen Oberfläche vereint."
-  examples: ["Eclipse", "Visual Studio", "IntelliJ IDEA"]
+  type: definition
+  question: "Was ist eine IDE?"
+  answer: "Eine IDE ist eine integrierte Entwicklungsumgebung. Sie bündelt wichtige Werkzeuge zum Programmieren in einem Programm, z. B. Code-Editor, Compiler oder Interpreter, Debugger und Projektverwaltung."
+  examples:
+    - "Eclipse"
+    - "IntelliJ IDEA"
+    - "Visual Studio"
+    - "Visual Studio Code"
+    - "NetBeans"
+    - "Merksatz: IDE = Programmierumgebung mit mehreren Entwicklungswerkzeugen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## IDE (Integrierte Entwicklungsumgebung)

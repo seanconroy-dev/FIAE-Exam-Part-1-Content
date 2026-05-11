@@ -13,15 +13,21 @@ tags: ["ap1", "thin-client", "vorteile", "vdI"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Welchen Nutzen haben Thin Clients in einer IT-Landschaft, die auf Desktop-Virtualisierung setzt?"
-  answer: "Geringer Stromverbrauch, leise, wenig Platzbedarf, leicht austauschbar, flexibel einsetzbar, geringes Gewicht, umweltfreundlich, sicher durch read-only System."
-  examples: ["Thin Client im Büro statt Desktop-PC", "VDI-Umgebung mit zentralen Servern"]
+  answer: "Thin Clients sind in VDI-Umgebungen platzsparend, leise, energieeffizient, leicht austauschbar und einfach zentral zu verwalten. Da Anwendungen und Daten überwiegend auf Servern laufen, können Wartung, Sicherheit und Datensicherung zentral organisiert werden."
+  examples:
+    - "Thin Client im Büro statt vollwertigem Desktop-PC"
+    - "VDI-Umgebung mit zentralen Servern"
+    - "Geringerer Stromverbrauch als viele klassische Desktop-PCs"
+    - "Bei Defekt kann ein Thin Client schnell ausgetauscht werden"
+    - "Daten liegen zentral auf dem Server statt lokal auf dem Arbeitsplatzgerät"
+    - "Merksatz: Thin Client = schlanker Arbeitsplatz, zentrale Verarbeitung"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Vorteile von Thin Clients

@@ -13,15 +13,23 @@ tags: ["ap1", "open-source", "software"]
 
 # Flashcard payload
 card:
-  type: multi       # basic | multi | steps | definition | comparison
-  question: "Welche 3 charakteristischen Eigenschaften hat Open Source Software?"
-  answer: "Quellcode ist öffentlich zugänglich, Software darf frei genutzt und verbreitet werden, sowie verändert und weitergegeben werden."
-  examples: ["Linux", "Apache Webserver", "Mozilla Firefox"]
+  type: multi
+  question: "Welche typischen Eigenschaften hat Open-Source-Software?"
+  answer: "Bei Open-Source-Software ist der Quellcode öffentlich zugänglich. Die Software darf genutzt, geprüft, verändert und unter den jeweiligen Lizenzbedingungen weitergegeben werden."
+  examples:
+    - "Quellcode ist öffentlich einsehbar"
+    - "Software darf genutzt und geprüft werden"
+    - "Änderungen am Quellcode sind möglich"
+    - "Weitergabe ist je nach Lizenz erlaubt"
+    - "Beispiel: Linux"
+    - "Beispiel: Apache Webserver"
+    - "Beispiel: Mozilla Firefox"
+    - "Merksatz: Open Source = Quellcode offen und veränderbar"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Open Source Software – Merkmale

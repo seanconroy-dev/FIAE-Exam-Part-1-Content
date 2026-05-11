@@ -13,15 +13,20 @@ tags: ["ap1", "individualsoftware", "software"]
 
 # Flashcard payload
 card:
-  type: definition       # basic | multi | steps | definition | comparison
-  question: "Wie wird der Begriff Individualsoftware definiert?"
-  answer: "Individualsoftware ist speziell für einen bestimmten Anwender oder Anwendungsfall entwickelte Software, die individuelle Anforderungen erfüllt."
-  examples: ["Firmenspezifisches ERP-System", "Individuelle Webanwendung"]
+  type: definition
+  question: "Was ist Individualsoftware?"
+  answer: "Individualsoftware ist Software, die speziell für einen bestimmten Kunden, ein bestimmtes Unternehmen oder einen bestimmten Zweck entwickelt wird. Sie erfüllt individuelle Anforderungen, die Standardsoftware nicht oder nur schlecht abdecken kann."
+  examples:
+    - "Firmenspezifisches ERP-System"
+    - "Individuelle Webanwendung"
+    - "Spezielle Lagerverwaltungssoftware für ein Unternehmen"
+    - "Software für einen besonderen Geschäftsprozess"
+    - "Merksatz: Individualsoftware = speziell angepasst oder neu entwickelt"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Individualsoftware – Definition und Einordnung

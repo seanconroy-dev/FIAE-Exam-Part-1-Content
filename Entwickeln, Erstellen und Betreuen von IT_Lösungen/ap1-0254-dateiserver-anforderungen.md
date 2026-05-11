@@ -13,15 +13,22 @@ tags: ["ap1", "dateiserver", "anforderungen"]
 
 # Flashcard payload
 card:
-  type: multi       # basic | multi | steps | definition | comparison
+  type: multi
   question: "Welche Anforderungen an Hard- und Software muss ein Dateiserver im Unternehmen erfüllen?"
-  answer: "Redundanz (Netzteil, Netzwerk, RAID), Zugriff über SMB/NFS, Rechteverwaltung, Backup/Snapshots, geringe Latenz, Remote-Zugriff, skalierbarer Speicher."
-  examples: ["NAS im Unternehmen", "Fileserver mit RAID-Verbund und Backup"]
+  answer: "Ein Dateiserver sollte zuverlässige Hardware mit redundanten Komponenten besitzen, z. B. RAID, redundante Netzteile und schnelle Netzwerkanbindung. Softwareseitig sollte er Dateiübertragungsprotokolle wie SMB oder NFS, Rechte- und Benutzerverwaltung, Backup- und Snapshot-Funktionen, Protokollierung, Remote-Verwaltung und skalierbaren Speicher unterstützen."
+  examples:
+    - "Hardware: RAID-Verbund für höhere Ausfallsicherheit"
+    - "Hardware: redundantes Netzteil und schnelle Netzwerkkarte"
+    - "Software: Zugriff über SMB oder NFS"
+    - "Software: Benutzer- und Rechteverwaltung"
+    - "Backup: regelmäßige Sicherungen und Snapshots"
+    - "Betrieb: skalierbarer Speicher und geringe Latenz"
+    - "Beispiel: NAS oder Fileserver im Unternehmen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Dateiserver – Hard- und Softwareanforderungen

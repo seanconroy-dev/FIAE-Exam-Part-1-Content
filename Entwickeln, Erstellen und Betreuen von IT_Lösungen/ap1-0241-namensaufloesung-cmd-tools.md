@@ -13,15 +13,21 @@ tags: ["ap1", "dns", "cmd", "powershell"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Welche Kommandozeilen-Werkzeuge eignen sich zur Überprüfung der Namensauflösung in einer Windows-Umgebung?"
-  answer: "Mit CMD: ping -a, nslookup, tracert. Mit PowerShell: Resolve-DnsName."
-  examples: ["nslookup google.de", "ping -a 8.8.8.8"]
+  answer: "Zur Überprüfung der Namensauflösung eignen sich in der CMD vor allem nslookup und ping -a. In PowerShell kann Resolve-DnsName verwendet werden. tracert prüft hauptsächlich den Netzwerkpfad, kann aber ebenfalls zeigen, ob Namen aufgelöst werden."
+  examples:
+    - "nslookup google.de"
+    - "ping -a 8.8.8.8"
+    - "Resolve-DnsName google.de"
+    - "tracert google.de"
+    - "nslookup prüft DNS-Abfragen gezielt"
+    - "ping -a versucht, eine IP-Adresse in einen Namen aufzulösen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Namensauflösung prüfen mit CMD und PowerShell

@@ -13,15 +13,20 @@ tags: ["ap1", "proprietaer", "software"]
 
 # Flashcard payload
 card:
-  type: definition       # basic | multi | steps | definition | comparison
-  question: "Erkläre den Begriff proprietäre Software."
-  answer: "Proprietäre Software ist Software, deren Nutzung, Weitergabe und Veränderung durch Lizenzbedingungen eingeschränkt ist und deren Quellcode meist nicht offen zugänglich ist."
-  examples: ["Microsoft Windows", "Adobe Photoshop"]
+  type: definition
+  question: "Was ist proprietäre Software?"
+  answer: "Proprietäre Software ist Software, deren Nutzung durch Lizenzbedingungen eingeschränkt ist. Der Quellcode ist meistens nicht öffentlich zugänglich und die Software darf in der Regel nicht frei verändert oder weitergegeben werden."
+  examples:
+    - "Microsoft Windows"
+    - "Adobe Photoshop"
+    - "Microsoft Office"
+    - "Apple macOS"
+    - "Merksatz: proprietär = gehört einem Anbieter und ist nicht frei veränderbar"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Proprietäre Software – Definition und Eigenschaften

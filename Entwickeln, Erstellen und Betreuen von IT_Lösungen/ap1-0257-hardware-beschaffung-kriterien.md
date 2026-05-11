@@ -13,15 +13,23 @@ tags: ["ap1", "hardware", "beschaffung"]
 
 # Flashcard payload
 card:
-  type: multi       # basic | multi | steps | definition | comparison
-  question: "Welche Kriterien sind bei der Beschaffung von IT-Hardware zu berücksichtigen?"
-  answer: "Langlebigkeit, Skalierbarkeit, Support, geringer Stromverbrauch, Austauschbarkeit, Remote-Management und schnelle Ersatzbeschaffung."
-  examples: ["Serverbeschaffung im Unternehmen", "Arbeitsplatz-PC Auswahl"]
+  type: multi
+  question: "Welche Kriterien sind bei der Beschaffung von IT-Hardware wichtig?"
+  answer: "Bei der Beschaffung von IT-Hardware achtet man auf Leistung, Preis, Energieverbrauch, Lebensdauer, Erweiterbarkeit, Kompatibilität, Garantie, Support und schnelle Ersatzteilbeschaffung. Für Unternehmen sind auch Ausfallsicherheit, Wartbarkeit und Remote-Management wichtig."
+  examples:
+    - "Leistung: passt die Hardware zur Aufgabe?"
+    - "Kosten: Anschaffung, Betrieb und Wartung beachten"
+    - "Energieverbrauch: spart langfristig Stromkosten"
+    - "Erweiterbarkeit: RAM, Speicher oder Komponenten nachrüstbar"
+    - "Kompatibilität: passt zu vorhandener Software und Infrastruktur"
+    - "Support: Garantie, Hersteller-Support und Ersatzteile verfügbar"
+    - "Betrieb: Remote-Management und einfache Wartung"
+    - "Beispiel: Server, Arbeitsplatz-PC, Notebook oder Drucker"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Beschaffung von IT-Hardware – Kriterien

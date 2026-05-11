@@ -13,15 +13,21 @@ tags: ["ap1", "standardsoftware", "software"]
 
 # Flashcard payload
 card:
-  type: definition       # basic | multi | steps | definition | comparison
-  question: "Wie definiert man den Begriff Standardsoftware?"
-  answer: "Standardsoftware ist vorgefertigte, am Markt verfügbare Software, die ohne individuelle Entwicklung genutzt und ggf. angepasst werden kann."
-  examples: ["Microsoft Office", "SAP", "ERP-Systeme"]
+  type: definition
+  question: "Was ist Standardsoftware?"
+  answer: "Standardsoftware ist fertige Software, die für viele Benutzer oder Unternehmen entwickelt wurde und direkt gekauft oder genutzt werden kann. Sie wird nicht speziell für einen einzelnen Kunden programmiert, kann aber oft angepasst oder konfiguriert werden."
+  examples:
+    - "Microsoft Office"
+    - "LibreOffice"
+    - "SAP"
+    - "ERP-System für viele Unternehmen"
+    - "Buchhaltungssoftware"
+    - "Merksatz: Standardsoftware = fertig verfügbar, nicht individuell neu entwickelt"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Standardsoftware – Definition und Einordnung

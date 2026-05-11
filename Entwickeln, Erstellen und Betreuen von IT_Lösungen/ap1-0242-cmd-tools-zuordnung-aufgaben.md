@@ -13,15 +13,27 @@ tags: ["ap1", "cmd", "tools", "netzwerk"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welchen Netzwerkaufgaben sind welche CMD-Tools zuzuordnen?"
-  answer: "ipconfig: Adapterkonfiguration, IP, DHCP, Hostname; ping: Erreichbarkeit prüfen; nslookup: DNS-Abfragen; arp: MAC-Adressen im Netzwerk; netsh: Netzwerkkonfiguration und Firewall-Regeln."
-  examples: ["ping www.google.de", "ipconfig /all"]
+  type: basic
+  question: "Ergänze die passenden Windows-CMD-Tools: IP-Konfiguration anzeigen -> ___, Erreichbarkeit testen -> ___, DNS pruefen -> ___, ARP-Tabelle anzeigen -> ___, erweiterte Netzwerk-/Firewall-Konfiguration -> ___."
+  answer: |
+    Zuordnung der Aufgaben zu den passenden CMD-Tools:
+
+    - IP-Konfiguration anzeigen -> ipconfig
+    - Erreichbarkeit testen -> ping
+    - DNS pruefen -> nslookup
+    - ARP-Tabelle anzeigen -> arp
+    - Erweiterte Netzwerk-/Firewall-Konfiguration -> netsh
+  examples:
+    - "ipconfig /all → detaillierte Adapter-, IP-, DHCP- und DNS-Informationen anzeigen"
+    - "ping www.google.de → Erreichbarkeit prüfen"
+    - "nslookup www.google.de → DNS-Auflösung prüfen"
+    - "arp -a → ARP-Tabelle anzeigen"
+    - "netsh advfirewall show allprofiles → Firewall-Profile anzeigen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## CMD-Tools und ihre Aufgaben – Zuordnung

@@ -13,15 +13,21 @@ tags: ["ap1", "bedarfsanalyse", "vorteile"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: basic
   question: "Welche Vorteile bietet eine Bedarfsanalyse?"
-  answer: "Ermittlung von Kundenwünschen und -zielen, Identifikation von Kundentypen, stärkere Kundenbindung, individuelle Lösungen, Wettbewerbsvorteile und Umsatzsteigerung."
-  examples: ["Individuelle IT-Lösung für Kunden", "Gezielte Produktentwicklung"]
+  answer: "Eine Bedarfsanalyse hilft, Kundenwünsche, Ziele und tatsächliche Anforderungen systematisch zu erkennen. Dadurch können passende Lösungen geplant, Fehlbeschaffungen vermieden, Kosten besser eingeschätzt und die Kundenzufriedenheit sowie Kundenbindung verbessert werden."
+  examples:
+    - "Kundenwünsche und Anforderungen gezielt erfassen"
+    - "Passende IT-Lösung für den tatsächlichen Bedarf planen"
+    - "Fehlkäufe oder unnötige Ressourcen vermeiden"
+    - "Kosten und Aufwand realistischer einschätzen"
+    - "Kundenzufriedenheit und Kundenbindung verbessern"
+    - "Merksatz: Bedarfsanalyse = erst Bedarf klären, dann Lösung planen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Vorteile der Bedarfsanalyse

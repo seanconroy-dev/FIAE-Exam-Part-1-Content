@@ -13,15 +13,21 @@ tags: ["ap1", "tablet", "hardware"]
 
 # Flashcard payload
 card:
-  type: comparison       # basic | multi | steps | definition | comparison
+  type: comparison
   question: "Was sind Vor- und Nachteile von Tablets?"
-  answer: "Vorteile: leicht, mobil, lange Akkulaufzeit, Touchbedienung. Nachteile: eingeschränkte Eingabe, geringere Leistung/Speicher, wenige Anschlüsse, kaum aufrüstbar."
-  examples: ["Tablet für Präsentationen", "Mobiles Arbeiten mit Touchbedienung"]
+  answer: "Vorteile von Tablets sind geringes Gewicht, hohe Mobilität, lange Akkulaufzeit, einfache Touchbedienung und schneller Einsatz unterwegs. Nachteile sind eingeschränkte Eingabemöglichkeiten, geringere Leistung und Speicherkapazität im Vergleich zu vielen Notebooks, wenige Anschlüsse und meist kaum Aufrüstbarkeit."
+  examples:
+    - "Tablet für Präsentationen oder Kundentermine"
+    - "Mobiles Arbeiten mit Touchbedienung"
+    - "Vorteil: leicht zu transportieren"
+    - "Nachteil: längere Texte oder komplexe Arbeiten sind ohne Tastatur schwieriger"
+    - "Nachteil: Anschlüsse und Erweiterungsmöglichkeiten sind oft begrenzt"
+    - "Merksatz: Tablet = mobil und einfach, aber weniger flexibel als ein Notebook"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Tablet – Vor- und Nachteile

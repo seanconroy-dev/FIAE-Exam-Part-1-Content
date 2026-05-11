@@ -13,15 +13,20 @@ tags: ["ap1", "rdp", "remote-desktop"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Wie funktioniert eine Remote Desktop Verbindung?"
-  answer: "Eine Remote Desktop Verbindung (RDP) ermöglicht den Fernzugriff auf einen Computer über Netzwerk (Port 3389), wobei Bildschirminhalte übertragen und lokale Eingaben (Maus, Tastatur) sowie Ressourcen genutzt werden."
-  examples: ["Fernwartung eines PCs", "Zugriff auf Firmenserver von zuhause"]
+  type: basic
+  question: "Wie funktioniert eine Remote-Desktop-Verbindung?"
+  answer: "Eine Remote-Desktop-Verbindung ermöglicht den Fernzugriff auf einen Computer über ein Netzwerk. Dabei wird die grafische Oberfläche des entfernten Computers übertragen, während Tastatur- und Mauseingaben vom lokalen Gerät an den entfernten Computer gesendet werden. Bei Microsoft RDP wird standardmäßig Port 3389 verwendet."
+  examples:
+    - "Fernwartung eines PCs"
+    - "Zugriff auf einen Firmenserver von zu Hause"
+    - "Administrator verbindet sich mit einem entfernten Windows-Server"
+    - "Lokale Ressourcen wie Zwischenablage, Drucker oder Laufwerke können je nach Einstellung eingebunden werden"
+    - "RDP verwendet standardmäßig TCP/UDP-Port 3389"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Remote Desktop Verbindung (RDP) – Funktionsweise

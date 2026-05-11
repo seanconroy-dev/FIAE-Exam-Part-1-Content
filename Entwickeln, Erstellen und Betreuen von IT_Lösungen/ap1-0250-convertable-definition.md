@@ -13,15 +13,20 @@ tags: ["ap1", "convertible", "notebook", "tablet"]
 
 # Flashcard payload
 card:
-  type: definition       # basic | multi | steps | definition | comparison
+  type: definition
   question: "Wie definiert man den Begriff Convertible?"
-  answer: "Ein Convertible ist ein hybrides Gerät (2-in-1), das sowohl als Notebook als auch als Tablet genutzt werden kann."
-  examples: ["Laptop mit umklappbarem Display", "Notebook mit abnehmbarem Bildschirm"]
+  answer: "Ein Convertible ist ein 2-in-1-Gerät, das sowohl als Notebook als auch als Tablet genutzt werden kann. Es besitzt meist einen Touchscreen und kann je nach Bauart ein umklappbares oder abnehmbares Display haben."
+  examples:
+    - "Notebook mit umklappbarem Touchscreen"
+    - "Notebook mit abnehmbarem Bildschirm"
+    - "Kann mit Tastatur wie ein Laptop genutzt werden"
+    - "Kann per Touch oder Stift wie ein Tablet genutzt werden"
+    - "Merksatz: Convertible = Notebook und Tablet in einem Gerät"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Convertible (2-in-1-Gerät)

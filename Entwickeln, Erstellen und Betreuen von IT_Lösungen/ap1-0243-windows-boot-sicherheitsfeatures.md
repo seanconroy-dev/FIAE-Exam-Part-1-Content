@@ -13,15 +13,20 @@ tags: ["ap1", "windows", "boot", "security"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welche 4 Features schützen den Windows-10-Startvorgang vor dem Laden von Schadsoftware wie Rootkits und Bootkits?"
-  answer: "Sicherer Start (Secure Boot), vertrauenswürdiger Start, Antischadsoftware-Frühstart (ELAM), kontrollierter Start."
-  examples: ["Secure Boot verhindert unsignierte Bootloader", "ELAM prüft Treiber beim Start"]
+  type: basic
+  question: "Welche 4 Features schützen den Windows-10-Startvorgang vor Schadsoftware wie Rootkits und Bootkits?"
+  answer: "Den Windows-10-Startvorgang schützen: Secure Boot, Trusted Boot, Early Launch Anti-Malware (ELAM) und Measured Boot. Secure Boot prüft den Bootloader, Trusted Boot prüft Windows-Startkomponenten, ELAM lädt Antischadsoftware früh im Startprozess und Measured Boot protokolliert den Startzustand für Vertrauensprüfung."
+  examples:
+    - "Secure Boot → verhindert unsignierte oder manipulierte Bootloader"
+    - "Trusted Boot → prüft Windows-Startkomponenten"
+    - "ELAM → startet Antischadsoftware früh vor anderen Treibern"
+    - "Measured Boot → misst/protokolliert Startkomponenten für spätere Prüfung"
+    - "Merksatz: Secure, Trusted, ELAM, Measured"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Sicherheitsfeatures beim Windows-Start
@@ -37,7 +42,7 @@ Diese schützen insbesondere vor Rootkits und Bootkits.
    - nur vertrauenswürdige Bootloader werden geladen
    - basiert auf UEFI und TPM
 
-2. **Vertrauenswürdiger Start**
+2. **Vertrauenswürdiger Start (Trusted Boot)**
    - überprüft Integrität aller Komponenten beim Start
    - verhindert Manipulationen im Bootprozess
 
@@ -45,16 +50,16 @@ Diese schützen insbesondere vor Rootkits und Bootkits.
    - prüft Treiber vor dem Laden
    - blockiert nicht signierte oder verdächtige Treiber
 
-4. **Kontrollierter Start**
+4. **Kontrollierter Start (Measured Boot)**
    - protokolliert Startvorgang
    - ermöglicht Integritätsprüfung durch externe Systeme
 
 ```mermaid
 flowchart LR
 A[UEFI Start] --> B[Secure Boot]
-B --> C[Vertrauenswürdiger Start]
+B --> C[Trusted Boot]
 C --> D[ELAM]
-D --> E[Kontrollierter Start]
+D --> E[Measured Boot]
 E --> F[Windows startet]
 ```
 
@@ -73,9 +78,9 @@ E --> F[Windows startet]
 - Wofür steht ELAM?
 
 ### Antworten auf die typischen Prüfungsfragen
-- Secure Boot, vertrauenswürdiger Start, ELAM, kontrollierter Start  
+- Secure Boot, Trusted Boot, ELAM, Measured Boot  
 - Verhindert unsignierte Bootloader  
 - Early Launch Anti Malware  
 
 ## Merksatz
-Vier Schutzstufen sichern den Windows-Start: Secure Boot, Vertrauen, ELAM und Kontrolle.
+Vier Schutzstufen sichern den Windows-Start: Secure Boot, Trusted Boot, ELAM und Measured Boot.

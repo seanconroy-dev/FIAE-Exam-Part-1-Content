@@ -13,15 +13,20 @@ tags: ["ap1", "dsl", "adsl", "vdsl", "sdsl"]
 
 # Flashcard payload
 card:
-  type: comparison       # basic | multi | steps | definition | comparison
+  type: comparison
   question: "Wie unterscheiden sich ADSL, VDSL und SDSL voneinander?"
-  answer: "ADSL/VDSL: asymmetrisch (Download > Upload), VDSL schneller. SDSL: symmetrisch (Upload = Download)."
-  examples: ["ADSL für Privatkunden", "VDSL für schnelles Internet", "SDSL für Unternehmen"]
+  answer: "ADSL und VDSL sind asymmetrisch: Der Download ist schneller als der Upload. VDSL ist schneller als ADSL. SDSL ist symmetrisch: Upload und Download sind gleich schnell. SDSL wird eher für Unternehmen genutzt."
+  examples:
+    - "ADSL: älterer Privatanschluss, Download schneller als Upload"
+    - "VDSL: schneller Privatanschluss, z. B. für Streaming und Homeoffice"
+    - "SDSL: Upload und Download gleich schnell"
+    - "SDSL: sinnvoll für Unternehmen, Server, VPN oder viele Uploads"
+    - "Merksatz: ADSL/VDSL = asymmetrisch, SDSL = symmetrisch"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## ADSL, VDSL und SDSL – Unterschiede
