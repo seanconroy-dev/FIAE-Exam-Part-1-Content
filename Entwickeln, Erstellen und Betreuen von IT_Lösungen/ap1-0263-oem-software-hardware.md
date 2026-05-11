@@ -13,15 +13,20 @@ tags: ["ap1", "oem", "software", "hardware"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Wie werden die Begriffe OEM-Software und OEM-Hardware definiert?"
-  answer: "OEM-Produkte werden vom Hersteller nicht direkt verkauft, sondern zusammen mit anderer Hardware/Software ausgeliefert. OEM-Software ist oft eingeschränkt, OEM-Hardware wird unter anderem Markennamen vertrieben."
-  examples: ["Windows vorinstalliert auf PCs", "Hardware von Herstellern unter anderem Markennamen"]
+  type: comparison
+  question: "Was bedeuten OEM-Software und OEM-Hardware?"
+  answer: "OEM bedeutet Original Equipment Manufacturer. OEM-Software oder OEM-Hardware wird meist zusammen mit einem fertigen Gerät verkauft. OEM-Software ist z. B. ein vorinstalliertes Windows auf einem PC. OEM-Hardware wird oft von einem Hersteller produziert und unter dem Namen eines anderen Anbieters verkauft."
+  examples:
+    - "OEM-Software: Windows ist auf einem neuen PC vorinstalliert"
+    - "OEM-Software: Lizenz ist oft an das Gerät gebunden"
+    - "OEM-Hardware: ein Bauteil wird vom Hersteller produziert und unter anderem Markennamen verkauft"
+    - "OEM-Hardware: Netzteil, Mainboard oder Laufwerk in einem Komplett-PC"
+    - "Merksatz: OEM = wird für oder mit einem anderen Produkt ausgeliefert"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## OEM-Software und OEM-Hardware – Definition

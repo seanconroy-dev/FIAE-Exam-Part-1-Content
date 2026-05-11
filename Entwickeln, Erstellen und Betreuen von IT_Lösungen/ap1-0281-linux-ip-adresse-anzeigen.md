@@ -13,15 +13,21 @@ tags: ["ap1", "linux", "ip", "netzwerk"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welche Kommandos oder Werkzeuge stehen unter Linux zum Anzeigen der IPv4-Adresse eines Netzwerkadapters zur Verfügung?"
-  answer: "ifconfig, ip addr show, ip a sowie grafische Tools wie NetworkManager, nmtui, Wicd oder YaST."
-  examples: ["ip a", "ifconfig"]
+  type: multi
+  question: "Welche Linux-Kommandos zeigen die IPv4-Adresse eines Netzwerkadapters an?"
+  answer: "Unter Linux zeigt man IPv4-Adressen meist mit ip a oder ip addr show an. Ältere Systeme nutzen auch ifconfig. Grafische oder textbasierte Werkzeuge wie NetworkManager, nmtui oder YaST können Netzwerkeinstellungen ebenfalls anzeigen."
+  examples:
+    - "ip a: kurze Form zum Anzeigen der IP-Adressen"
+    - "ip addr show: ausführlichere Schreibweise von ip a"
+    - "ifconfig: älterer Befehl zur Anzeige von Netzwerkinformationen"
+    - "nmtui: textbasierte Oberfläche für NetworkManager"
+    - "YaST: Verwaltungswerkzeug bei openSUSE/SUSE"
+    - "Merksatz: Linux modern = ip a, Linux alt = ifconfig"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Linux – IPv4-Adresse anzeigen

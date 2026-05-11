@@ -13,15 +13,23 @@ tags: ["ap1", "datenbank", "dbms"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
+  type: multi
   question: "Welche Anforderungen muss ein Datenbanksystem erfüllen?"
-  answer: "Datenunabhängigkeit, effizienter Speicherzugriff, paralleler Zugriff, Datenkonsistenz, gemeinsame Datenbasis, Datenintegrität, Datensicherheit, Wiederherstellungsverfahren, Abfragesprache, kontrollierte Redundanz."
-  examples: []
+  answer: "Ein Datenbanksystem soll Daten sicher, konsistent und effizient speichern. Es muss parallelen Zugriff ermöglichen, Datenintegrität und Datensicherheit gewährleisten, kontrollierte Redundanz unterstützen, Abfragen über eine Abfragesprache ermöglichen und Wiederherstellungsverfahren bei Fehlern bereitstellen."
+  examples:
+    - "Datenkonsistenz: Daten bleiben widerspruchsfrei"
+    - "Datenintegrität: Regeln und Beziehungen werden eingehalten"
+    - "Datensicherheit: Schutz vor unbefugtem Zugriff"
+    - "Paralleler Zugriff: mehrere Benutzer können gleichzeitig arbeiten"
+    - "Abfragesprache: Daten können z. B. mit SQL abgefragt werden"
+    - "Wiederherstellung: Backups oder Recovery nach Fehlern"
+    - "Kontrollierte Redundanz: doppelte Daten werden vermieden oder bewusst verwaltet"
+    - "Merksatz: Datenbanksystem = Daten sicher, korrekt, gemeinsam und abrufbar speichern"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Allgemeine Anforderungen an ein Datenbanksystem

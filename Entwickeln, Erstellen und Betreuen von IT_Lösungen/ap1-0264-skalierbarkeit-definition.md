@@ -13,15 +13,20 @@ tags: ["ap1", "skalierbarkeit", "cloud", "infrastruktur"]
 
 # Flashcard payload
 card:
-  type: definition       # basic | multi | steps | definition | comparison
-  question: "Wie definiert man Skalierbarkeit im Rechenzentrumsbetrieb?"
-  answer: "Skalierbarkeit ist die Fähigkeit von Hard- oder Software, bei veränderten Anforderungen (z. B. mehr Last) durch Anpassung von Ressourcen weiterhin zuverlässig zu funktionieren."
-  examples: ["Erhöhung von CPU/RAM bei virtuellen Maschinen", "Erweiterung von Speicherplatz"]
+  type: definition
+  question: "Was bedeutet Skalierbarkeit im Rechenzentrumsbetrieb?"
+  answer: "Skalierbarkeit bedeutet, dass ein IT-System bei steigender Last erweitert werden kann. Dafür können z. B. mehr CPU, RAM, Speicherplatz oder zusätzliche Server bereitgestellt werden."
+  examples:
+    - "Mehr RAM oder CPU für eine virtuelle Maschine"
+    - "Mehr Speicherplatz für einen Dateiserver"
+    - "Zusätzliche Server bei steigenden Nutzerzahlen"
+    - "Cloud-Systeme können Ressourcen flexibel erhöhen"
+    - "Merksatz: Skalierbarkeit = System kann mitwachsen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Skalierbarkeit – Bedeutung im Rechenzentrum

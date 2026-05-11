@@ -13,15 +13,22 @@ tags: ["ap1", "wlan", "wpa2", "wpa3", "verschluesselung"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welche Sicherheitsmethoden und Verschlüsselungsstandards kommen beim Einsatz eines Unternehmens-WLANs zum Schutz der Datensicherheit in Frage?"
-  answer: "Sicherheitsmethoden: WPA (unsicher), WPA2-Personal/Enterprise, WPA3-Personal/Enterprise (mit RADIUS). Verschlüsselung: AES, TKIP und SAE."
-  examples: ["WPA3-Enterprise mit RADIUS", "WPA2-Personal im Heimnetz"]
+  type: multi
+  question: "Welche Sicherheitsmethoden eignen sich für ein Unternehmens-WLAN?"
+  answer: "Für ein Unternehmens-WLAN eignen sich vor allem WPA2-Enterprise oder WPA3-Enterprise mit zentraler Authentifizierung über einen RADIUS-Server. Als sichere Verschlüsselung wird AES verwendet. WPA, WEP und TKIP gelten als veraltet oder unsicher und sollten nicht mehr eingesetzt werden."
+  examples:
+    - "WPA2-Enterprise: Anmeldung über RADIUS-Server"
+    - "WPA3-Enterprise: moderner Standard für Unternehmens-WLANs"
+    - "AES: sichere Verschlüsselung bei WPA2/WPA3"
+    - "SAE: modernes Authentifizierungsverfahren bei WPA3-Personal"
+    - "WPA2-Personal: eher für Heimnetzwerke oder kleine Umgebungen"
+    - "Unsicher: WEP, altes WPA und TKIP vermeiden"
+    - "Merksatz: Unternehmen = WPA2/WPA3-Enterprise + RADIUS + AES"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## WLAN – Sicherheitsmethoden und Verschlüsselung

@@ -13,15 +13,20 @@ tags: ["ap1", "pay-per-use", "cloud", "kostenmodell"]
 
 # Flashcard payload
 card:
-  type: definition       # basic | multi | steps | definition | comparison
-  question: "Was versteht man in der Informationstechnologie unter dem Modell Pay-per-use?"
-  answer: "Beim Pay-per-use Modell zahlt der Nutzer nur für die tatsächlich genutzten Ressourcen (z. B. Rechenleistung, Speicher oder Zeit)."
-  examples: ["Cloud-Abrechnung nach Nutzungsdauer", "Speicherplatz nach GB bezahlt"]
+  type: definition
+  question: "Was bedeutet Pay-per-use?"
+  answer: "Pay-per-use bedeutet, dass man nur für die tatsächlich genutzten Leistungen oder Ressourcen bezahlt. Typisch ist dieses Modell bei Cloud-Diensten, z. B. für Rechenleistung, Speicherplatz, Datenverkehr oder Nutzungsdauer."
+  examples:
+    - "Cloud-Server wird nach Laufzeit abgerechnet"
+    - "Speicherplatz wird nach genutzten GB bezahlt"
+    - "Rechenleistung wird nach Verbrauch abgerechnet"
+    - "Datenverkehr kann nach übertragenem Datenvolumen berechnet werden"
+    - "Merksatz: Pay-per-use = bezahlen nach tatsächlicher Nutzung"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Pay-per-use Modell – Nutzung nach Verbrauch

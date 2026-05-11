@@ -13,15 +13,21 @@ tags: ["ap1", "apipa", "dhcp", "ipv4"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Was bedeutet es, wenn ein Netzwerkadapter eine APIPA-Adresse (169.254.x.x) anzeigt?"
-  answer: "Windows-System, keine statische IP gesetzt, DHCP-Request erfolglos, DHCP-Server nicht erreichbar, APIPA aktiviert, automatische IP aus 169.254.0.0/16."
-  examples: ["169.254.10.5", "APIPA bei Netzwerkausfall"]
+  type: definition
+  question: "Was bedeutet eine APIPA-Adresse 169.254.x.x?"
+  answer: "Eine APIPA-Adresse wird automatisch vergeben, wenn ein Gerät keine IP-Adresse von einem DHCP-Server erhält und keine statische IP-Adresse eingerichtet ist. Der Rechner gibt sich dann selbst eine Adresse aus dem Bereich 169.254.0.0/16. Das ist meist ein Hinweis auf ein DHCP- oder Netzwerkproblem."
+  examples:
+    - "169.254.10.5: typische APIPA-Adresse"
+    - "DHCP-Server ist nicht erreichbar"
+    - "Netzwerkkabel, WLAN oder Switch-Verbindung prüfen"
+    - "DHCP am Router oder Server prüfen"
+    - "Gerät hat keine gültige IP-Adresse aus dem normalen Netzwerk erhalten"
+    - "Merksatz: 169.254.x.x = DHCP hat nicht funktioniert"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## APIPA und DHCP – Verhalten bei fehlendem DHCP-Server

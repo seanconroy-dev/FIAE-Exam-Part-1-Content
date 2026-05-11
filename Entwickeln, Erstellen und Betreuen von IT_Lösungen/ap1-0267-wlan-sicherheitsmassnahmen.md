@@ -13,15 +13,23 @@ tags: ["ap1", "wlan", "sicherheit", "netzwerk"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welche Maßnahmen eignen sich zur Absicherung einer drahtlosen Netzwerkverbindung (WLAN/WiFi)?"
-  answer: "Durch WPA2/WPA3-Verschlüsselung, Einsatz eines RADIUS-Servers, MAC-Filter (Whitelist), Client-Zertifikate und VPN-Verbindungen."
-  examples: ["WPA3-geschütztes WLAN", "Firmen-WLAN mit RADIUS-Authentifizierung"]
+  type: multi
+  question: "Welche Maßnahmen eignen sich zur Absicherung eines WLANs?"
+  answer: "Ein WLAN kann durch WPA2- oder WPA3-Verschlüsselung, ein starkes WLAN-Passwort, sichere Authentifizierung, regelmäßige Updates und getrennte Gastnetzwerke abgesichert werden. In Unternehmen werden zusätzlich oft RADIUS-Server, Client-Zertifikate oder VPN-Verbindungen genutzt. MAC-Filter bieten nur geringen Zusatzschutz, da MAC-Adressen gefälscht werden können."
+  examples:
+    - "Privat: WPA2 oder WPA3 mit starkem Passwort verwenden"
+    - "Privat: Router-Firmware regelmäßig aktualisieren"
+    - "Privat: separates Gast-WLAN für Besucher einrichten"
+    - "Unternehmen: WLAN-Anmeldung über RADIUS-Server"
+    - "Unternehmen: Client-Zertifikate für Geräte verwenden"
+    - "Unternehmen: VPN für zusätzliche Absicherung nutzen"
+    - "Hinweis: MAC-Filter sind nur Zusatzschutz, keine starke Sicherheit"
+    - "Merksatz: WLAN absichern = verschlüsseln, stark authentifizieren, aktuell halten"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## WLAN-Sicherheit – Schutzmaßnahmen

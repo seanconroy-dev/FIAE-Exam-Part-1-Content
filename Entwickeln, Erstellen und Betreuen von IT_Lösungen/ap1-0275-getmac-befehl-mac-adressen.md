@@ -13,15 +13,20 @@ tags: ["ap1", "getmac", "mac", "netzwerk"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Mit welchem Befehlszeilenkommando lassen sich die MAC-Adressen der Netzwerkadapter anzeigen?"
-  answer: "getmac -v – zeigt die MAC-Adressen der Netzwerkadapter inklusive zusätzlicher Informationen (z. B. Name und Transportprotokoll)."
-  examples: ["getmac", "getmac -v"]
+  type: definition
+  question: "Mit welchem Kommando zeigt man MAC-Adressen an?"
+  answer: "Unter Windows zeigt getmac die MAC-Adressen der Netzwerkadapter an. Mit getmac -v werden zusätzliche Informationen angezeigt, z. B. Verbindungsname und Transportname. Auch ipconfig /all zeigt die MAC-Adresse, dort meist als Physische Adresse."
+  examples:
+    - "getmac: zeigt die MAC-Adressen der Netzwerkadapter"
+    - "getmac -v: zeigt MAC-Adressen mit zusätzlichen Informationen"
+    - "ipconfig /all: zeigt die MAC-Adresse als Physische Adresse"
+    - "MAC-Adresse: eindeutige Hardware-Adresse eines Netzwerkadapters"
+    - "Merksatz: getmac = MAC-Adressen anzeigen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## getmac – MAC-Adressen anzeigen

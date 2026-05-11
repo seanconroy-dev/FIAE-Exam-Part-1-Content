@@ -13,15 +13,21 @@ tags: ["ap1", "datenbank", "normalformen"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welche ersten drei Normalformen gibt es und was ist ihr Zweck?"
-  answer: "1NF: atomare Werte; 2NF: volle funktionale Abhängigkeit vom Schlüssel; 3NF: keine transitive Abhängigkeit. Zweck: Vermeidung von Datenredundanzen."
-  examples: []
+  type: multi
+  question: "Welche ersten drei Normalformen gibt es und wozu dienen sie?"
+  answer: "Die ersten drei Normalformen helfen, Tabellen sauber zu strukturieren und Datenredundanzen zu vermeiden. 1NF bedeutet: Jeder Tabellenwert ist atomar, also nicht weiter sinnvoll teilbar. 2NF bedeutet: Jedes Nicht-Schlüsselattribut hängt vom gesamten Primärschlüssel ab. 3NF bedeutet: Nicht-Schlüsselattribute hängen nicht voneinander ab, sondern nur vom Schlüssel."
+  examples:
+    - "1NF: In einem Feld steht nur ein Wert, z. B. eine Telefonnummer statt mehrere Telefonnummern"
+    - "2NF: Bei zusammengesetztem Schlüssel hängen alle anderen Felder vom ganzen Schlüssel ab"
+    - "3NF: Die Postleitzahl bestimmt nicht zusätzlich den Ort in derselben Tabelle, wenn das ausgelagert werden sollte"
+    - "Zweck: weniger doppelte Daten"
+    - "Zweck: weniger Änderungs-, Einfüge- und Löschfehler"
+    - "Merksatz: 1NF = atomar, 2NF = ganzer Schlüssel, 3NF = nur vom Schlüssel"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Normalformen (1NF, 2NF, 3NF) und ihr Zweck

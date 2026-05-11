@@ -13,15 +13,21 @@ tags: ["ap1", "smart", "festplatte", "diagnose"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Was bedeutet S.M.A.R.T. im Zusammenhang mit der Überwachung von Festplatten?"
-  answer: "S.M.A.R.T. ist ein Selbstüberwachungs- und Diagnosesystem für HDDs/SSDs, das Zustandswerte analysiert und frühzeitig vor Ausfällen warnt."
-  examples: ["Temperaturüberwachung", "Erkennung von Bad Blocks"]
+  type: definition
+  question: "Was bedeutet S.M.A.R.T. bei Festplatten und SSDs?"
+  answer: "S.M.A.R.T. ist ein Selbstüberwachungs- und Diagnosesystem für HDDs und SSDs. Es überwacht Zustandswerte des Laufwerks, z. B. Temperatur, fehlerhafte Sektoren, Betriebsstunden und Fehler beim Lesen oder Schreiben. Dadurch können mögliche Ausfälle frühzeitig erkannt werden."
+  examples:
+    - "Temperaturüberwachung einer Festplatte"
+    - "Erkennung fehlerhafter Sektoren"
+    - "Anzeige von Betriebsstunden"
+    - "Warnung bei auffälligen Laufwerkswerten"
+    - "Einsatz in Servern, PCs und NAS-Systemen"
+    - "Merksatz: S.M.A.R.T. = Laufwerk überwacht seinen eigenen Zustand"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## S.M.A.R.T. – Festplattenüberwachung

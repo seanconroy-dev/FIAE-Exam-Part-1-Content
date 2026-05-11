@@ -13,15 +13,21 @@ tags: ["ap1", "tracert", "netzwerk", "diagnose"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Mit welchem Befehlszeilenkommando lässt sich der Weg (Hops) zu einem Zielhost verfolgen und die Antwortzeiten messen?"
-  answer: "tracert – zeigt den Weg (Hops) von einem Rechner zum Zielhost und misst die Antwortzeiten der einzelnen Stationen."
-  examples: ["tracert www.google.de", "Analyse von Netzwerkproblemen"]
+  type: definition
+  question: "Mit welchem Kommando verfolgt man den Weg zu einem Zielhost?"
+  answer: "Unter Windows nutzt man tracert. Der Befehl zeigt, über welche Zwischenstationen, also Hops oder Router, ein Datenpaket bis zum Zielhost läuft. Zusätzlich werden die Antwortzeiten der einzelnen Hops angezeigt. Unter Linux und macOS heißt der ähnliche Befehl traceroute."
+  examples:
+    - "Windows: tracert www.google.de"
+    - "Linux/macOS: traceroute www.google.de"
+    - "Hop: einzelne Zwischenstation auf dem Weg zum Ziel"
+    - "Antwortzeit: zeigt, wie lange ein Hop ungefähr braucht"
+    - "Einsatz: Fehlersuche bei Netzwerk- oder Verbindungsproblemen"
+    - "Merksatz: tracert zeigt den Weg der Datenpakete zum Ziel"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## tracert – Routenverfolgung

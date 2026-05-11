@@ -13,15 +13,22 @@ tags: ["ap1", "oop", "klasse", "objekt"]
 
 # Flashcard payload
 card:
-  type: comparison       # basic | multi | steps | definition | comparison
-  question: "Worin unterscheiden sich ein Objekt und eine Klasse?"
-  answer: "Eine Klasse ist ein Bauplan mit Attributen und Methoden; ein Objekt ist eine konkrete Instanz dieser Klasse mit konkreten Werten."
-  examples: ["Klasse: Auto → Objekt: meinAuto (rot, 150 PS)"]
+  type: comparison
+  question: "Worin unterscheiden sich Klasse und Objekt?"
+  answer: "Eine Klasse ist ein Bauplan oder eine Vorlage. Sie beschreibt, welche Attribute und Methoden Objekte haben können. Ein Objekt ist eine konkrete Instanz dieser Klasse und besitzt echte Werte."
+  examples:
+    - "Klasse: Auto"
+    - "Objekt: meinAuto mit Farbe rot und 150 PS"
+    - "Klasse: Kunde"
+    - "Objekt: kunde1 mit Name, Kundennummer und Adresse"
+    - "Attribut in der Klasse: farbe"
+    - "Konkreter Wert im Objekt: rot"
+    - "Merksatz: Klasse = Bauplan, Objekt = konkretes Ding"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Objekt vs. Klasse – Unterschied

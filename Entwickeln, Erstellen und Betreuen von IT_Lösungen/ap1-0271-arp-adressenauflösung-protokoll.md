@@ -13,15 +13,20 @@ tags: ["ap1", "arp", "netzwerk", "ip", "mac"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welches Befehlszeilenkommando ist im Bild zu sehen und wie funktioniert das zugehörige Protokoll?"
-  answer: "Befehl: arp. ARP ordnet einer IP-Adresse die physische MAC-Adresse zu und speichert diese Zuordnung im ARP-Cache."
-  examples: ["arp -a", "Anzeige der ARP-Tabelle"]
+  type: definition
+  question: "Was zeigt der Befehl arp und wofür wird das ARP-Protokoll genutzt?"
+  answer: "Der Befehl arp zeigt den ARP-Cache eines Geräts an. ARP steht für Address Resolution Protocol und ordnet in einem lokalen Netzwerk einer IPv4-Adresse die passende MAC-Adresse zu. Diese Zuordnung wird im ARP-Cache gespeichert."
+  examples:
+    - "arp -a: zeigt die gespeicherten IP-zu-MAC-Zuordnungen"
+    - "ARP löst eine IPv4-Adresse in eine MAC-Adresse auf"
+    - "Der ARP-Cache speichert bekannte Zuordnungen vorübergehend"
+    - "Beispiel: 192.168.1.10 wird einer MAC-Adresse zugeordnet"
+    - "Merksatz: ARP = IPv4-Adresse sucht MAC-Adresse"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## ARP – Address Resolution Protocol

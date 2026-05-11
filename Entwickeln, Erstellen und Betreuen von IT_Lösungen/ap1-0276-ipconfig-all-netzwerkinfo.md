@@ -13,15 +13,22 @@ tags: ["ap1", "ipconfig", "netzwerk", "ip"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Mit welchem Befehlszeilenkommando lassen sich detaillierte Netzwerkinformationen wie IP-Adresse, MAC-Adresse, DNS-Server und Gateway anzeigen?"
-  answer: "ipconfig /all – zeigt detaillierte Netzwerkinformationen wie IP-Adresse, MAC-Adresse, DNS-Server und Gateway."
-  examples: ["ipconfig", "ipconfig /all"]
+  type: definition
+  question: "Mit welchem Kommando zeigt man detaillierte Netzwerkinformationen an?"
+  answer: "Unter Windows zeigt ipconfig /all detaillierte Netzwerkinformationen an. Dazu gehören IP-Adresse, Subnetzmaske, Standardgateway, DNS-Server, DHCP-Informationen und die MAC-Adresse als Physische Adresse."
+  examples:
+    - "ipconfig: zeigt grundlegende IP-Informationen"
+    - "ipconfig /all: zeigt ausführliche Netzwerkinformationen"
+    - "IP-Adresse: Adresse des Geräts im Netzwerk"
+    - "Standardgateway: Router für Verbindungen in andere Netzwerke"
+    - "DNS-Server: löst Domainnamen in IP-Adressen auf"
+    - "Physische Adresse: MAC-Adresse des Netzwerkadapters"
+    - "Merksatz: ipconfig /all = alle wichtigen Netzwerkinfos anzeigen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## ipconfig /all – Netzwerkinformationen anzeigen

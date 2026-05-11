@@ -13,15 +13,22 @@ tags: ["ap1", "vlan", "netzwerk", "segmentierung"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Was sind die Vorteile beim Einsatz eines Virtual Local Area Networks (VLAN)?"
-  answer: "Logische Segmentierung des Netzwerks, Priorisierung des Datenverkehrs, bessere Lastverteilung, weniger Kollisionen durch Broadcast-Domänen, flexible Gruppierung und Trennung des Datenverkehrs."
-  examples: ["Trennung von Abteilungen (z. B. HR und IT)", "Priorisierung von VoIP-Datenverkehr"]
+  type: multi
+  question: "Welche Vorteile bietet ein VLAN?"
+  answer: "Ein VLAN ermöglicht die logische Trennung eines Netzwerks, ohne dafür getrennte physische Switches zu benötigen. Dadurch können Abteilungen, Gerätearten oder Sicherheitsbereiche getrennt werden. VLANs verbessern die Übersicht, erhöhen die Sicherheit, verkleinern Broadcast-Domänen und ermöglichen eine flexible Netzwerkstruktur."
+  examples:
+    - "Trennung von Abteilungen: z. B. HR, IT und Buchhaltung"
+    - "Trennung von Gerätearten: z. B. PCs, Drucker, Server und VoIP-Telefone"
+    - "Sicherheit: Gäste-WLAN getrennt vom internen Firmennetz"
+    - "Weniger Broadcast-Verkehr innerhalb einzelner VLANs"
+    - "Flexibilität: Geräte können logisch gruppiert werden, auch wenn sie an verschiedenen Switches hängen"
+    - "VoIP: Sprachdaten können über ein eigenes VLAN getrennt werden"
+    - "Merksatz: VLAN = ein physisches Netzwerk, mehrere logisch getrennte Netze"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## VLAN – Vorteile

@@ -13,15 +13,22 @@ tags: ["ap1", "netsh", "ip", "ipv4"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welches Kommando richtet eine IPv4-Adresse (192.168.0.1/24) mit Gateway 192.168.0.254 für den Adapter LAN-Verbindung ein?"
-  answer: "netsh interface ip set address name=\"LAN-Verbindung\" address=192.168.0.1 mask=255.255.255.0 gateway=192.168.0.254"
-  examples: ["netsh interface ip set address name=\"LAN-Verbindung\" address=192.168.0.1 mask=255.255.255.0 gateway=192.168.0.254"]
+  type: steps
+  question: "Wie richtet man unter Windows per netsh eine statische IPv4-Adresse mit Gateway ein?"
+  answer: "Mit netsh kann unter Windows eine statische IPv4-Adresse für einen Netzwerkadapter gesetzt werden. Beispiel: netsh interface ip set address name=\"LAN-Verbindung\" static 192.168.0.1 255.255.255.0 192.168.0.254. Dabei ist 192.168.0.1 die IP-Adresse, 255.255.255.0 die Subnetzmaske zu /24 und 192.168.0.254 das Standardgateway."
+  examples:
+    - "Kommando: netsh interface ip set address name=\"LAN-Verbindung\" static 192.168.0.1 255.255.255.0 192.168.0.254"
+    - "Adaptername: LAN-Verbindung"
+    - "IPv4-Adresse: 192.168.0.1"
+    - "Subnetzmaske: /24 = 255.255.255.0"
+    - "Gateway: 192.168.0.254"
+    - "Einsatz: statische IP-Adresse unter Windows konfigurieren"
+    - "Merksatz: netsh setzt IP, Maske und Gateway für einen Adapter"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Windows – IPv4-Adresse mit netsh setzen

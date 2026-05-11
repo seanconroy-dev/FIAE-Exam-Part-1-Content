@@ -13,15 +13,22 @@ tags: ["ap1", "vpn", "netzwerk", "sicherheit"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Führe die 3 VPN-Verbindungsarten auf."
-  answer: "End-to-Site (Host-to-LAN / Remote Access), Site-to-Site (LAN-to-LAN / Gateway-to-Gateway) und End-to-End (Host-to-Host)."
-  examples: ["Homeoffice-Zugriff per Remote Access VPN", "Verbindung zweier Firmenstandorte"]
+  type: multi
+  question: "Welche 3 VPN-Verbindungsarten gibt es?"
+  answer: "Die drei typischen VPN-Verbindungsarten sind End-to-Site, Site-to-Site und End-to-End. End-to-Site verbindet ein einzelnes Endgerät mit einem Firmennetz. Site-to-Site verbindet zwei Netzwerke oder Standorte miteinander. End-to-End verbindet zwei einzelne Endgeräte direkt miteinander."
+  examples:
+    - "End-to-Site: Mitarbeiter greift aus dem Homeoffice auf das Firmennetz zu"
+    - "End-to-Site: auch Remote-Access-VPN oder Host-to-LAN genannt"
+    - "Site-to-Site: zwei Firmenstandorte werden per VPN verbunden"
+    - "Site-to-Site: auch LAN-to-LAN oder Gateway-to-Gateway genannt"
+    - "End-to-End: zwei einzelne Rechner kommunizieren direkt verschlüsselt"
+    - "End-to-End: auch Host-to-Host genannt"
+    - "Merksatz: End-to-Site = Gerät zu Netz, Site-to-Site = Netz zu Netz, End-to-End = Gerät zu Gerät"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## VPN-Verbindungsarten

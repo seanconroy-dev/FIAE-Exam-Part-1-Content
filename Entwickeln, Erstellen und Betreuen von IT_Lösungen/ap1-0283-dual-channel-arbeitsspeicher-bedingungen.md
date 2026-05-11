@@ -13,15 +13,22 @@ tags: ["ap1", "ram", "dual-channel", "hardware"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Was muss beim Einsatz von Arbeitsspeichern im Dual Channel Mode beachtet werden?"
-  answer: "Module müssen baugleich sein, gleiche Kapazität besitzen, kompatibel zum Mainboard/CPU sein und paarweise eingesetzt werden."
-  examples: ["2×8 GB identische RAM-Module", "Dual Channel auf Mainboard aktiv"]
+  type: multi
+  question: "Was muss beim Einsatz von RAM im Dual Channel Mode beachtet werden?"
+  answer: "Für Dual Channel sollten zwei möglichst gleiche RAM-Module verwendet werden. Sie sollten dieselbe Kapazität, denselben Typ, dieselbe Geschwindigkeit und ähnliche Timings haben. Außerdem müssen sie in die richtigen RAM-Steckplätze des Mainboards eingesetzt werden, meist farblich markiert oder im Handbuch beschrieben."
+  examples:
+    - "2 × 8 GB RAM statt 1 × 16 GB RAM"
+    - "Gleicher RAM-Typ, z. B. DDR4 oder DDR5"
+    - "Gleiche Geschwindigkeit, z. B. 3200 MHz"
+    - "RAM-Module in die richtigen Dual-Channel-Slots stecken"
+    - "Mainboard-Handbuch zur Steckplatzbelegung prüfen"
+    - "Vorteil: höhere Speicherbandbreite als Single Channel"
+    - "Merksatz: Dual Channel = zwei passende RAM-Module im richtigen Slot-Paar"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Dual Channel – Voraussetzungen für Arbeitsspeicher

@@ -13,15 +13,23 @@ tags: ["ap1", "uml", "verhaltensdiagramme"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Welche UML-Verhaltensdiagramme gibt es und welchem Zweck dienen sie?"
-  answer: "Aktivitätsdiagramm (Abläufe), Zustandsdiagramm (Zustände/Übergänge), Use-Case-Diagramm (Anwendungsfälle), Sequenzdiagramm (zeitliche Interaktionen), Kommunikationsdiagramm (Beziehungen), Interaktionsübersichtsdiagramm (Prozessübersicht), Zeitverlaufsdiagramm (Zustandsänderungen über Zeit)."
-  examples: ["Sequenzdiagramm für Login-Prozess", "Aktivitätsdiagramm eines Bestellablaufs"]
+  type: multi
+  question: "Welche UML-Verhaltensdiagramme gibt es und wofür werden sie genutzt?"
+  answer: "UML-Verhaltensdiagramme beschreiben, wie sich ein System verhält. Dazu gehören Aktivitätsdiagramm für Abläufe, Zustandsdiagramm für Zustände und Übergänge, Use-Case-Diagramm für Anwendungsfälle, Sequenzdiagramm für zeitliche Interaktionen, Kommunikationsdiagramm für Objektbeziehungen, Interaktionsübersichtsdiagramm für einen Überblick über Interaktionen und Zeitverlaufsdiagramm für Zustandsänderungen über die Zeit."
+  examples:
+    - "Aktivitätsdiagramm: Ablauf eines Bestellprozesses"
+    - "Zustandsdiagramm: Zustände einer Bestellung, z. B. offen, bezahlt, versendet"
+    - "Use-Case-Diagramm: Benutzer und Funktionen eines Systems"
+    - "Sequenzdiagramm: zeitlicher Ablauf eines Login-Prozesses"
+    - "Kommunikationsdiagramm: Zusammenarbeit zwischen Objekten"
+    - "Interaktionsübersichtsdiagramm: Überblick über mehrere Interaktionen"
+    - "Zeitverlaufsdiagramm: Zustandsänderungen über eine Zeitachse"
+    - "Merksatz: Verhaltensdiagramme zeigen, was im System passiert"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## UML-Verhaltensdiagramme und deren Zweck

@@ -13,15 +13,23 @@ tags: ["ap1", "windows", "installation", "ablauf"]
 
 # Flashcard payload
 card:
-  type: steps       # basic | multi | steps | definition | comparison
-  question: "In welcher Reihenfolge werden die Schritte zur Installation eines Windows-Betriebssystems durchgeführt?"
-  answer: "1. POST → 2. Bootreihenfolge festlegen → 3. Installationsmedium einlegen → 4. EULA akzeptieren → 5. Dateisystem anlegen → 6. Dateisystem formatieren → 7. Benutzer + Passwort anlegen → 8. Benutzerprofil erstellen"
-  examples: ["Installation von Windows 10", "Neuinstallation eines PCs"]
+  type: steps
+  question: "In welcher Reihenfolge läuft eine typische Windows-Installation ab?"
+  answer: "Typische Reihenfolge: 1. POST/Hardwareprüfung beim Start → 2. Bootreihenfolge prüfen oder festlegen → 3. Vom Installationsmedium starten → 4. Windows-Setup starten → 5. EULA/Lizenzbedingungen akzeptieren → 6. Zielpartition auswählen oder erstellen → 7. Partition formatieren → 8. Windows-Dateien kopieren und installieren → 9. Benutzerkonto und Passwort einrichten → 10. Benutzerprofil wird erstellt."
+  examples:
+    - "POST: Rechner prüft beim Start die Hardware"
+    - "Bootreihenfolge: USB-Stick oder DVD als Startmedium wählen"
+    - "Installationsmedium: Windows-USB-Stick oder DVD"
+    - "EULA: Lizenzbedingungen akzeptieren"
+    - "Partition: Speicherbereich für Windows auswählen oder erstellen"
+    - "Formatierung: Dateisystem vorbereiten, z. B. NTFS"
+    - "Benutzerkonto: Name und Passwort einrichten"
+    - "Merksatz: Prüfen, booten, installieren, Benutzer einrichten"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## Windows-Installation – Reihenfolge der Schritte
@@ -35,10 +43,11 @@ Die Installation eines Windows-Betriebssystems erfolgt in einer **festen logisch
 2. **Bootreihenfolge festlegen**
 3. **Installationsmedium einlegen**
 4. **EULA lesen und akzeptieren**
-5. **Dateisystem anlegen**
-6. **Dateisystem formatieren**
-7. **Benutzer + Passwort anlegen**
-8. **Benutzerprofil für das erste Login erstellen**
+5. **Zielpartition auswählen oder erstellen**
+6. **Partition formatieren**
+7. **Windows-Dateien kopieren und installieren**
+8. **Benutzerkonto und Passwort einrichten**
+9. **Benutzerprofil für das erste Login erstellen**
 
 ```mermaid
 flowchart LR

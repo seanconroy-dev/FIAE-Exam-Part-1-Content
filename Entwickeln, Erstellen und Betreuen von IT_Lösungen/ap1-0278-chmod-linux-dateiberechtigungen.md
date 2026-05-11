@@ -13,15 +13,24 @@ tags: ["ap1", "chmod", "linux", "rechte"]
 
 # Flashcard payload
 card:
-  type: basic       # basic | multi | steps | definition | comparison
-  question: "Was bewirkt der Befehl chmod in einem Linux-Betriebssystem und wie wird er verwendet?"
-  answer: "chmod dient zum Ändern von Dateiberechtigungen (lesen, schreiben, ausführen) für Benutzer, Gruppe und andere – symbolisch oder oktal."
-  examples: ["chmod 770 test.txt", "chmod u+x script.sh"]
+  type: definition
+  question: "Was macht der Linux-Befehl chmod?"
+  answer: "chmod ändert die Berechtigungen von Dateien und Verzeichnissen. Dabei geht es um Lesen, Schreiben und Ausführen für Benutzer, Gruppe und andere. Die Rechte können symbolisch, z. B. u+x, oder numerisch/oktal, z. B. 770, gesetzt werden."
+  examples:
+    - "r = read = lesen"
+    - "w = write = schreiben"
+    - "x = execute = ausführen"
+    - "u = user = Besitzer"
+    - "g = group = Gruppe"
+    - "o = others = andere Benutzer"
+    - "chmod u+x script.sh: Besitzer darf Script ausführen"
+    - "chmod 770 test.txt: Benutzer und Gruppe haben volle Rechte, andere keine"
+    - "Merksatz: chmod = Rechte ändern"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-18"
-updated: "2026-03-18"
+updated: "2026-05-11"
 ---
 
 ## chmod – Dateiberechtigungen in Linux
