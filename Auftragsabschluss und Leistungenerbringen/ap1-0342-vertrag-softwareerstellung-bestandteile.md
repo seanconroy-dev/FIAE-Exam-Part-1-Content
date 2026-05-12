@@ -13,15 +13,25 @@ tags: ["lastenheft", "pflichtenheft", "abnahme", "verguetung"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: multi
   question: "Was sollte in einem Vertrag zur Softwareerstellung geregelt sein?"
-  answer: "- Vertragsgegenstand (Lastenheft)\n- Entwicklung und Herstellung (Pflichtenheft)\n- Qualitätsstandard\n- Fertigstellungstermin\n- Nutzungsrechte\n- Haftung\n- Abnahme\n- Vergütung"
-  examples: []
+  answer: "Ein Vertrag zur Softwareerstellung sollte klar regeln, welche Software erstellt wird, welche Anforderungen gelten, wann geliefert wird, wie die Abnahme erfolgt, welche Nutzungsrechte entstehen, wer haftet und wie die Vergütung erfolgt."
+  examples:
+    - "Vertragsgegenstand: Welche Software soll erstellt werden?"
+    - "Lastenheft: Anforderungen aus Sicht des Auftraggebers"
+    - "Pflichtenheft: geplante Umsetzung aus Sicht des Auftragnehmers"
+    - "Qualitätsstandard: technische und fachliche Anforderungen"
+    - "Fertigstellungstermin: Liefertermin oder Meilensteine"
+    - "Abnahme: Prüfung, ob die Software vertragsgemäß funktioniert"
+    - "Nutzungsrechte: Wer darf die Software wie nutzen?"
+    - "Haftung: Regelung bei Fehlern, Schäden oder Verzögerungen"
+    - "Vergütung: Festpreis, Aufwand oder Zahlungsplan"
+    - "Merksatz: Softwarevertrag = Was bauen, wann liefern, wie abnehmen, wer darf nutzen, was kostet es?"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Bestandteile eines Vertrags zur Softwareerstellung

@@ -13,15 +13,20 @@ tags: ["doppelte-buchfuehrung", "soll-haben", "bestandskonten", "erfolgskonten"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: definition
   question: "Was bedeutet doppelte Buchführung?"
-  answer: "Bei der doppelten Buchführung wird jeder Geschäftsfall auf mindestens zwei Konten gebucht: einmal im Soll und einmal im Haben. Dadurch bleibt nachvollziehbar, woher Geld oder Werte kommen und wofür sie verwendet werden.(**Doppelte Buchführung** = jeder Geschäftsfall wird im Soll und im Haben gebucht.)"
-  examples: []
+  answer: "Doppelte Buchführung bedeutet, dass jeder Geschäftsfall auf mindestens zwei Konten gebucht wird: einmal im Soll und einmal im Haben. Dadurch bleibt nachvollziehbar, woher Werte kommen und wofür sie verwendet werden."
+  examples:
+    - "Einkauf von Büromaterial: Aufwandskonto im Soll, Bankkonto im Haben"
+    - "Kunde bezahlt Rechnung: Bankkonto im Soll, Forderungen im Haben"
+    - "Jede Buchung hat eine Gegenbuchung"
+    - "Soll und Haben müssen betragsmäßig übereinstimmen"
+    - "Merksatz: Doppelte Buchführung = jeder Geschäftsfall wird im Soll und im Haben gebucht"
 
 # Lifecycle
 status: published       # draft | published | deprecated  
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-12"
 ---
 
 ## Doppelte Buchführung

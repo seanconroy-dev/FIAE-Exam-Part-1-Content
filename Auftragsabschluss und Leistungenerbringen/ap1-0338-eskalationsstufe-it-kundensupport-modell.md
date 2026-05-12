@@ -13,15 +13,22 @@ tags: ["1st-level", "2nd-level", "3rd-level", "sla"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie wird der Begriff Eskalationsstufe im 3-stufigen IT-Kundensupport-Modell definiert?"
-  answer: "Eskalationsstufen sind definierte Support-Ebenen nach Schweregrad eines Falls.\n1st Level: erste Anlaufstelle\n2nd Level: Spezialisten (Incident Management)\n3rd Level: Experten/Entwickler"
-  examples: []
+  type: definition
+  question: "Was bedeutet Eskalationsstufe im 3-stufigen IT-Support?"
+  answer: "Eine Eskalationsstufe ist eine definierte Support-Ebene. Wenn ein Problem auf einer Ebene nicht gelöst werden kann, wird es an die nächste Ebene weitergegeben. Im 3-stufigen Support bearbeitet der 1st Level einfache Anfragen, der 2nd Level komplexere technische Probleme und der 3rd Level sehr spezielle Fälle, z. B. durch Experten, Entwickler oder Hersteller."
+  examples:
+    - "1st Level: erste Anlaufstelle, Ticket aufnehmen, einfache Lösungen prüfen"
+    - "1st Level: Passwort zurücksetzen oder Standardfragen beantworten"
+    - "2nd Level: tiefere technische Analyse durch Spezialisten"
+    - "2nd Level: Netzwerk-, Software- oder Systemfehler genauer untersuchen"
+    - "3rd Level: Experten, Entwickler oder Hersteller einbeziehen"
+    - "3rd Level: Fehler im Programmcode oder Produktfehler analysieren"
+    - "Merksatz: Eskalation = Problem wird an die nächste Support-Ebene weitergegeben"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Eskalationsstufen im 3-stufigen IT-Kundensupport-Modell

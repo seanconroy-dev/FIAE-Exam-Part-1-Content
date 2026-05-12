@@ -13,15 +13,22 @@ tags: ["iaas", "paas", "saas", "cloud"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie unterscheiden sich die 3 Cloud-Computing-Begriffe IaaS, SaaS und PaaS?"
-  answer: "IaaS: Bereitstellung von IT-Infrastruktur\nPaaS: Bereitstellung von Entwicklungs- und Laufzeitumgebungen\nSaaS: Bereitstellung fertiger Software als Service"
-  examples: []
+  type: comparison
+  question: "Wie unterscheiden sich IaaS, PaaS und SaaS?"
+  answer: "IaaS stellt IT-Infrastruktur bereit, z. B. virtuelle Server, Speicher und Netzwerke. PaaS stellt eine Plattform für Entwicklung und Betrieb von Anwendungen bereit. SaaS stellt fertige Software bereit, die direkt genutzt werden kann."
+  examples:
+    - "IaaS: virtuelle Maschine, Speicherplatz oder Netzwerk in der Cloud"
+    - "IaaS: Kunde verwaltet Betriebssystem und Anwendungen selbst"
+    - "PaaS: Plattform zum Entwickeln und Bereitstellen von Anwendungen"
+    - "PaaS: Anbieter verwaltet Infrastruktur und Laufzeitumgebung"
+    - "SaaS: fertige Anwendung im Browser nutzen"
+    - "SaaS: Beispiele sind Microsoft 365, Google Workspace oder Webmail"
+    - "Merksatz: IaaS = Infrastruktur, PaaS = Plattform, SaaS = Software"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Cloud-Computing: IaaS, PaaS und SaaS

@@ -13,15 +13,23 @@ tags: ["ertragsziele", "marktziele", "leistungsziele"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was sind die ökonomischen Ziele eines Unternehmens?"
-  answer: "Ertragsziele (Umsatz, Gewinn), Marktziele (Marktanteil) und Leistungsziele (Qualität, Arbeitsplatzsicherung)"
-  examples: []
+  type: multi
+  question: "Was sind ökonomische Ziele eines Unternehmens?"
+  answer: "Ökonomische Ziele sind wirtschaftliche Ziele eines Unternehmens. Dazu gehören Ertragsziele, Marktziele und Leistungsziele. Sie sollen den wirtschaftlichen Erfolg, die Wettbewerbsfähigkeit und die Leistungsfähigkeit des Unternehmens sichern."
+  examples:
+    - "Ertragsziel: Gewinn erhöhen"
+    - "Ertragsziel: Umsatz steigern"
+    - "Marktziel: Marktanteil vergrößern"
+    - "Marktziel: neue Kunden gewinnen"
+    - "Leistungsziel: Produktqualität verbessern"
+    - "Leistungsziel: Produktivität steigern"
+    - "Leistungsziel: Arbeitsplätze sichern"
+    - "Merksatz: ökonomische Ziele = Gewinn, Markt und Leistung"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Ökonomische Ziele eines Unternehmens

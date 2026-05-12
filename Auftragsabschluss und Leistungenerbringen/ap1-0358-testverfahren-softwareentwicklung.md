@@ -13,15 +13,24 @@ tags: ["tests", "unit-test", "integrationstest", "blackbox", "whitebox"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: multi
   question: "Welche Testverfahren gibt es in der Anwendungsentwicklung?"
-  answer: "Zu den Testverfahren gehören Black-Box- und White-Box-Tests sowie Unit-, Modul-, Integrations-, System-, Abnahme- und Lasttests."
-  examples: []
+  answer: "In der Anwendungsentwicklung gibt es verschiedene Testverfahren. Black-Box-Tests prüfen das Verhalten von außen, ohne den Code zu kennen. White-Box-Tests prüfen mit Kenntnis des Codes. Außerdem gibt es Unit-Tests, Modultests, Integrationstests, Systemtests, Abnahmetests und Lasttests."
+  examples:
+    - "Black-Box-Test: Eingaben und Ausgaben prüfen, ohne den Quellcode zu kennen"
+    - "White-Box-Test: Logik, Bedingungen und Codepfade im Quellcode prüfen"
+    - "Unit-Test: einzelne Funktion oder Methode testen"
+    - "Modultest: einzelnes Programmteil oder Modul testen"
+    - "Integrationstest: Zusammenspiel mehrerer Module testen"
+    - "Systemtest: gesamtes System gegen Anforderungen testen"
+    - "Abnahmetest: Kunde oder Auftraggeber prüft, ob Anforderungen erfüllt sind"
+    - "Lasttest: Verhalten bei hoher Benutzerzahl oder hoher Datenmenge prüfen"
+    - "Merksatz: Tests prüfen vom kleinen Codebaustein bis zum ganzen System"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-12"
 ---
 
 ## Testverfahren in der Anwendungsentwicklung

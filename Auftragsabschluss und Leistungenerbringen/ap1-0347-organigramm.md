@@ -13,15 +13,21 @@ tags: ["organigramm", "aufbauorganisation", "hierarchie"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Erkläre den Begriff Organigramm."
-  answer: "Ein Organigramm zeigt grafisch, wie ein Unternehmen aufgebaut ist. Es zeigt Abteilungen, Zuständigkeiten und wer wem unterstellt ist."
-  examples: []
+  type: definition
+  question: "Was ist ein Organigramm?"
+  answer: "Ein Organigramm ist eine grafische Darstellung der Aufbauorganisation eines Unternehmens. Es zeigt Abteilungen, Stellen, Zuständigkeiten und hierarchische Beziehungen."
+  examples:
+    - "Geschäftsführung steht oben im Organigramm"
+    - "Darunter können Abteilungen wie IT, Vertrieb, Einkauf oder Personal stehen"
+    - "Zeigt, wer wem unterstellt ist"
+    - "Zeigt Zuständigkeiten und Verantwortungsbereiche"
+    - "Hilft, die Unternehmensstruktur schnell zu verstehen"
+    - "Merksatz: Organigramm = grafischer Aufbau eines Unternehmens"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Organigramm

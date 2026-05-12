@@ -13,15 +13,27 @@ tags: ["wartung", "haftung", "datenschutz", "verguetung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Aus welchen Bestandteilen besteht in der Regel ein IT-Servicevertrag?"
-  answer: "- Angaben zum Wartungsgegenstand (Systeme, Standorte)\n- Leistungen und Einsatzzeiten\n- Mitwirkungspflichten und Ansprechpartner\n- Mängelgewährleistung\n- Datenschutz und Datensicherheit\n- Haftung\n- Vergütung\n- Laufzeit und Kündigung\n- Nebenabreden / salvatorische Klausel"
-  examples: []
+  type: multi
+  question: "Welche Bestandteile enthält ein IT-Servicevertrag?"
+  answer: "Ein IT-Servicevertrag regelt, welche IT-Systeme betreut werden, welche Leistungen der Anbieter erbringt, wann der Service verfügbar ist, welche Pflichten beide Seiten haben, wie Datenschutz und Datensicherheit umgesetzt werden, wer haftet, was der Service kostet und wie lange der Vertrag läuft."
+  examples:
+    - "Wartungsgegenstand: z. B. Server, Clients, Netzwerk, Software oder Standorte"
+    - "Leistungen: Wartung, Support, Updates, Fehlerbehebung oder Monitoring"
+    - "Einsatzzeiten: z. B. Montag bis Freitag von 8 bis 17 Uhr"
+    - "Ansprechpartner: zuständige Personen beim Kunden und Anbieter"
+    - "Mitwirkungspflichten: Kunde stellt Zugang, Informationen oder Termine bereit"
+    - "Mängelgewährleistung: Regelung bei fehlerhaften Leistungen"
+    - "Datenschutz: Umgang mit personenbezogenen Daten"
+    - "Datensicherheit: Schutzmaßnahmen, Zugriffsschutz und Vertraulichkeit"
+    - "Haftung: Verantwortung bei Schäden oder Ausfällen"
+    - "Vergütung: monatliche Pauschale, Stundenabrechnung oder Festpreis"
+    - "Laufzeit und Kündigung: Vertragsdauer und Kündigungsfristen"
+    - "Merksatz: IT-Servicevertrag = was wird betreut, wann, durch wen, wie sicher, wie teuer und wie lange?"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Bestandteile eines IT-Servicevertrags

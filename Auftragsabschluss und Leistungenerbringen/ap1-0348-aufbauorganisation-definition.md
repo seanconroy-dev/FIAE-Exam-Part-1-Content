@@ -13,15 +13,22 @@ tags: ["aufbauorganisation", "hierarchie", "organigramm"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie wird der Begriff Aufbauorganisation definiert?"
-  answer: "Aufbauorganisation = Aufbau eines Unternehmens. Sie zeigt Aufgaben, Abteilungen, Leitungsebenen und Weisungsbeziehungen."
-  examples: []
+  type: definition
+  question: "Was ist die Aufbauorganisation?"
+  answer: "Die Aufbauorganisation beschreibt die Struktur eines Unternehmens. Sie legt fest, welche Abteilungen, Stellen, Aufgaben, Verantwortlichkeiten und Weisungsbeziehungen es gibt."
+  examples:
+    - "Abteilungen: IT, Einkauf, Vertrieb, Personal"
+    - "Stellen: Mitarbeiter, Teamleiter, Abteilungsleiter"
+    - "Aufgaben: Wer ist für welche Arbeit zuständig?"
+    - "Verantwortung: Wer trägt die Verantwortung für Entscheidungen?"
+    - "Weisungsbeziehungen: Wer ist wem unterstellt?"
+    - "Darstellung: häufig als Organigramm"
+    - "Merksatz: Aufbauorganisation = Struktur des Unternehmens"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Aufbauorganisation

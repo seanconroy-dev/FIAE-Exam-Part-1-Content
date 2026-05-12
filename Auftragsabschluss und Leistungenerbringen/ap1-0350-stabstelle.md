@@ -13,15 +13,20 @@ tags: ["stabsstelle", "stabliniensystem", "beratung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie lässt sich der Begriff Stabsstelle bei Aufbauorganisationen definieren?"
-  answer: "Eine Stabsstelle unterstützt die Leitung bei Entscheidungsfindungen, hat aber keine eigene Weisungsbefugnis."
-  examples: []
-
+  type: definition
+  question: "Was ist eine Stabsstelle?"
+  answer: "Eine Stabsstelle unterstützt eine Leitungsstelle durch Fachwissen, Beratung und Vorbereitung von Entscheidungen. Sie hat in der Regel keine eigene Weisungsbefugnis gegenüber Linienstellen."
+  examples:
+    - "Rechtsabteilung berät die Geschäftsführung"
+    - "Datenschutzbeauftragter unterstützt bei Datenschutzfragen"
+    - "IT-Sicherheitsbeauftragter berät zu Sicherheitsmaßnahmen"
+    - "Qualitätsmanagement unterstützt bei Prozessverbesserungen"
+    - "Stabsstelle bereitet Informationen für Entscheidungen vor"
+    - "Merksatz: Stabsstelle = beraten und vorbereiten, aber nicht direkt anweisen"
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Stabsstelle

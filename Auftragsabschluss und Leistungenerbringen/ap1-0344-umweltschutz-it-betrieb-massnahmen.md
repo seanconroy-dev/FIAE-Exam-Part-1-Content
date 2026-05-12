@@ -13,15 +13,23 @@ tags: ["energieeffizienz", "virtualisierung", "ssd", "standby"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Welche Maßnahmen eignen sich, um den Umweltschutz im IT-Betrieb stärker zu berücksichtigen?"
-  answer: "- Einsatz von Green-IT-Komponenten\n- Nutzung von Standby-Regeln\n- Einsatz von SSD statt HDD\n- Nutzung von Abschaltautomatiken\n- Virtualisierung von Servern und Anwendungen"
-  examples: []
+  type: multi
+  question: "Welche Maßnahmen verbessern den Umweltschutz im IT-Betrieb?"
+  answer: "Umweltschutz im IT-Betrieb kann durch energieeffiziente Hardware, Stromsparfunktionen, Abschaltautomatiken, Virtualisierung, längere Gerätenutzung, fachgerechtes Recycling und bewusste Beschaffung verbessert werden."
+  examples:
+    - "Green IT: energieeffiziente Geräte und Komponenten einsetzen"
+    - "Energie sparen: Standby-Regeln und Energiesparmodi nutzen"
+    - "Abschaltautomatik: Geräte außerhalb der Arbeitszeit automatisch ausschalten"
+    - "SSD statt HDD: oft geringerer Energieverbrauch und weniger mechanischer Verschleiß"
+    - "Virtualisierung: mehrere Serverdienste auf weniger Hardware betreiben"
+    - "Beschaffung: langlebige, reparierbare und effiziente Geräte kaufen"
+    - "Recycling: Altgeräte fachgerecht entsorgen und Datenträger vorher sicher löschen"
+    - "Merksatz: Green IT = Strom sparen, Hardware sinnvoll nutzen und richtig entsorgen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Umweltschutzmaßnahmen im IT-Betrieb

@@ -13,15 +13,21 @@ tags: ["prokura", "hgb", "vollmacht"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: definition
   question: "Was ist Prokura und wozu berechtigt sie?"
-  answer: "Prokura ist eine besondere handelsrechtliche Vollmacht. Sie berechtigt einen Prokuristen dazu, fast alle gerichtlichen und außergerichtlichen Geschäfte für ein Handelsgewerbe abzuschließen."
-  examples: []
+  answer: "Prokura ist eine besondere handelsrechtliche Vollmacht. Eine Person mit Prokura darf ein Unternehmen bei fast allen gerichtlichen und außergerichtlichen Geschäften vertreten, die zum Betrieb eines Handelsgewerbes gehören. Grundstücke verkaufen oder belasten darf sie nur mit besonderer zusätzlicher Erlaubnis."
+  examples:
+    - "Prokurist darf Verträge für das Unternehmen abschließen"
+    - "Prokurist darf Personal einstellen oder entlassen"
+    - "Prokurist darf vor Gericht für das Unternehmen auftreten"
+    - "Prokurist unterschreibt mit ppa."
+    - "Einschränkung: Grundstücke verkaufen oder belasten nur mit besonderer Erlaubnis"
+    - "Merksatz: Prokura = sehr weitreichende Vollmacht im Handelsunternehmen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-12"
 ---
 
 ## Prokura

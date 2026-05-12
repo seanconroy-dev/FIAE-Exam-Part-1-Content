@@ -13,15 +13,21 @@ tags: ["iv", "ia", "ppa", "prokura", "vollmacht"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Welche Rolle spielen bei Unterschriften die Abkürzungen i. V., i. A. sowie ppa.?"
-  answer: "i. V. = in Vollmacht (Handlungsvollmacht nach HGB); i. A. = im Auftrag (BGB, einfache Beauftragung); ppa. = per Prokura (umfangreiche gesetzliche Vertretungsmacht nach HGB)."
-  examples: []
+  type: comparison
+  question: "Was bedeuten die Unterschriftskürzel i. A., i. V. und ppa.?"
+  answer: "Die Kürzel zeigen, mit welcher Vertretungsbefugnis jemand unterschreibt. i. A. bedeutet im Auftrag und steht für eine einfache Beauftragung. i. V. bedeutet in Vollmacht und zeigt eine stärkere Vertretungsbefugnis. ppa. bedeutet per Prokura und steht für eine besonders umfangreiche kaufmännische Vollmacht."
+  examples:
+    - "i. A.: Mitarbeiter unterschreibt im Auftrag einer anderen Person"
+    - "i. V.: Person unterschreibt mit Vertretungsvollmacht"
+    - "ppa.: Prokurist unterschreibt mit Prokura"
+    - "Prokura: umfangreiche Vollmacht für viele Rechtsgeschäfte eines Unternehmens"
+    - "Wichtig: ppa. darf nur von eingetragenen Prokuristen verwendet werden"
+    - "Merksatz: i. A. = Auftrag, i. V. = Vollmacht, ppa. = Prokura"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-12"
 ---
 
 ## Unterschriften: i. V., i. A. und ppa.

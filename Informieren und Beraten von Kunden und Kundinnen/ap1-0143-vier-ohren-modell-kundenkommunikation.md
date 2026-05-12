@@ -14,18 +14,23 @@ tags: ["definition", "prüfungsrelevant"]
 # Flashcard payload
 card:
   type: multi
-  question: "Analysiere nach dem Vier-Ohren-Modell (Sachebene, Appell, Selbstoffenbarung und Beziehung) die Aussagen eines Kunden gegenüber einem Vertriebsmitarbeiter."
-  answer: |
-    1. Sie müssen pünktlich liefern! → Appell
-    2. Ich bin mit Ihnen nicht zufrieden. → Beziehung
-    3. Sie haben nicht pünktlich geliefert. → Sachebene
-    4. Ich kontrolliere Ihre Leistungen sehr genau. → Selbstoffenbarung
-  examples: []
+  question: "Wie ordnet man Kundenaussagen den vier Ebenen des Vier-Ohren-Modells zu?"
+  answer: "Beim Vier-Ohren-Modell kann eine Aussage auf vier Ebenen verstanden werden: Sachebene, Appell, Selbstoffenbarung und Beziehung. Sachebene bedeutet reine Information. Appell bedeutet Aufforderung. Selbstoffenbarung zeigt etwas über den Sprecher. Beziehung zeigt, wie der Sprecher zum Empfänger steht."
+  examples:
+    - "Sie müssen pünktlich liefern! = Appell"
+    - "Ich bin mit Ihnen nicht zufrieden. = Beziehung"
+    - "Sie haben nicht pünktlich geliefert. = Sachebene"
+    - "Ich kontrolliere Ihre Leistungen sehr genau. = Selbstoffenbarung"
+    - "Sachebene: Was ist die Information?"
+    - "Appell: Was soll der andere tun?"
+    - "Selbstoffenbarung: Was zeigt der Sprecher über sich?"
+    - "Beziehung: Wie steht der Sprecher zum Empfänger?"
+    - "Merksatz: Sache = Info, Appell = Tu etwas, Selbstoffenbarung = Ich zeige etwas über mich, Beziehung = So sehe ich dich"
 
 # Lifecycle
 status: published
 created: "2026-03-10"
-updated: "2026-03-10"
+updated: "2026-05-12"
 ---
 
 ## Vier-Ohren-Modell in der Kundenkommunikation

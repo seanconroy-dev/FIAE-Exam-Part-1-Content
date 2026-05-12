@@ -13,15 +13,22 @@ tags: ["stabliniensystem", "stabsstelle", "einliniensystem"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Beschreibe den Aufbau einer Stablinienorganisation."
-  answer: "Eine Stablinienorganisation ist eine Linienorganisation mit zusätzlichen Stabsstellen. Die Stabsstellen beraten und unterstützen die Leitung, haben aber keine Weisungsbefugnis."
-  examples: []
+  type: definition
+  question: "Was ist eine Stablinienorganisation?"
+  answer: "Eine Stablinienorganisation ist eine Linienorganisation, die durch Stabsstellen ergänzt wird. Die Linienstellen haben Weisungsbefugnis. Die Stabsstellen beraten und unterstützen die Leitung, haben aber normalerweise keine eigene Weisungsbefugnis gegenüber den Linienstellen."
+  examples:
+    - "Geschäftsführung wird durch eine Rechtsabteilung beraten"
+    - "IT-Leitung wird durch einen IT-Sicherheitsbeauftragten unterstützt"
+    - "Qualitätsmanagement unterstützt die Leitung bei Prozessfragen"
+    - "Linienstelle: darf Anweisungen geben"
+    - "Stabsstelle: berät und bereitet Entscheidungen vor"
+    - "Vorteil: klare Weisungswege plus Fachberatung"
+    - "Merksatz: Stablinienorganisation = Linienhierarchie mit beratenden Stabsstellen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Stabliniensystem

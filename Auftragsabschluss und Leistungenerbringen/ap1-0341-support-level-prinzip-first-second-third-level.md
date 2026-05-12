@@ -13,15 +13,23 @@ tags: ["1st-level", "2nd-level", "3rd-level", "supportprozess"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie funktioniert das mehrstufige Prinzip des First-Level-, Second-Level- und Third-Level-Supports?"
-  answer: "1st Level: erste Anlaufstelle, erfasst Anfragen und löst einfache Probleme\n2nd Level: Spezialisten bearbeiten komplexere Fälle\n3rd Level: Experten/Entwickler lösen tiefgehende oder systemnahe Probleme"
-  examples: []
+  type: steps
+  question: "Wie funktioniert das 3-stufige Support-Modell?"
+  answer: "Im 3-stufigen Support werden Anfragen je nach Schwierigkeit bearbeitet. Der 1st Level ist die erste Anlaufstelle und löst einfache Probleme. Der 2nd Level übernimmt komplexere technische Fälle. Der 3rd Level bearbeitet sehr spezielle Probleme, oft durch Experten, Entwickler oder Hersteller."
+  examples:
+    - "1st Level: Ticket aufnehmen und einfache Fragen klären"
+    - "1st Level: Passwort zurücksetzen oder Standardlösung prüfen"
+    - "2nd Level: komplexere Netzwerk-, Software- oder Systemprobleme analysieren"
+    - "2nd Level: Fehler genauer eingrenzen und technische Lösung suchen"
+    - "3rd Level: Entwickler, Hersteller oder Produktexperten einbeziehen"
+    - "3rd Level: Programmfehler oder tiefgehende Systemprobleme untersuchen"
+    - "Eskalation: Fall wird an die nächste Support-Stufe weitergegeben"
+    - "Merksatz: 1st = Annahme, 2nd = Spezialisten, 3rd = Experten"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## First-, Second- und Third-Level-Support

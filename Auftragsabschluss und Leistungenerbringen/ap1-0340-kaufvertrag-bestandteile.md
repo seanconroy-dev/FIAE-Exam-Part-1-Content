@@ -13,15 +13,22 @@ tags: ["pflichten", "gewaehrleistung", "vertrag"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: multi
   question: "Was sind die wesentlichen Bestandteile eines Kaufvertrags?"
-  answer: "- Vertragstypische Pflichten (Eigentumsübertragung, Zahlung)\n- Rechte des Käufers bei Mängeln (Nacherfüllung, Minderung)\n- Garantie / Gewährleistung\n- Haftungsausschlüsse"
-  examples: []
+  answer: "Ein Kaufvertrag entsteht, wenn sich Käufer und Verkäufer über Ware und Preis einig sind. Wesentliche Bestandteile sind die Vertragsparteien, der Kaufgegenstand, der Kaufpreis sowie die Pflichten beider Seiten: Der Verkäufer muss die Ware übergeben und das Eigentum verschaffen, der Käufer muss den Kaufpreis zahlen und die Ware abnehmen."
+  examples:
+    - "Vertragsparteien: Käufer und Verkäufer"
+    - "Kaufgegenstand: z. B. Notebook, Server oder Softwarelizenz"
+    - "Kaufpreis: vereinbarter Preis für die Ware"
+    - "Pflicht Verkäufer: Ware liefern und Eigentum übertragen"
+    - "Pflicht Käufer: Kaufpreis zahlen und Ware annehmen"
+    - "Bei Mängeln: Käufer kann z. B. Nacherfüllung verlangen"
+    - "Merksatz: Kaufvertrag = Käufer und Verkäufer einigen sich auf Ware gegen Geld"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Wesentliche Bestandteile eines Kaufvertrags

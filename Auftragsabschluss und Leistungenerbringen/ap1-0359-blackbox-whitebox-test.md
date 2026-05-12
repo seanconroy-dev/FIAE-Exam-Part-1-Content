@@ -13,15 +13,22 @@ tags: ["blackbox", "whitebox", "softwaretest"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie unterscheiden sich in der Anwendungsentwicklung Black-Box-Test und White-Box-Test?"
-  answer: "Beim Black-Box-Test wird das äußere Verhalten ohne Kenntnis des Codes getestet. Beim White-Box-Test wird die interne Struktur und Logik des Quellcodes überprüft."
-  examples: []
+  type: comparison
+  question: "Wie unterscheiden sich Black-Box-Test und White-Box-Test?"
+  answer: "Beim Black-Box-Test wird das Verhalten einer Software von außen getestet, ohne den Quellcode zu kennen. Beim White-Box-Test wird mit Kenntnis des Quellcodes getestet, z. B. interne Logik, Bedingungen und Codepfade."
+  examples:
+    - "Black-Box-Test: Eingabe machen und prüfen, ob die richtige Ausgabe kommt"
+    - "Black-Box-Test: Tester kennt nur Anforderungen, nicht den Quellcode"
+    - "White-Box-Test: Bedingungen, Schleifen und Codepfade prüfen"
+    - "White-Box-Test: Entwickler testet die interne Programmlogik"
+    - "Beispiel Black-Box: Login mit richtigem und falschem Passwort testen"
+    - "Beispiel White-Box: prüfen, ob alle if-else-Zweige getestet wurden"
+    - "Merksatz: Black-Box = außen testen, White-Box = Code prüfen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-12"
 ---
 
 ## Black-Box- vs. White-Box-Test

@@ -13,15 +13,21 @@ tags: ["matrixorganisation", "mehrliniensystem", "projektorganisation"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie wird die Matrixorganisation bei den Leitungssystemen definiert?"
-  answer: "Die Matrixorganisation ist eine Organisationsform, bei der Mitarbeiter zwei Vorgesetzte haben können. Zum Beispiel einen fachlichen Vorgesetzten nach Abteilung und einen projektbezogenen Vorgesetzten."
-  examples: []
+  type: definition
+  question: "Was ist eine Matrixorganisation?"
+  answer: "Eine Matrixorganisation ist eine Organisationsform, bei der Mitarbeitende zwei Vorgesetzte haben können: einen fachlichen Vorgesetzten aus der Abteilung und einen projektbezogenen Vorgesetzten. Dadurch können Fachwissen und Projektarbeit kombiniert werden, es kann aber auch zu Konflikten durch doppelte Weisungen kommen."
+  examples:
+    - "Mitarbeiter gehört zur IT-Abteilung und arbeitet zusätzlich in einem Projektteam"
+    - "Fachvorgesetzter: verantwortlich für fachliche Themen und Entwicklung"
+    - "Projektvorgesetzter: verantwortlich für Aufgaben, Termine und Projektziele"
+    - "Vorteil: Fachwissen und Projektarbeit werden verbunden"
+    - "Nachteil: Konflikte durch zwei Vorgesetzte möglich"
+    - "Merksatz: Matrixorganisation = Abteilung plus Projekt, oft zwei Vorgesetzte"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-29"
-updated: "2026-03-29"
+updated: "2026-05-12"
 ---
 
 ## Matrixorganisation

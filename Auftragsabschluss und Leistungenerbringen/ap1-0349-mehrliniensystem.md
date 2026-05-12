@@ -13,15 +13,21 @@ tags: ["mehrliniensystem", "weisungsbeziehung", "organisation"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie wird das Mehrliniensystem bei den Leitungssystemen definiert?"
-  answer: "Im Mehrliniensystem erhält eine untergeordnete Stelle Anweisungen von mehreren übergeordneten Stellen."
-  examples: []
+  type: definition
+  question: "Was ist ein Mehrliniensystem?"
+  answer: "Beim Mehrliniensystem erhält eine untergeordnete Stelle Anweisungen von mehreren übergeordneten Stellen. Das kann Fachwissen besser nutzen, aber auch zu Konflikten führen, wenn Anweisungen nicht eindeutig sind."
+  examples:
+    - "Ein Mitarbeiter erhält Anweisungen vom IT-Leiter und vom Projektleiter"
+    - "Vorteil: Fachvorgesetzte können direkt Anweisungen geben"
+    - "Vorteil: Spezialwissen wird besser genutzt"
+    - "Nachteil: widersprüchliche Anweisungen sind möglich"
+    - "Nachteil: Zuständigkeiten können unklar werden"
+    - "Merksatz: Mehrliniensystem = ein Mitarbeiter, mehrere Vorgesetzte"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Mehrliniensystem

@@ -13,15 +13,21 @@ tags: ["transportschaden", "falschlieferung", "wareneingang"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Unter welchen Voraussetzungen darf die Warenannahme verweigert werden?"
-  answer: "- Lieferung ist falsch adressiert\n- Paket weist Transportschäden auf\n- Anzahl der Packstücke stimmt nicht mit der Bestellung überein"
-  examples: []
+  type: multi
+  question: "Wann darf die Warenannahme verweigert werden?"
+  answer: "Die Warenannahme darf verweigert werden, wenn die Lieferung offensichtlich nicht korrekt ist. Typische Gründe sind eine falsche Adresse, sichtbare Transportschäden, falsche Ware oder eine falsche Anzahl von Packstücken."
+  examples:
+    - "Falsche Adresse: Lieferung ist nicht für das Unternehmen bestimmt"
+    - "Transportschaden: Paket ist stark beschädigt oder geöffnet"
+    - "Falsche Menge: Anzahl der Packstücke stimmt nicht mit den Lieferpapieren überein"
+    - "Falsche Ware: Lieferung passt offensichtlich nicht zur Bestellung"
+    - "Unklare Lieferung: Lieferpapiere fehlen oder sind nicht zuordenbar"
+    - "Merksatz: Annahme verweigern, wenn Adresse, Zustand, Ware oder Menge offensichtlich falsch sind"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Kriterien zur Verweigerung der Warenannahme
