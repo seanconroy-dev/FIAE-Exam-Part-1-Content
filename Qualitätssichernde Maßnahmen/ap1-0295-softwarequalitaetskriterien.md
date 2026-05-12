@@ -13,15 +13,22 @@ tags: ["ap1", "software", "qualität", "kriterien"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Welche Qualitätskriterien sind für Software relevant?"
-  answer: "Software sollte folgende Qualitätskriterien erfüllen: Funktionalität, Benutzbarkeit, Zuverlässigkeit, Effizienz, Übertragbarkeit und Änderbarkeit."
-  examples: []
+  type: multi
+  question: "Welche Qualitätskriterien sind für Software wichtig?"
+  answer: "Wichtige Qualitätskriterien für Software sind Funktionalität, Benutzbarkeit, Zuverlässigkeit, Effizienz, Änderbarkeit und Übertragbarkeit. Gute Software erfüllt die Anforderungen, ist verständlich bedienbar, läuft stabil, nutzt Ressourcen sinnvoll, kann angepasst werden und ist auf andere Systeme übertragbar."
+  examples:
+    - "Funktionalität: Software erfüllt die geforderten Aufgaben"
+    - "Benutzbarkeit: Software ist verständlich und einfach zu bedienen"
+    - "Zuverlässigkeit: Software läuft stabil und fehlerarm"
+    - "Effizienz: Software nutzt Zeit, Speicher und Rechenleistung sinnvoll"
+    - "Änderbarkeit: Software kann gewartet und erweitert werden"
+    - "Übertragbarkeit: Software kann auf andere Systeme oder Umgebungen angepasst werden"
+    - "Merksatz: Gute Software funktioniert, ist nutzbar, stabil, effizient, änderbar und übertragbar"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## Softwarequalitätskriterien

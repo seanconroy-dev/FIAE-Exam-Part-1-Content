@@ -13,15 +13,21 @@ tags: ["ap1", "umwelt", "zertifizierung", "qualität"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: definition
   question: "Was bedeutet das Umweltzeichen Blauer Engel?"
-  answer: "Der Blaue Engel ist ein Umweltzeichen der Bundesregierung für besonders umweltfreundliche Produkte und Dienstleistungen, die strengere Umweltkriterien als vergleichbare Produkte erfüllen."
-  examples: []
+  answer: "Der Blaue Engel ist ein deutsches Umweltzeichen für besonders umweltfreundliche Produkte und Dienstleistungen. Produkte mit diesem Zeichen erfüllen strengere Umweltkriterien als vergleichbare Produkte, z. B. bei Energieverbrauch, Schadstoffen, Langlebigkeit oder Recycling."
+  examples:
+    - "Umweltfreundliche Drucker oder Monitore"
+    - "Recyclingpapier mit Blauem Engel"
+    - "Produkte mit geringem Energieverbrauch"
+    - "Produkte mit weniger Schadstoffen"
+    - "Produkte, die langlebig oder gut recycelbar sind"
+    - "Merksatz: Blauer Engel = besser für Umwelt und Ressourcen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## Blauer Engel (Umweltzeichen)

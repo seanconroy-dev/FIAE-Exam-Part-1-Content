@@ -13,15 +13,20 @@ tags: ["ap1", "sicherheit", "normen", "prüfung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wofür steht das Gütesiegel Geprüfte Sicherheit (GS)?"
-  answer: "Das GS-Siegel bestätigt, dass ein Produkt die Anforderungen des Produktsicherheitsgesetzes erfüllt und von einer unabhängigen Prüfstelle geprüft wurde."
-  examples: []
-
+  type: definition
+  question: "Wofür steht das GS-Zeichen?"
+  answer: "Das GS-Zeichen steht für Geprüfte Sicherheit. Es zeigt, dass ein Produkt von einer unabhängigen Prüfstelle auf Sicherheit geprüft wurde und die Anforderungen des Produktsicherheitsgesetzes erfüllt."
+  examples:
+    - "GS = Geprüfte Sicherheit"
+    - "Unabhängige Prüfstelle kontrolliert das Produkt"
+    - "Produkt erfüllt Anforderungen an Sicherheit"
+    - "Häufig bei Elektrogeräten, Werkzeugen oder Büromöbeln"
+    - "Wichtig: GS sagt etwas über Produktsicherheit aus, nicht automatisch über die gesamte Produktqualität"
+    - "Merksatz: GS = unabhängig geprüfte Produktsicherheit"
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## GS-Siegel (Geprüfte Sicherheit)

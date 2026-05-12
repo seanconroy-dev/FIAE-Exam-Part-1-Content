@@ -13,15 +13,22 @@ tags: ["ap1", "umwelt", "entsorgung", "it-hardware"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Worauf ist beim Recyceln von IT-Produkten zu achten?"
-  answer: "IT-Produkte müssen gemäß WEEE-Richtlinie fachgerecht und umweltgerecht entsorgt werden, dürfen nicht in den Hausmüll und unterliegen der Verantwortung der Hersteller für die Entsorgung."
-  examples: []
+  type: multi
+  question: "Worauf muss man beim Recycling von IT-Produkten achten?"
+  answer: "IT-Produkte dürfen nicht einfach in den Hausmüll. Sie müssen fachgerecht, umweltgerecht und nach den geltenden Entsorgungsregeln recycelt werden. Vor der Entsorgung müssen vorhandene Daten sicher gelöscht oder Datenträger zerstört werden."
+  examples:
+    - "Altgeräte über Sammelstellen, Händler oder Recyclinghöfe entsorgen"
+    - "Datenträger vor der Abgabe sicher löschen oder zerstören"
+    - "Akkus und Batterien getrennt und fachgerecht entsorgen"
+    - "Wertstoffe wie Metalle, Kunststoffe und Elektronikbauteile können recycelt werden"
+    - "Schadstoffe dürfen nicht unkontrolliert in die Umwelt gelangen"
+    - "Beispiele: alte PCs, Monitore, Drucker, Smartphones und Festplatten"
+    - "Merksatz: IT-Recycling = Daten schützen, Umwelt schützen, fachgerecht entsorgen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## Recycling von IT-Produkten (WEEE)

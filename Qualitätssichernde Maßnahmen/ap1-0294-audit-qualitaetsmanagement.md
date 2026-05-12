@@ -13,15 +13,21 @@ tags: ["ap1", "iso-9001", "prüfung", "prozesse"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was versteht man im Qualitätsmanagement unter einem Audit?"
-  answer: "Ein Audit ist eine systematische Prüfung von Prozessen, Anforderungen und Richtlinien, um festzustellen, ob festgelegte Standards (z. B. ISO 9001) eingehalten werden."
-  examples: []
+  type: definition
+  question: "Was ist ein Audit im Qualitätsmanagement?"
+  answer: "Ein Audit ist eine systematische Prüfung. Dabei wird kontrolliert, ob Prozesse, Vorgaben, Richtlinien oder Standards eingehalten werden, z. B. nach ISO 9001."
+  examples:
+    - "Internes Audit: Unternehmen prüft eigene Prozesse"
+    - "Externes Audit: unabhängige Stelle prüft das Unternehmen"
+    - "ISO 9001: Prüfung, ob Qualitätsmanagement-Anforderungen erfüllt werden"
+    - "Prozesse: kontrollieren, ob Arbeitsabläufe wie festgelegt durchgeführt werden"
+    - "Dokumentation: prüfen, ob Nachweise und Unterlagen vollständig sind"
+    - "Merksatz: Audit = systematische Prüfung von Vorgaben und Prozessen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## Audit im Qualitätsmanagement

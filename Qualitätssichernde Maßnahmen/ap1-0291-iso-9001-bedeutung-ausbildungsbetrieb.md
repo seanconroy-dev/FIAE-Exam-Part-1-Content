@@ -13,15 +13,21 @@ tags: ["ap1", "normen", "prozesse", "optimierung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was bedeutet die ISO 9001 Zertifizierung für einen Ausbildungsbetrieb?"
-  answer: "ISO 9001 legt Anforderungen an ein Qualitätsmanagementsystem fest. Ziel ist die Qualitätssicherung durch kontinuierliche Verbesserung der Prozesse auf Basis von Kundenorientierung, Prozessorientierung und Risikomanagement."
-  examples: []
+  type: definition
+  question: "Was bedeutet ISO 9001 für einen Ausbildungsbetrieb?"
+  answer: "ISO 9001 ist ein Standard für Qualitätsmanagement. Für einen Ausbildungsbetrieb bedeutet das: Arbeits- und Ausbildungsprozesse werden geplant, dokumentiert, überprüft und kontinuierlich verbessert. Ziel ist gleichbleibende Qualität, klare Abläufe und bessere Zufriedenheit der Beteiligten."
+  examples:
+    - "Ausbildungsprozesse werden klar beschrieben und dokumentiert"
+    - "Zuständigkeiten und Abläufe sind festgelegt"
+    - "Feedback von Auszubildenden kann zur Verbesserung genutzt werden"
+    - "Fehler oder Probleme werden analysiert und behoben"
+    - "PDCA: planen, umsetzen, prüfen und verbessern"
+    - "Merksatz: ISO 9001 = Qualitätsmanagement für bessere und verlässliche Prozesse"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## ISO 9001 im Ausbildungsbetrieb
