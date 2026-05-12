@@ -13,15 +13,23 @@ tags: ["ap1", "it-sicherheit", "normen"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Welche Vorteile bringt eine Zertifizierung nach ISO 27001?"
-  answer: "Verbesserter Schutz von Informationen und Prozessen, Vertrauensgewinn bei Kunden und Partnern, kontinuierliche Verbesserung (PDCA), geringere Kosten durch weniger Sicherheitsvorfälle sowie höheres Sicherheitsbewusstsein."
-  examples: []
+  type: multi
+  question: "Welche Vorteile bringt eine ISO/IEC 27001 Zertifizierung?"
+  answer: "Eine ISO/IEC 27001 Zertifizierung verbessert den Schutz von Informationen, Prozessen und IT-Systemen. Sie stärkt das Vertrauen von Kunden und Partnern, unterstützt Compliance, senkt Risiken durch Sicherheitsvorfälle und fördert die kontinuierliche Verbesserung der Informationssicherheit."
+  examples:
+    - "Schutz: Informationen und Geschäftsprozesse werden besser abgesichert"
+    - "Vertrauen: Kunden und Partner sehen, dass Sicherheit ernst genommen wird"
+    - "Compliance: gesetzliche oder vertragliche Anforderungen können besser erfüllt werden"
+    - "Risiken: Sicherheitsvorfälle werden systematischer verhindert oder reduziert"
+    - "Kosten: weniger Schäden durch Ausfälle, Datenverlust oder Angriffe"
+    - "PDCA: Sicherheitsmaßnahmen werden geplant, geprüft und verbessert"
+    - "Bewusstsein: Mitarbeitende werden stärker für Informationssicherheit sensibilisiert"
+    - "Merksatz: ISO/IEC 27001 = mehr Sicherheit, mehr Vertrauen, weniger Risiko"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Vorteile einer ISO 27001 Zertifizierung

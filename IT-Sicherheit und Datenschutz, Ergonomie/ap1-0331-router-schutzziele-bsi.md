@@ -13,15 +13,22 @@ tags: ["ap1", "it-sicherheit", "cia"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Welche Schutzziele und welcher Schutzbedarf gelten für einen Router gemäß BSI IT-Grundschutz?"
-  answer: "Vertraulichkeit: hoch, Integrität: normal, Verfügbarkeit: normal."
-  examples: []
+  type: comparison
+  question: "Welche Schutzziele müssen bei einem Router bewertet werden?"
+  answer: "Bei einem Router werden die Schutzziele Vertraulichkeit, Integrität und Verfügbarkeit bewertet. Der konkrete Schutzbedarf hängt vom Einsatz ab. Beispiel: Vertraulichkeit kann hoch sein, wenn sensible Verbindungs- oder Konfigurationsdaten betroffen sind. Integrität ist wichtig, weil falsche Routing- oder Firewall-Regeln den Datenverkehr manipulieren können. Verfügbarkeit ist wichtig, weil ein Routerausfall Netzwerkverbindungen unterbrechen kann."
+  examples:
+    - "Vertraulichkeit: Konfigurationsdaten, Zugangsdaten oder VPN-Informationen schützen"
+    - "Integrität: Routing-Tabellen und Firewall-Regeln dürfen nicht unbefugt verändert werden"
+    - "Verfügbarkeit: Ausfall des Routers kann Internet- oder Standortverbindungen unterbrechen"
+    - "Schutzbedarf normal: Ausfall oder Änderung hat nur begrenzte Auswirkungen"
+    - "Schutzbedarf hoch: Ausfall oder Manipulation betrifft wichtige Geschäftsprozesse"
+    - "Schutzbedarf sehr hoch: Ausfall oder Manipulation gefährdet kritische oder zentrale Dienste"
+    - "Merksatz: Router bewerten nach Vertraulichkeit, Integrität und Verfügbarkeit - der Schutzbedarf hängt vom Einsatz ab"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Schutzziele und Schutzbedarf eines Routers (BSI)

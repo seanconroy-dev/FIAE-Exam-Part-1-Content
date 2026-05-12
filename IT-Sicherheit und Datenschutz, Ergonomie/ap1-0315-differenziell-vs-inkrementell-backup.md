@@ -13,15 +13,22 @@ tags: ["ap1", "backup", "grundlagen", "vergleich"]
 
 # Flashcard payload
 card:
-  type: basic
+  type: comparison
   question: "Wie unterscheiden sich differenzielles und inkrementelles Backup?"
-  answer: "Differenziell: sichert alle Änderungen seit dem letzten Vollbackup. Inkrementell: sichert nur Änderungen seit dem letzten Backup. Wiederherstellung: differenziell einfacher, inkrementell aufwendiger."
-  examples: []
+  answer: "Ein differenzielles Backup sichert alle Änderungen seit dem letzten Vollbackup. Ein inkrementelles Backup sichert nur die Änderungen seit dem letzten Backup, egal ob Vollbackup oder inkrementelles Backup. Die Wiederherstellung ist beim differenziellen Backup meist einfacher, beim inkrementellen Backup aber oft aufwendiger."
+  examples:
+    - "Differenziell: Vollbackup am Montag, Dienstag sichert Änderungen seit Montag"
+    - "Differenziell: Mittwoch sichert wieder alle Änderungen seit Montag"
+    - "Inkrementell: Vollbackup am Montag, Dienstag sichert nur Änderungen seit Montag"
+    - "Inkrementell: Mittwoch sichert nur Änderungen seit Dienstag"
+    - "Wiederherstellung differenziell: Vollbackup + letztes differenzielles Backup"
+    - "Wiederherstellung inkrementell: Vollbackup + alle benötigten inkrementellen Backups"
+    - "Merksatz: Differenziell = seit Vollbackup, inkrementell = seit letztem Backup"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-05-12"
 ---
 
 ## Differenzielles vs. inkrementelles Backup

@@ -13,15 +13,20 @@ tags: ["ap1", "grundlagen", "netzwerk", "sicherheit"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Erkläre den Begriff SPI (Stateful Packet Inspection) Firewall."
-  answer: "Eine Firewall, die den Zustand von Verbindungen überwacht und Datenpakete anhand gespeicherter Sitzungsinformationen (z. B. TCP-Status) prüft und filtert."
-  examples: []
+  type: definition
+  question: "Was ist eine SPI-Firewall?"
+  answer: "Eine SPI-Firewall, Stateful Packet Inspection, prüft Datenpakete anhand des aktuellen Verbindungszustands. Sie merkt sich erlaubte Verbindungen und lässt nur Pakete durch, die zu einer gültigen Verbindung passen. Unerwartete oder nicht passende Pakete können blockiert werden."
+  examples:
+    - "Ein Antwortpaket zu einer zuvor erlaubten Verbindung wird akzeptiert"
+    - "Ein unerwartetes Paket von außen kann blockiert werden"
+    - "TCP-Verbindungen werden anhand ihres Zustands geprüft"
+    - "Schutz vor ungewollten Verbindungsversuchen aus dem Internet"
+    - "Merksatz: SPI = Firewall merkt sich, welche Verbindung erlaubt ist"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Stateful Packet Inspection (SPI) Firewall

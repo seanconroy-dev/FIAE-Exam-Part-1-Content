@@ -13,15 +13,21 @@ tags: ["ap1", "grundlagen", "softwareentwicklung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was versteht man im Bereich der Entwicklung unter dem Begriff Security by Design?"
-  answer: "Security by Design bedeutet, dass Sicherheitsanforderungen bereits in der Entwicklungsphase berücksichtigt werden, um Sicherheitslücken von Anfang an zu vermeiden."
-  examples: []
+  type: definition
+  question: "Was bedeutet Security by Design?"
+  answer: "Security by Design bedeutet, dass Sicherheit von Anfang an bei der Planung, Entwicklung und Umsetzung eines Systems berücksichtigt wird. Ziel ist es, Sicherheitslücken früh zu vermeiden, statt sie später nachträglich zu beheben."
+  examples:
+    - "Sicherheitsanforderungen schon in der Planungsphase festlegen"
+    - "Zugriffsrechte und Rollenmodell früh berücksichtigen"
+    - "Eingaben validieren, um Angriffe wie SQL-Injection zu vermeiden"
+    - "Verschlüsselung und sichere Speicherung von Daten einplanen"
+    - "Code Reviews und Sicherheitstests während der Entwicklung durchführen"
+    - "Merksatz: Security by Design = Sicherheit von Anfang an einbauen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-05-12"
 ---
 
 ## Security by Design

@@ -13,15 +13,23 @@ tags: ["ap1", "grundlagen", "sicherheit", "aes", "des"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "In welchen Bereichen und Verfahren werden symmetrische Schlüssel eingesetzt?"
-  answer: "Einsatzbereiche: WLAN (WPA2/WPA3), VPN (z. B. OpenVPN), IPsec, SSH, SRTP, WiMAX. Verfahren: AES, Triple-DES, Blowfish, SHA-2."
-  examples: []
+  type: multi
+  question: "Wo werden symmetrische Schlüssel eingesetzt?"
+  answer: "Symmetrische Schlüssel werden verwendet, wenn Sender und Empfänger denselben geheimen Schlüssel zum Verschlüsseln und Entschlüsseln nutzen. Typische Einsatzbereiche sind WLAN-Verschlüsselung, VPN-Verbindungen, IPsec und verschlüsselte Datenübertragung. Bekannte symmetrische Verfahren sind AES, Triple-DES und Blowfish. SHA-2 gehört nicht dazu, da es eine Hashfunktion ist."
+  examples:
+    - "WLAN: WPA2/WPA3 nutzen symmetrische Verschlüsselung für die Datenübertragung"
+    - "VPN: verschlüsselte Verbindung mit gemeinsamem Sitzungsschlüssel"
+    - "IPsec: sichere Übertragung auf Netzwerkebene"
+    - "AES: modernes symmetrisches Verschlüsselungsverfahren"
+    - "Triple-DES: älteres symmetrisches Verschlüsselungsverfahren"
+    - "Blowfish: symmetrisches Verschlüsselungsverfahren"
+    - "Nicht symmetrisch: SHA-2 ist eine Hashfunktion, keine Verschlüsselung"
+    - "Merksatz: symmetrisch = gleicher geheimer Schlüssel für Verschlüsseln und Entschlüsseln"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## Einsatzbereiche symmetrischer Schlüssel

@@ -13,15 +13,21 @@ tags: ["ap1", "it-sicherheit", "normen"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was sind die Inhalte einer Zertifizierung nach ISO 27001?"
-  answer: "Anforderungen an Aufbau, Einführung, Umsetzung, Überwachung und Dokumentation eines ISMS inkl. Risikomanagement sowie Berücksichtigung von Organisation, Personal, Infrastruktur und Prozessen."
-  examples: []
+  type: definition
+  question: "Was ist ISO/IEC 27001 und was wird dabei zertifiziert?"
+  answer: "ISO/IEC 27001 ist ein internationaler Standard für ein Informationssicherheitsmanagementsystem, kurz ISMS. Zertifiziert wird, ob ein Unternehmen Informationssicherheit systematisch organisiert, Risiken bewertet, Schutzmaßnahmen umsetzt, dokumentiert und regelmäßig verbessert."
+  examples:
+    - "ISMS: Informationssicherheit wird geplant, gesteuert und kontrolliert"
+    - "Risikomanagement: Sicherheitsrisiken erkennen und bewerten"
+    - "Maßnahmen: z. B. Zugriffsschutz, Backups, Schulungen und Sicherheitsrichtlinien"
+    - "Dokumentation: Prozesse, Verantwortlichkeiten und Sicherheitsregeln festhalten"
+    - "Kontrolle: Maßnahmen regelmäßig prüfen und verbessern"
+    - "Merksatz: ISO/IEC 27001 = Zertifikat für organisiertes Informationssicherheitsmanagement"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Inhalte einer ISO 27001 Zertifizierung

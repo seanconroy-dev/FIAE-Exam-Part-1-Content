@@ -13,15 +13,22 @@ tags: ["ap1", "grundlagen", "sicherheit", "hash"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "In welchen Anwendungen oder Verfahren kommen kryptografische Hashfunktionen zum Einsatz?"
-  answer: "Integritätsprüfungen, Prüfsummen, Sitzungsschlüssel-Erzeugung, Einmal-Passwörter, digitale Signaturen (Authentifizierung) und Passwortspeicherung."
-  examples: []
+  type: multi
+  question: "Wofür werden kryptografische Hashfunktionen verwendet?"
+  answer: "Kryptografische Hashfunktionen erzeugen aus Daten einen eindeutigen Prüfwert, auch Hashwert oder Fingerabdruck genannt. Sie werden z. B. zur Integritätsprüfung, Passwortspeicherung, bei digitalen Signaturen und für Prüfsummen eingesetzt."
+  examples:
+    - "Integritätsprüfung: prüfen, ob eine Datei verändert wurde"
+    - "Prüfsumme: Hashwert eines Downloads vergleichen"
+    - "Passwortspeicherung: Passwort wird nicht im Klartext gespeichert"
+    - "Digitale Signatur: Hashwert wird als Teil der Signatur verwendet"
+    - "Einmal-Passwörter: Hashfunktionen können bei OTP-Verfahren genutzt werden"
+    - "Sitzungsschlüssel: Hashfunktionen können in kryptografischen Verfahren beteiligt sein"
+    - "Merksatz: Hashfunktion = digitaler Fingerabdruck von Daten"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## Anwendungen von Hashfunktionen

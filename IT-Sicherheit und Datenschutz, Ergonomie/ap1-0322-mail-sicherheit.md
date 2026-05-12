@@ -13,15 +13,23 @@ tags: ["ap1", "kommunikation", "sicherheit"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was muss beim Einsatz eines E-Mail-Systems in Bezug auf Sicherheit beachtet werden?"
-  answer: "E-Mails verschlüsseln und signieren, TLS/SSL verwenden sowie POP3, IMAP und SMTP nur über sichere SSL/TLS-Ports betreiben."
-  examples: []
+  type: multi
+  question: "Was muss beim sicheren Einsatz eines E-Mail-Systems beachtet werden?"
+  answer: "Ein E-Mail-System sollte sichere Protokolle mit TLS nutzen, z. B. SMTPS, IMAPS oder POP3S. E-Mails können zusätzlich verschlüsselt und digital signiert werden, um Inhalte zu schützen und Absender zu prüfen. Außerdem sind Spam- und Virenschutz, sichere Passwörter, MFA, regelmäßige Updates und Vorsicht bei Anhängen und Links wichtig."
+  examples:
+    - "SMTP mit TLS: sichere Übertragung beim Versand"
+    - "IMAPS: sicherer Zugriff auf das Postfach über TLS"
+    - "POP3S: sicherer Abruf von E-Mails über TLS"
+    - "Digitale Signatur: Empfänger kann den Absender und die Unverändertheit prüfen"
+    - "E-Mail-Verschlüsselung: Inhalt kann nur von berechtigten Empfängern gelesen werden"
+    - "Spam- und Virenfilter: Schutz vor Schadsoftware und Phishing"
+    - "MFA: zusätzlicher Schutz für E-Mail-Konten"
+    - "Merksatz: E-Mail-Sicherheit = TLS, Verschlüsselung, Signatur, Filter und vorsichtige Nutzer"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Sicherheitsmaßnahmen bei E-Mail-Systemen

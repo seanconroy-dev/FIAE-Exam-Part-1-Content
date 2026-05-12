@@ -13,15 +13,25 @@ tags: ["ap1", "grundlagen", "sicherheit", "rsa", "aes"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie unterscheiden sich symmetrische und asymmetrische Verschlüsselung hinsichtlich Schlüsselanzahl, Geschwindigkeit, Schlüsselaustausch, Algorithmen und Anwendungsfälle?"
-  answer: "Symmetrisch: ein Schlüssel, schnell, Schlüsselaustausch problematisch, z. B. AES/3DES, für große Datenmengen/VPN. Asymmetrisch: zwei Schlüssel, langsam, einfacher Austausch (öffentlicher Schlüssel), z. B. RSA/ECC, für Schlüsselaustausch und digitale Signaturen."
-  examples: []
+  type: comparison
+  question: "Wie unterscheiden sich symmetrische und asymmetrische Verschlüsselung?"
+  answer: "Symmetrische Verschlüsselung nutzt einen gemeinsamen geheimen Schlüssel für Verschlüsselung und Entschlüsselung. Sie ist schnell, aber der sichere Schlüsselaustausch ist schwierig. Asymmetrische Verschlüsselung nutzt ein Schlüsselpaar aus öffentlichem und privatem Schlüssel. Sie ist langsamer, erleichtert aber Schlüsselaustausch und digitale Signaturen."
+  examples:
+    - "Symmetrisch: ein gemeinsamer geheimer Schlüssel"
+    - "Symmetrisch: schnell, gut für große Datenmengen"
+    - "Symmetrisch: Beispiele sind AES, Triple-DES und Blowfish"
+    - "Symmetrisch: Einsatz bei Datenverschlüsselung, VPN oder WLAN"
+    - "Asymmetrisch: öffentlicher Schlüssel und privater Schlüssel"
+    - "Asymmetrisch: langsamer, aber gut für Schlüsselaustausch"
+    - "Asymmetrisch: Beispiele sind RSA und ECC"
+    - "Asymmetrisch: Einsatz bei digitalen Signaturen, Zertifikaten und HTTPS"
+    - "Praxis: Oft werden beide kombiniert, z. B. bei TLS/HTTPS"
+    - "Merksatz: symmetrisch = gleicher Schlüssel, asymmetrisch = Schlüsselpaar"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-12"
 ---
 
 ## Symmetrische vs. asymmetrische Verschlüsselung

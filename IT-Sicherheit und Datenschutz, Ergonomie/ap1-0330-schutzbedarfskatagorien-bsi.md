@@ -13,15 +13,23 @@ tags: ["ap1", "it-sicherheit", "grundschutz"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie sind die Schutzbedarfskategorien (normal, hoch, sehr hoch) laut BSI IT-Grundschutz definiert?"
-  answer: "Normal: geringe Auswirkungen, Schaden < 50.000 €; Hoch: erhebliche Auswirkungen, Schaden 50.000–500.000 €; Sehr hoch: existenzbedrohende Auswirkungen, Schaden > 500.000 €."
-  examples: []
+  type: comparison
+  question: "Wie unterscheiden sich die Schutzbedarfskategorien normal, hoch und sehr hoch?"
+  answer: "Beim BSI IT-Grundschutz wird Schutzbedarf nach möglichen Schadensauswirkungen bewertet. Normal bedeutet: Die Auswirkungen sind begrenzt und überschaubar. Hoch bedeutet: Die Auswirkungen können beträchtlich sein. Sehr hoch bedeutet: Die Auswirkungen können existenziell bedrohlich oder katastrophal sein. Geldgrenzen können intern als Orientierung festgelegt werden, sind aber nicht die einzige Grundlage."
+  examples:
+    - "Normal: kurzer Ausfall eines unkritischen Arbeitsplatz-PCs"
+    - "Normal: begrenzter Schaden, der beherrschbar bleibt"
+    - "Hoch: längerer Ausfall eines wichtigen Fachverfahrens"
+    - "Hoch: erheblicher finanzieller Schaden oder starker Arbeitsausfall"
+    - "Sehr hoch: Ausfall eines geschäftskritischen Systems"
+    - "Sehr hoch: existenzbedrohender Schaden oder sehr schwerer Vertrauensverlust"
+    - "Schutzziele: Vertraulichkeit, Integrität und Verfügbarkeit bewerten"
+    - "Merksatz: normal = überschaubar, hoch = beträchtlich, sehr hoch = existenzbedrohend"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Schutzbedarfskategorien nach BSI

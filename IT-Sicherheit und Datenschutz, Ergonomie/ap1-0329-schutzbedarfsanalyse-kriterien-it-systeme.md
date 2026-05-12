@@ -13,15 +13,24 @@ tags: ["ap1", "it-sicherheit", "risiken"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was sind die allgemeinen Kriterien einer Schutzbedarfsanalyse für IT-Systeme?"
-  answer: "Risiko von Angriffen, schützenswerte Objekte, Bedrohungsszenarien, Schadenshöhe, Gefährdungspotenzial, Schutzmaßnahmen und Kosten-Nutzen-Betrachtung."
-  examples: []
+  type: multi
+  question: "Welche Kriterien gehören zu einer Schutzbedarfsanalyse für IT-Systeme?"
+  answer: "Bei einer Schutzbedarfsanalyse wird bewertet, wie stark IT-Systeme, Daten oder Prozesse geschützt werden müssen. Wichtige Kriterien sind Schutzobjekte, Schutzziele, Bedrohungen, mögliche Schadenshöhe, Eintrittswahrscheinlichkeit, Gefährdungspotenzial, passende Schutzmaßnahmen und eine Kosten-Nutzen-Betrachtung."
+  examples:
+    - "Schutzobjekte: Server, Datenbanken, Anwendungen oder personenbezogene Daten"
+    - "Schutzziele: Vertraulichkeit, Integrität und Verfügbarkeit"
+    - "Bedrohungen: Schadsoftware, Ausfall, Diebstahl oder unbefugter Zugriff"
+    - "Schadenshöhe: finanzieller Schaden, Datenverlust oder Reputationsschaden"
+    - "Eintrittswahrscheinlichkeit: Wie wahrscheinlich ist ein Vorfall?"
+    - "Gefährdungspotenzial: Wie stark wäre das Unternehmen betroffen?"
+    - "Schutzmaßnahmen: Backup, Zugriffskontrolle, Verschlüsselung oder Firewall"
+    - "Kosten-Nutzen: Aufwand der Maßnahme im Verhältnis zum Risiko bewerten"
+    - "Merksatz: Schutzbedarf = Was schützen, wovor schützen, wie schlimm wäre der Schaden?"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Schutzbedarfsanalyse von IT-Systemen

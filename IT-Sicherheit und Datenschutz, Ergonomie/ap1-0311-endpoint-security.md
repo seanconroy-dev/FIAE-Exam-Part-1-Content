@@ -13,15 +13,22 @@ tags: ["ap1", "grundlagen", "sicherheit", "endgeraete"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie definiert man den Begriff Endpoint-Security?"
-  answer: "Alle Maßnahmen und Richtlinien zum Schutz von Endgeräten vor unbefugten Zugriffen und schädlichen Angriffen im Netzwerk."
-  examples: []
+  type: definition
+  question: "Was bedeutet Endpoint-Security?"
+  answer: "Endpoint-Security umfasst Maßnahmen zum Schutz von Endgeräten, die mit einem Netzwerk verbunden sind. Dazu gehören z. B. PCs, Laptops, Smartphones, Tablets oder Server. Ziel ist der Schutz vor Schadsoftware, unbefugtem Zugriff und Datenverlust."
+  examples:
+    - "Antivirus- oder Anti-Malware-Software"
+    - "Firewall auf dem Endgerät"
+    - "Regelmäßige Updates und Sicherheitspatches"
+    - "Festplattenverschlüsselung auf Laptops"
+    - "Zugriffsschutz durch Passwort, PIN oder MFA"
+    - "Mobile Device Management für Firmen-Smartphones"
+    - "Merksatz: Endpoint-Security = Schutz der Endgeräte im Netzwerk"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Endpoint Security

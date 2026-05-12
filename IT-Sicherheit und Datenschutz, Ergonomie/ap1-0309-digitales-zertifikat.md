@@ -13,15 +13,21 @@ tags: ["ap1", "grundlagen", "verschluesselung", "authentifizierung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie definiert man den Begriff digitales Zertifikat?"
-  answer: "Ein digitaler Datensatz, der mithilfe kryptografischer Schlüssel die Authentizität von Personen, Webseiten oder Organisationen bestätigt und deren öffentliche Schlüssel enthält."
-  examples: []
+  type: definition
+  question: "Was ist ein digitales Zertifikat?"
+  answer: "Ein digitales Zertifikat ist ein elektronischer Nachweis für eine digitale Identität. Es bestätigt z. B. die Identität einer Person, Webseite, Organisation oder eines Geräts und enthält den öffentlichen Schlüssel. Ausgestellt wird es meist von einer Zertifizierungsstelle, also einer CA."
+  examples:
+    - "HTTPS: Zertifikat bestätigt die Identität einer Webseite"
+    - "E-Mail: Zertifikat kann für Signatur oder Verschlüsselung genutzt werden"
+    - "VPN: Zertifikat kann zur sicheren Anmeldung verwendet werden"
+    - "CA: Certificate Authority stellt Zertifikate aus"
+    - "Öffentlicher Schlüssel: ist im Zertifikat enthalten"
+    - "Merksatz: digitales Zertifikat = digitaler Ausweis mit öffentlichem Schlüssel"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Digitales Zertifikat

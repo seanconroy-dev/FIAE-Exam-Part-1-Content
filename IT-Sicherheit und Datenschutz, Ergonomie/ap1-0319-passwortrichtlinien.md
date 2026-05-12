@@ -13,15 +13,24 @@ tags: ["ap1", "grundlagen", "richtlinien"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was sind die Anforderungen an eine sichere Passwortrichtlinie?"
-  answer: "Mindestlänge, Komplexität (Groß-/Kleinbuchstaben, Zahlen, Sonderzeichen), keine einfachen Begriffe, regelmäßige Änderung, Begrenzung von Loginversuchen und optional MFA."
-  examples: []
+  type: multi
+  question: "Was gehört zu einer sicheren Passwortrichtlinie?"
+  answer: "Eine sichere Passwortrichtlinie legt Regeln für starke und sichere Passwörter fest. Wichtig sind ausreichende Länge, keine leicht erratbaren Begriffe, Schutz vor Wiederverwendung, begrenzte Loginversuche und möglichst MFA. Passwörter sollten nur bei Verdacht auf Kompromittierung oder nach Sicherheitsvorgaben geändert werden."
+  examples:
+    - "Mindestlänge: z. B. mindestens 12 bis 16 Zeichen"
+    - "Keine einfachen Passwörter wie passwort123 oder firma2026"
+    - "Keine persönlichen Daten wie Name, Geburtsdatum oder Benutzername verwenden"
+    - "Komplexität: Großbuchstaben, Kleinbuchstaben, Zahlen und Sonderzeichen können helfen"
+    - "Passwortmanager: sichere, einzigartige Passwörter speichern"
+    - "Keine Wiederverwendung desselben Passworts für mehrere Dienste"
+    - "Login-Schutz: Anzahl fehlgeschlagener Anmeldeversuche begrenzen"
+    - "MFA: zusätzlicher Schutz durch zweiten Faktor"
+    - "Merksatz: Sicheres Passwort = lang, einzigartig, schwer zu erraten und zusätzlich geschützt"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-05-12"
 ---
 
 ## Sichere Passwortrichtlinien

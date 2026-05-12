@@ -13,15 +13,24 @@ tags: ["ap1", "netzwerk", "sicherheit"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was sind je 2 Vor- und Nachteile der Sicherheitstypen WPA2-Personal und WPA2-Enterprise?"
-  answer: "WPA2-Personal: + einfach zu implementieren, weit verbreitet; − unsicher bei vielen Nutzern, Passwortwechsel aufwendig. WPA2-Enterprise: + hohe Sicherheit, zentrale Verwaltung; − hoher Aufwand, RADIUS-Server nötig."
-  examples: []
+  type: comparison
+  question: "Welche Vor- und Nachteile haben WPA2-Personal und WPA2-Enterprise?"
+  answer: "WPA2-Personal nutzt ein gemeinsames WLAN-Passwort. Es ist einfach einzurichten und gut für kleine Netzwerke geeignet, aber bei vielen Nutzern unsicherer und ein Passwortwechsel ist aufwendig. WPA2-Enterprise nutzt eine zentrale Authentifizierung, meist über RADIUS. Es ist sicherer und besser verwaltbar, benötigt aber mehr Aufwand und zusätzliche Infrastruktur."
+  examples:
+    - "WPA2-Personal Vorteil: einfach einzurichten"
+    - "WPA2-Personal Vorteil: gut für Heimnetzwerke oder kleine Büros"
+    - "WPA2-Personal Nachteil: alle Nutzer verwenden dasselbe WLAN-Passwort"
+    - "WPA2-Personal Nachteil: Passwortwechsel muss auf allen Geräten durchgeführt werden"
+    - "WPA2-Enterprise Vorteil: jeder Nutzer kann eigene Zugangsdaten verwenden"
+    - "WPA2-Enterprise Vorteil: zentrale Verwaltung und höhere Sicherheit"
+    - "WPA2-Enterprise Nachteil: RADIUS-Server oder ähnliche Infrastruktur nötig"
+    - "WPA2-Enterprise Nachteil: Einrichtung und Verwaltung sind aufwendiger"
+    - "Merksatz: Personal = gemeinsames Passwort, Enterprise = zentrale Anmeldung"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-05-12"
 ---
 
 ## WPA2-Personal vs. WPA2-Enterprise

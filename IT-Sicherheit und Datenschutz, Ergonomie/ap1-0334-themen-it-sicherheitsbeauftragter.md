@@ -13,15 +13,23 @@ tags: ["ap1", "it-sicherheit", "organisation"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Mit welchen Themen befasst sich ein TÜV-geprüfter IT-Sicherheitsbeauftragter im Unternehmen?"
-  answer: "Informationssicherheit und ISMS, ISO 27001, BSI IT-Grundschutz, Sicherheitskonzepte, aktuelle Bedrohungen sowie Maßnahmen für Organisation, Infrastruktur, Netzwerke und Anwendungen."
-  examples: []
+  type: multi
+  question: "Womit befasst sich ein IT-Sicherheitsbeauftragter im Unternehmen?"
+  answer: "Ein IT-Sicherheitsbeauftragter befasst sich mit Informationssicherheit, Sicherheitskonzepten, Risikoanalysen, Schutzmaßnahmen und der Umsetzung von Standards wie ISO 27001 oder BSI IT-Grundschutz. Er unterstützt dabei, IT-Systeme, Daten, Netzwerke und Anwendungen sicher zu betreiben."
+  examples:
+    - "ISMS: Informationssicherheitsmanagementsystem planen und betreuen"
+    - "ISO 27001: Anforderungen an Informationssicherheit berücksichtigen"
+    - "BSI IT-Grundschutz: Schutzbedarf und Maßnahmen ableiten"
+    - "Risikoanalyse: Bedrohungen und Schwachstellen bewerten"
+    - "Sicherheitskonzept: passende Schutzmaßnahmen festlegen"
+    - "Organisation: Richtlinien, Verantwortlichkeiten und Schulungen unterstützen"
+    - "Technik: Infrastruktur, Netzwerke und Anwendungen absichern"
+    - "Merksatz: IT-Sicherheitsbeauftragter = Informationssicherheit planen, begleiten und kontrollieren"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Themen eines IT-Sicherheitsbeauftragten

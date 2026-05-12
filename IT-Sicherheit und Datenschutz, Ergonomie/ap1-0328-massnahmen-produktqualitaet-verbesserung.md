@@ -13,15 +13,23 @@ tags: ["ap1", "prozesse", "optimierung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Welche Maßnahmen eignen sich, um die Produktqualität im Unternehmen zu verbessern?"
-  answer: "Qualitätssicherung einführen, Kundenbefragungen durchführen, Prozesse verbessern, Mitarbeiterschulungen anbieten, hochwertige Materialien nutzen und Prozessfehler analysieren und beheben."
-  examples: []
+  type: multi
+  question: "Welche Maßnahmen verbessern die Produktqualität im Unternehmen?"
+  answer: "Die Produktqualität kann durch Qualitätssicherung, klare Prozesse, regelmäßige Kontrollen, Kundenfeedback, Mitarbeiterschulungen, hochwertige Materialien und die Analyse von Fehlerursachen verbessert werden."
+  examples:
+    - "Qualitätssicherung: Produkte oder Ergebnisse systematisch prüfen"
+    - "Prozessverbesserung: Arbeitsabläufe optimieren und Fehlerquellen reduzieren"
+    - "Kundenfeedback: Rückmeldungen auswerten und Verbesserungen ableiten"
+    - "Schulungen: Mitarbeitende fachlich weiterbilden"
+    - "Material: hochwertige und passende Materialien verwenden"
+    - "Fehleranalyse: Ursachen von Mängeln finden und beheben"
+    - "Kontrollen: Tests, Reviews oder Stichproben durchführen"
+    - "Merksatz: Produktqualität = prüfen, verbessern, schulen und aus Fehlern lernen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Maßnahmen zur Verbesserung der Produktqualität

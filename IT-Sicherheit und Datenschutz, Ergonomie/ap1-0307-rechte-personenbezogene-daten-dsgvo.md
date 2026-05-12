@@ -13,15 +13,23 @@ tags: ["ap1", "grundlagen", "rechte", "eu"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Über welche Rechte verfügt eine Person bezüglich ihrer personenbezogenen Daten?"
-  answer: "Auskunftsrecht, Recht auf Berichtigung, Löschung („Recht auf Vergessenwerden“), Einschränkung der Verarbeitung, Datenübertragbarkeit, Widerspruchsrecht sowie Rechte bei automatisierten Entscheidungen."
-  examples: []
+  type: multi
+  question: "Welche Rechte hat eine Person bezüglich ihrer personenbezogenen Daten?"
+  answer: "Eine betroffene Person hat nach DSGVO mehrere Rechte an ihren personenbezogenen Daten. Dazu gehören Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit, Widerspruch und Rechte bei automatisierten Entscheidungen."
+  examples:
+    - "Auskunft: erfahren, welche personenbezogenen Daten gespeichert sind"
+    - "Berichtigung: falsche Daten korrigieren lassen"
+    - "Löschung: Daten löschen lassen, wenn sie nicht mehr benötigt werden"
+    - "Einschränkung: Verarbeitung der Daten begrenzen lassen"
+    - "Datenübertragbarkeit: Daten in einem maschinenlesbaren Format erhalten"
+    - "Widerspruch: bestimmter Verarbeitung widersprechen"
+    - "Automatisierte Entscheidungen: nicht nur einer automatischen Entscheidung ausgeliefert sein"
+    - "Merksatz: Betroffene dürfen fragen, ändern, löschen, begrenzen, mitnehmen und widersprechen"
 
 # Lifecycle
 status: published       # draft | published | deprecated 
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Rechte betroffener Personen (DSGVO)

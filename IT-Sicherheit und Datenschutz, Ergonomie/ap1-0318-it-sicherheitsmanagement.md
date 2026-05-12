@@ -13,15 +13,21 @@ tags: ["ap1", "grundlagen", "sicherheit"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wozu wird IT-Sicherheitsmanagement eingesetzt?"
-  answer: "IT-Sicherheitsmanagement dient der kontinuierlichen Gewährleistung von IT-Sicherheit und Datenschutz, indem Risiken erkannt und Maßnahmen zur Verhinderung oder Abwehr von Bedrohungen umgesetzt werden."
-  examples: []
+  type: definition
+  question: "Wozu dient IT-Sicherheitsmanagement?"
+  answer: "IT-Sicherheitsmanagement dient dazu, IT-Risiken systematisch zu erkennen, zu bewerten und geeignete Schutzmaßnahmen umzusetzen. Ziel ist es, IT-Systeme, Daten und Prozesse dauerhaft sicher zu betreiben und kontinuierlich zu verbessern."
+  examples:
+    - "Risiken erkennen: z. B. Schadsoftware, Datenverlust oder unbefugter Zugriff"
+    - "Maßnahmen planen: z. B. Backups, Rechtekonzepte oder Firewalls"
+    - "Maßnahmen umsetzen: z. B. Updates, Schulungen und Zugriffskontrollen"
+    - "Wirksamkeit prüfen: Sicherheitsmaßnahmen regelmäßig kontrollieren"
+    - "Verbesserung: Sicherheitskonzept bei neuen Bedrohungen anpassen"
+    - "Merksatz: IT-Sicherheitsmanagement = Risiken steuern und IT dauerhaft schützen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-05-12"
 ---
 
 ## IT-Sicherheitsmanagement

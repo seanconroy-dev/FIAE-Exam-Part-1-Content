@@ -13,15 +13,23 @@ tags: ["ap1", "richtlinien", "gesundheit"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was regelt die Arbeitsstättenverordnung (ArbStättV) hinsichtlich Bildschirm und Tastatur?"
-  answer: "Bildschirm: scharf, flimmerfrei, verstellbar, keine Reflexionen, Helligkeit/Kontrast einstellbar. Tastatur: getrennt, neigbar, reflexionsarm, ergonomisch und gut lesbar."
-  examples: []
+  type: multi
+  question: "Was regelt die ArbStättV für Bildschirm und Tastatur am Arbeitsplatz?"
+  answer: "Die Arbeitsstättenverordnung fordert, dass Bildschirmarbeitsplätze sicher und ergonomisch gestaltet sind. Der Bildschirm soll gut lesbar, flimmerfrei, einstellbar und möglichst frei von Blendung oder Reflexionen sein. Die Tastatur soll vom Bildschirm getrennt, gut bedienbar, reflexionsarm und ergonomisch aufstellbar sein."
+  examples:
+    - "Bildschirm: gut lesbare und scharfe Darstellung"
+    - "Bildschirm: Helligkeit und Kontrast einstellbar"
+    - "Bildschirm: möglichst keine Blendung oder störende Reflexion"
+    - "Bildschirm: passend aufstellbar und ausrichtbar"
+    - "Tastatur: getrennt vom Bildschirm"
+    - "Tastatur: reflexionsarm und gut lesbar beschriftet"
+    - "Tastatur: so aufstellen, dass eine neutrale Körperhaltung möglich ist"
+    - "Merksatz: Bildschirmarbeit = gut lesbar, blendfrei, verstellbar und ergonomisch bedienbar"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Arbeitsstättenverordnung: Bildschirm & Tastatur

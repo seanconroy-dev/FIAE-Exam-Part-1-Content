@@ -13,15 +13,24 @@ tags: ["ap1", "grundlagen", "arbeitsplatzgestaltung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was sind die Anforderungen an einen ergonomischen PC-Arbeitsplatz?"
-  answer: "Monitor leicht unter Augenhöhe, Abstand ca. 50 cm, keine Blendung, höhenverstellbar, 90°-Winkel bei Armen/Beinen, genügend Beinfreiheit und natürliche Körperhaltung."
-  examples: []
+  type: multi
+  question: "Was gehört zu einem ergonomischen PC-Arbeitsplatz?"
+  answer: "Ein ergonomischer PC-Arbeitsplatz soll körperliche Belastung verringern. Dazu gehören ein richtig eingestellter Monitor, ein höhenverstellbarer Stuhl und Tisch, eine entspannte Sitzhaltung, genügend Beinfreiheit, gute Beleuchtung und möglichst keine Blendung oder Spiegelung."
+  examples:
+    - "Monitor: leicht unter Augenhöhe aufstellen"
+    - "Monitorabstand: ungefähr 50 bis 70 cm"
+    - "Stuhl: höhenverstellbar und mit Rückenstütze"
+    - "Haltung: Arme und Beine ungefähr im 90-Grad-Winkel"
+    - "Tastatur und Maus: gut erreichbar und ohne verkrampfte Haltung"
+    - "Tisch: genügend Platz und Beinfreiheit"
+    - "Licht: keine Blendung oder Spiegelung auf dem Bildschirm"
+    - "Arbeitsweise: regelmäßige Pausen und Positionswechsel"
+    - "Merksatz: Ergonomie = Arbeitsplatz an den Menschen anpassen"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Ergonomischer PC-Arbeitsplatz

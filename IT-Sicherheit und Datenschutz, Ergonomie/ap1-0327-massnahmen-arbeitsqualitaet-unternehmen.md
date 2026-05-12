@@ -13,15 +13,22 @@ tags: ["ap1", "organisation", "arbeitsumfeld"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wodurch kann die Arbeitsqualität im Unternehmen positiv beeinflusst werden?"
-  answer: "Flexible Arbeitszeitmodelle, Homeoffice, Weiterbildungsangebote, variable Zusatzvergütung, Gewinnbeteiligung und Altersteilzeitangebote."
-  examples: []
-
+  type: multi
+  question: "Wodurch kann die Arbeitsqualität im Unternehmen verbessert werden?"
+  answer: "Die Arbeitsqualität kann durch gute Arbeitsbedingungen, klare Arbeitsprozesse, Weiterbildung, passende Arbeitsmittel, flexible Arbeitszeitmodelle, Homeoffice, faire Vergütung und ein gutes Betriebsklima verbessert werden."
+  examples:
+    - "Flexible Arbeitszeiten: bessere Vereinbarkeit von Beruf und Privatleben"
+    - "Homeoffice: weniger Pendelzeit und konzentriertes Arbeiten ermöglichen"
+    - "Weiterbildung: Fachwissen und Qualität der Arbeit verbessern"
+    - "Gute Arbeitsmittel: passende Hardware, Software und ergonomische Ausstattung"
+    - "Klare Prozesse: weniger Fehler und bessere Zusammenarbeit"
+    - "Motivation: Anerkennung, faire Vergütung oder Zusatzleistungen"
+    - "Betriebsklima: respektvolle Kommunikation und gute Teamarbeit"
+    - "Merksatz: Arbeitsqualität steigt, wenn Menschen gut arbeiten können und motiviert bleiben"
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Maßnahmen zur Verbesserung der Arbeitsqualität

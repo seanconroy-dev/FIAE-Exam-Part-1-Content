@@ -13,15 +13,22 @@ tags: ["ap1", "planung", "methoden"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Was sind die fünf Punkte der SMART-Methode im Projektmanagement?"
-  answer: "SMART = Spezifisch, Messbar, Attraktiv/Akzeptiert, Realistisch, Terminiert."
-  examples: []
+  type: definition
+  question: "Was bedeutet die SMART-Methode im Projektmanagement?"
+  answer: "Die SMART-Methode hilft dabei, klare und überprüfbare Ziele zu formulieren. SMART steht für Spezifisch, Messbar, Attraktiv oder Akzeptiert, Realistisch und Terminiert."
+  examples:
+    - "Spezifisch: Das Ziel ist eindeutig und konkret formuliert"
+    - "Messbar: Der Erfolg kann überprüft werden"
+    - "Attraktiv/Akzeptiert: Das Ziel ist sinnvoll und wird von den Beteiligten getragen"
+    - "Realistisch: Das Ziel ist mit den vorhandenen Mitteln erreichbar"
+    - "Terminiert: Es gibt einen klaren Zeitpunkt oder eine Frist"
+    - "Beispiel: Bis Freitag werden 20 Testfälle dokumentiert"
+    - "Merksatz: SMART = klare Ziele statt vage Wünsche"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## SMART-Methode im Projektmanagement

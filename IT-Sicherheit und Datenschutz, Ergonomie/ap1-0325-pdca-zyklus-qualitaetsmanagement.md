@@ -13,15 +13,22 @@ tags: ["ap1", "prozesse", "qm"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Beschreibe den PDCA-Zyklus und seine einzelnen Schritte."
-  answer: "Ein kontinuierlicher Verbesserungsprozess im Qualitätsmanagement bestehend aus Plan (Planen), Do (Umsetzen), Check (Überprüfen) und Act (Verbessern)."
-  examples: []
+  type: steps
+  question: "Wie funktioniert der PDCA-Zyklus?"
+  answer: "Der PDCA-Zyklus ist ein Modell zur kontinuierlichen Verbesserung. Er besteht aus vier Schritten: Plan = Maßnahme planen, Do = Maßnahme umsetzen, Check = Ergebnis prüfen, Act = Verbesserung übernehmen oder anpassen. Danach beginnt der Zyklus erneut."
+  examples:
+    - "Plan: Problem analysieren und Verbesserungsmaßnahme planen"
+    - "Do: Maßnahme testweise oder vollständig umsetzen"
+    - "Check: Ergebnis prüfen und mit dem Ziel vergleichen"
+    - "Act: erfolgreiche Maßnahme übernehmen oder weiter verbessern"
+    - "Beispiel IT: Backup-Prozess planen, testen, prüfen und optimieren"
+    - "Beispiel Qualität: Fehler im Ablauf erkennen und dauerhaft verbessern"
+    - "Merksatz: PDCA = Planen, Umsetzen, Prüfen, Verbessern"
 
 # Lifecycle
 status: published
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## PDCA-Zyklus im Qualitätsmanagement

@@ -13,15 +13,26 @@ tags: ["ap1", "it-sicherheit", "schutz"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Wie kann man Schäden an der IT-Infrastruktur vermeiden und die Sicherheit der IT-Systeme erhöhen?"
-  answer: "Datenverschlüsselung, Netzsegmentierung (VLAN), Firewalls/Endpoint-Security, Rechtekonzepte, regelmäßige Updates, Logging & Audits, starke Authentifizierung (MFA), organisatorische Regeln und Mitarbeiterschulungen."
-  examples: []
+  type: multi
+  question: "Welche Maßnahmen erhöhen die Sicherheit von IT-Systemen?"
+  answer: "Die Sicherheit von IT-Systemen kann durch technische und organisatorische Maßnahmen erhöht werden. Dazu gehören Verschlüsselung, Netzsegmentierung, Firewalls, Endpoint-Security, Rechtekonzepte, regelmäßige Updates, Backups, Logging, Audits, starke Authentifizierung und Mitarbeiterschulungen."
+  examples:
+    - "Verschlüsselung: Daten vor unbefugtem Lesen schützen"
+    - "Netzsegmentierung: Bereiche z. B. durch VLANs trennen"
+    - "Firewall: unerwünschten Netzwerkverkehr blockieren"
+    - "Endpoint-Security: Endgeräte vor Schadsoftware schützen"
+    - "Rechtekonzept: Benutzer erhalten nur notwendige Berechtigungen"
+    - "Updates: Sicherheitslücken durch Patches schließen"
+    - "Backups: Daten nach Ausfall oder Angriff wiederherstellen"
+    - "Logging und Audits: Sicherheitsvorfälle erkennen und nachvollziehen"
+    - "MFA: Anmeldung mit zusätzlichem Faktor absichern"
+    - "Schulungen: Mitarbeitende für Phishing und Sicherheitsregeln sensibilisieren"
+    - "Merksatz: IT-Sicherheit = schützen, trennen, aktualisieren, sichern und kontrollieren"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Maßnahmen zur Erhöhung der IT-Sicherheit

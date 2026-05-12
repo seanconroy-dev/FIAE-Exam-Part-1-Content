@@ -13,15 +13,22 @@ tags: ["ap1", "grundlagen", "verschluesselung", "authentifizierung"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Erkläre den Begriff PKI (Public Key Infrastructure)."
-  answer: "Ein System zur Erstellung, Verwaltung und Prüfung digitaler Zertifikate, das mittels asymmetrischer Kryptografie die sichere Verschlüsselung und Signatur von Daten ermöglicht."
-  examples: []
+  type: definition
+  question: "Was ist eine PKI?"
+  answer: "Eine PKI, Public Key Infrastructure, ist ein System zur Verwaltung digitaler Zertifikate und Schlüssel. Sie nutzt asymmetrische Kryptografie mit öffentlichem und privatem Schlüssel, um Identitäten zu prüfen, Daten zu verschlüsseln und digitale Signaturen zu ermöglichen."
+  examples:
+    - "HTTPS: Zertifikat bestätigt die Identität einer Webseite"
+    - "E-Mail: Nachrichten können verschlüsselt oder digital signiert werden"
+    - "VPN: Zertifikate können zur sicheren Anmeldung genutzt werden"
+    - "CA: Certificate Authority stellt digitale Zertifikate aus"
+    - "Öffentlicher Schlüssel: darf weitergegeben werden"
+    - "Privater Schlüssel: muss geheim bleiben"
+    - "Merksatz: PKI = Vertrauenssystem für Zertifikate und Schlüssel"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-25"
-updated: "2026-03-25"
+updated: "2026-05-11"
 ---
 
 ## Public Key Infrastruktur (PKI)

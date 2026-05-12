@@ -13,15 +13,23 @@ tags: ["ap1", "backup", "rotation", "konzept"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Beschreibe einen vollständigen Backup-Plan nach dem Großvater-Vater-Sohn-Prinzip."
-  answer: "Das Großvater-Vater-Sohn-Prinzip nutzt eine Backup-Rotation: tägliche inkrementelle Backups (Sohn), wöchentliche Vollbackups (Vater) und monatliche Vollbackups (Großvater)."
-  examples: []
+  type: steps
+  question: "Wie funktioniert das Großvater-Vater-Sohn-Prinzip bei Backups?"
+  answer: "Das Großvater-Vater-Sohn-Prinzip ist eine Backup-Rotation. Der Sohn steht meist für tägliche Backups, der Vater für wöchentliche Backups und der Großvater für monatliche Backups. So gibt es mehrere Wiederherstellungspunkte über unterschiedliche Zeiträume."
+  examples:
+    - "Sohn: tägliches Backup, z. B. Montag bis Donnerstag"
+    - "Vater: wöchentliches Backup, z. B. jeden Freitag"
+    - "Großvater: monatliches Backup, z. B. am Monatsende"
+    - "Täglich: oft inkrementell oder differenziell"
+    - "Wöchentlich: häufig Vollbackup"
+    - "Monatlich: häufig Vollbackup zur längeren Aufbewahrung"
+    - "Ziel: mehrere Wiederherstellungspunkte und geordnete Backup-Rotation"
+    - "Merksatz: Sohn = täglich, Vater = wöchentlich, Großvater = monatlich"
 
 # Lifecycle
 status: published       # draft | published | deprecated
 created: "2026-03-27"
-updated: "2026-03-27"
+updated: "2026-05-12"
 ---
 
 ## Großvater-Vater-Sohn-Prinzip (Backup-Rotation)

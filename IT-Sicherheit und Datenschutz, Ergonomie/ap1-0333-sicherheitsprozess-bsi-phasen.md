@@ -13,15 +13,21 @@ tags: ["ap1", "it-sicherheit", "grundschutz"]
 
 # Flashcard payload
 card:
-  type: basic
-  question: "Welche Phasen umfasst der Sicherheitsprozess laut BSI IT-Grundschutz?"
-  answer: "Initiierung, Erstellung einer Sicherheitskonzeption, Umsetzung der Sicherheitskonzeption sowie Aufrechterhaltung und kontinuierliche Verbesserung."
-  examples: []
+  type: steps
+  question: "Welche Phasen umfasst der Sicherheitsprozess nach BSI IT-Grundschutz?"
+  answer: "Der Sicherheitsprozess nach BSI IT-Grundschutz umfasst die Initiierung, die Erstellung einer Sicherheitskonzeption, die Umsetzung der Sicherheitskonzeption sowie die Aufrechterhaltung und kontinuierliche Verbesserung."
+  examples:
+    - "Initiierung: Sicherheitsprozess starten und Verantwortliche festlegen"
+    - "Sicherheitskonzeption: Schutzbedarf, Risiken und Maßnahmen planen"
+    - "Umsetzung: geplante Sicherheitsmaßnahmen einführen"
+    - "Aufrechterhaltung: Maßnahmen regelmäßig prüfen"
+    - "Verbesserung: Sicherheitskonzept bei Änderungen oder neuen Risiken anpassen"
+    - "Merksatz: starten, planen, umsetzen, prüfen und verbessern"
 
 # Lifecycle
 status:  published       # draft | published | deprecated
 created: "2026-03-28"
-updated: "2026-03-28"
+updated: "2026-05-12"
 ---
 
 ## Phasen des Sicherheitsprozesses nach BSI IT-Grundschutz
